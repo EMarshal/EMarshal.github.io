@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on elimarshal.com</title>
+    <link>http://elimarshal.com/post/</link>
+    <description>Recent content in Posts on elimarshal.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright: All rights reserved by Éli Marshal.</copyright>
+    <lastBuildDate>Mon, 15 Dec 2014 19:11:58 -0600</lastBuildDate>
+    <atom:link href="http://elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>two years with the surface rt</title>
+      <link>http://elimarshal.com/post/two-years-with-the-surface-rt/</link>
+      <pubDate>Mon, 15 Dec 2014 19:11:58 -0600</pubDate>
+      
+      <guid>http://elimarshal.com/post/two-years-with-the-surface-rt/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve now owned the original 64 GB Surface RT for just over two years. In that time I&amp;rsquo;ve probably averaged 20 minutes or so of use per day, including days with no usage, and days with 8+ hours of usage.&lt;/p&gt;
+
+&lt;p&gt;My general observations on the device, not intended to be a full review so long after release:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wear&lt;/strong&gt;
+Tablet: Impeccable condition still. The kickstand loosened a couple times, which I retightened with a very small Torx screwdriver.
+Touch cover: Edges are splitting apart. Functionally still fine, I suspect it will last quite a while longer before functionality is impacted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;
+I&amp;rsquo;m not much for apps for my tablet use cases, so I&amp;rsquo;ve got fairly minimal complaints here. MS Office is quite handy, OneNote is great, &lt;a href=&#34;http://nextmatters.com/&#34;&gt;Nextgen Reader&lt;/a&gt; is a fabulous RSS reader (my favourite on any platform) that syncs with &lt;a href=&#34;https://feedly.com/&#34;&gt;Feedly&lt;/a&gt; and covers most of my day-to-day use of the Surface. MS just added MKV support now, over two years after release, which saves the hassle of remuxing MKV files to mp4 to use in the video app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;
+Very poor, due in large part to Tegra 3. Presumably Surface 2 would be better. Browsing is painfully slow. For months, I had a bug with the Metro version of IE that rendered it an order of magnitude slower than desktop IE (random wiki page would literally take two minutes to load), but it randomly resolved itself (possibly with an update to Windows) at some point, so now Metro and desktop IE are at least on par. PDFs are painfully slow to use, pages render like molasses, and multi-page documents struggle to render previews when semantically zoomed out to view multiple pages. At least HD video plays back fine.
+Wireless randomly fails and requires turning wireless off/on. Why on earth is this still a problem?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;
+Reading RSS: Great, with Nextgen Reader. Annoying when feeds won&amp;rsquo;t load their full text and force opening IE.
+Web browsing: Painfully slow. Touch cover not appropriate for significant text entry, would purchase type cover if I was buying today - MS has dropped the touch cover option for the SP3, so they seem to have arrived at the same conclusion.
+Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages to resolve.) 16:9 aspect ratio, kickstand, 10+ hours of battery life, microSD support - doesn&amp;rsquo;t get any better than this.&lt;/p&gt;
+
+&lt;p&gt;All in all, I&amp;rsquo;m decently happy with the device. I was hoping to purchase a Nexus 9 with better performance and a 4:3 screen to replace the Surface for everything but video that I use it for, but with its iPad-like price and reported build-quality issues, I&amp;rsquo;m holding off. I plan on keeping the Surface indefinitely for video, there&amp;rsquo;s really nothing better except the Surface 2, which gets full 1080p instead of 768p, but otherwise performs similarly for videos.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>goals vs dreams</title>
+      <link>http://elimarshal.com/post/goals-vs-dreams/</link>
+      <pubDate>Tue, 14 Aug 2012 19:03:10 -0600</pubDate>
+      
+      <guid>http://elimarshal.com/post/goals-vs-dreams/</guid>
+      <description>&lt;p&gt;I recently made a relatively flippant comment to a friend (&amp;ldquo;I don&amp;rsquo;t set goals, I just excel at everything.&amp;rdquo;) and felt the need to elaborate.&lt;/p&gt;
+
+&lt;p&gt;There are two main points of contention in how I view goals. The first is purely a semantic issue; I view goals as a &lt;strong&gt;clearly achievable, likely set of circumstances achievable by following a certain set of actions&lt;/strong&gt;. Buying two lottery tickets every week is a goal. &lt;em&gt;Winning&lt;/em&gt; the lottery is a dream, not a goal.&lt;/p&gt;
+
+&lt;p&gt;Secondly, I&amp;rsquo;ve recently read Taleb&amp;rsquo;s &lt;em&gt;The Black Swan&lt;/em&gt;, in which he makes several points about human errors in intuition and reasoning, which can be applied to how people think about goals:&lt;/p&gt;
+
+&lt;p&gt;Narrative fallacy (wiki on &lt;a href=&#34;http://en.wikipedia.org/wiki/Illusory_correlation&#34;&gt;Illusory correlation&lt;/a&gt;): People like applying narratives to events (it makes events easier to remember, and lets people think they understand events which they don&amp;rsquo;t actually understand). You&amp;rsquo;ll accomplish something, and back-fit a narrative to explain the accomplishment (&amp;ldquo;I always wanted to do X, and doing A, B and C helped me achieve X&amp;rdquo;) when in fact, you arrived at X via a series of random fortunate events.&lt;/p&gt;
+
+&lt;p&gt;Survivorship bias (wiki on &lt;a href=&#34;http://en.wikipedia.org/wiki/Survivorship_bias&#34;&gt;Survivorship bias&lt;/a&gt;): You&amp;rsquo;ll look at a set of people who accomplished something, and assume that since a large proportion of them had that accomplishment as a goal, that is was a reasonable goal. This overlooks the set of people with the same goal who failed to achieve it. Going back to lottery example, looking at lottery winners overlooks the overwhelming majority of people who thought they had &amp;ldquo;win the lottery&amp;rdquo; as a goal (and actually just had &amp;ldquo;buy lottery tickets&amp;rdquo; as a goal). Furthermore, a lottery is one of the easiest places to avoid survivorship bias; in the real world, you don&amp;rsquo;t know how many people are playing the game and how many losers there are.&lt;/p&gt;
+
+&lt;p&gt;These tie into my original semantic point of goals vs. dreams, and fool people into thinking they&amp;rsquo;re making goals when in fact they simply have dreams, as only a small fraction of similarly qualified people with the same dream will ever accomplish it, due to random chance.&lt;/p&gt;
+
+&lt;p&gt;Some goals/dreams:&lt;/p&gt;
+
+&lt;p&gt;Bench-pressing 300 pounds is a goal. (At least for most men of average-ish stature.) It will be difficult, and will require a large time commitment for eating and lifting, but you&amp;rsquo;ll get there eventually. Bench-pressing 800 pounds is a dream, not a goal. Your genetics probably don&amp;rsquo;t allow for it, and your job probably doesn&amp;rsquo;t give you enough free time for all the eating and training you&amp;rsquo;d need to do.&lt;/p&gt;
+
+&lt;p&gt;Becoming CEO of a large corporation is not a goal. Companies fail too frequently and the selection process is too random. Of the members of the S&amp;amp;P 500 in 1957 only 74 were still on the index forty years later (see Taleb) - the majority of the missing companies having shrunk or failed (as opposed to being acquired in mergers), and start-ups have famously abysmal success rates. Clearly founding your own company for the purpose of becoming CEO (of a large corporation) is not a realistic goal. Being selected as CEO of an existing company is similarly fraught with randomness that you can&amp;rsquo;t control. The sheer number of people with qualifications matching what a selection committee is looking for makes the exercise a dream, rather than a goal. (Notwithstanding the absence of evidence suggesting that CEOs have greater than negligible impacts on their firms - or in other words, that their qualifications are at all relevant - selection committees could be looking for a completely different set of qualifications by the time you become qualified.)&lt;/p&gt;
+
+&lt;p&gt;Living to the age of X years is not a goal. There is no way to measure in advance what impact your actions (short of suicide) have on your own lifespan, and you could potentially reach X years without any overt action on your part. (To avoid trivially non-interesting goals, I&amp;rsquo;ll take my &amp;ldquo;certain set of actions&amp;rdquo; required for a goal as excluding inaction.) You can set a goal of living as long or as healthily as possible, which is likely given intense exercise, healthy nutrition, etc., but quantifying &amp;ldquo;as long as possible&amp;rdquo; for an individual is impossible to do in any useful manner. (As opposed to an aggregate - a health authority could reasonably set a goal of extending average lifespans by ten years by promoting exercise.)&lt;/p&gt;
+
+&lt;p&gt;Is there a hard-and-fast probability of success that I&amp;rsquo;d require before accepting something as a goal rather than a dream? No. I would err on the side of caution, ascribing the &amp;ldquo;dream&amp;rdquo; status to accomplishments where the probability of success is uncertain or unknown. (Which is reasonable, we&amp;rsquo;re less likely to know the probabilities of unlikely events.) Furthermore, even given my prescribed semantic framework, goals and dreams are subjective; you could in good faith set a goal of bench-pressing 2000 pounds. (You might be mistaking the value of a pound, you might have failed to do any research regarding humans strength limits, you could by simply overestimating your abilities, etc.) &lt;em&gt;I&lt;/em&gt; would know you didn&amp;rsquo;t actually have a goal, but you wouldn&amp;rsquo;t be able tell it was only a dream until you gained further knowledge about the subject.&lt;/p&gt;
+
+&lt;p&gt;In general, you ought to attempt to maximize your knowledge, which includes realizing how much knowledge you&amp;rsquo;re currently missing, and how much knowledge is unobtainable (and realizing that there is some knowledge which you&amp;rsquo;re missing and cannot obtain that cannot be quantified - specifically because you don&amp;rsquo;t have that knowledge), while recognizing and attempting to avoid cognitive biases.&lt;/p&gt;
+
+&lt;p&gt;And I don&amp;rsquo;t excel at everything; I&amp;rsquo;m just good at learning quickly, and avoiding or quitting activities which are predisposed towards long-term sub-par performance on my part. (Though I reserve the right to measure performance subjectively - I&amp;rsquo;m objectively bad at swimming, but as I&amp;rsquo;m only concerned with the exercise benefits, I still see swimming as a worthwhile endeavor.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ikea standing desk</title>
+      <link>http://elimarshal.com/post/ikea-standing-desk/</link>
+      <pubDate>Thu, 09 Feb 2012 18:53:38 -0600</pubDate>
+      
+      <guid>http://elimarshal.com/post/ikea-standing-desk/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;d been bouncing around the idea of a standing desk for health/comfort reasons for quite some time, but having a quality desk and chair already, I wasn&amp;rsquo;t particularly motivated to do anything about it. Finally after moving to a location with an IKEA for the first time in my life, I hit up Google for ways to build a standing desk setup without any power tools.&lt;/p&gt;
+
+&lt;p&gt;Eventually I settled on using the &lt;a href=&#34;http://www.ikeahackers.net/2011/02/gallant-standing-desk.html&#34;&gt;IKEA Hackers: Galant Standing Desk&lt;/a&gt; post as a basis for my desk.&lt;/p&gt;
+
+&lt;p&gt;Materials:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/S69885229/&#34;&gt;Galant Desk 160 cm x 80 cm with frame&lt;/a&gt; (I wanted a larger desk than the one in the IKEA Hackers post)&lt;/li&gt;
+&lt;li&gt;1 x Galant Table Top 160 cm x 80 cm (no frame, just the table top from above)&lt;/li&gt;
+&lt;li&gt;4 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/00105554/&#34;&gt;Galant A-Leg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10168720/&#34;&gt;Ekby Töre brackets&lt;/a&gt; (I used an extra bracket in the middle of the desk in the back, because of the extra size and weight)&lt;/li&gt;
+&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/70146495/&#34;&gt;Galant Drawer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/50086690/&#34;&gt;Summera Pull-out Keyboard Shelf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;5 x &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&amp;rdquo; Flathead Wood Screws
+This worked quite well for some time, until I upgraded my keyboard to the Kinesis Advantage. For optimal use of this keyboard, I had to lower the height of the desk, which necessitated the creation of a monitor stand to raise the height of my monitor. Again, I used &lt;a href=&#34;http://www.ikeahackers.net/2012/01/12-monitor-stand.html&#34;&gt;IKEA Hackers: $12 Monitor Stand&lt;/a&gt; as  a basis for my build.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Materials:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/00054564/&#34;&gt;4-pack of Ikea Capita Legs - 6&amp;rdquo;&lt;/a&gt; (I use these at the minimum height)&lt;/li&gt;
+&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/20094347/&#34;&gt;Ekby Järpen 119 cm x 28 cm Shelf&lt;/a&gt; (Again, bigger than the original post)
+I&amp;rsquo;ve been using the above setup for half a year now, with few complaints. Because of the size, it&amp;rsquo;s a bit difficult to clean of dust, if I moved it to the center of a room rather than a corner, this should get easier. Otherwise, as a standing desk, I&amp;rsquo;m loving it, I can&amp;rsquo;t see myself moving back to a seated desk.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Next time I move, if it&amp;rsquo;s within driving distance, this setup should be fairly easy to disassemble, otherwise I can just build a new one at my destination, assuming an IKEA is present.&lt;/p&gt;
+
+&lt;p&gt;Update:
+Added a couple pieces to help with cable management:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/30200253/&#34;&gt;Signum Cable management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
