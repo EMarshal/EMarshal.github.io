@@ -6,7 +6,7 @@
     <description>Recent content on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright: All rights reserved by Éli Marshal.</copyright>
+    <copyright>© 2015 Éli Marshal</copyright>
     <lastBuildDate>Thu, 14 May 2015 19:14:24 -0600</lastBuildDate>
     <atom:link href="http://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,11 +16,17 @@
       <pubDate>Thu, 14 May 2015 19:14:24 -0600</pubDate>
       
       <guid>http://www.elimarshal.com/about/</guid>
-      <description>&lt;p&gt;I live in &lt;a href=&#34;http://en.wikipedia.org/wiki/Calgary&#34;&gt;Calgary&lt;/a&gt;. It&amp;rsquo;s a nice place.&lt;/p&gt;
+      <description>&lt;p&gt;I live in &lt;a href=&#34;https://en.wikipedia.org/wiki/Calgary&#34;&gt;Calgary&lt;/a&gt;. It&amp;rsquo;s a nice place.&lt;/p&gt;
 
 &lt;p&gt;I stand at &lt;a href=&#34;../post/ikea-standing-desk/&#34;&gt;my desk&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I type using the &lt;a href=&#34;http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard&#34;&gt;Dvorak&lt;/a&gt; keyboard layout.&lt;/p&gt;
+&lt;p&gt;I use some &lt;a href=&#34;../computers/&#34;&gt;computers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I subscribe to some &lt;a href=&#34;../services/&#34;&gt;services&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I own some &lt;a href=&#34;../goods/&#34;&gt;goods&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I type using the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard&#34;&gt;Dvorak&lt;/a&gt; keyboard layout.&lt;/p&gt;
 </description>
     </item>
     
@@ -93,21 +99,27 @@ Chef&amp;rsquo;s Knife: &lt;a href=&#34;http://www.macknife.com/kitchen/products
       <guid>http://www.elimarshal.com/services/</guid>
       <description>
 
-&lt;h4 id=&#34;entertainment:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Entertainment:&lt;/h4&gt;
+&lt;h4 id=&#34;entertainment:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Entertainment&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.nokia.com/ca-en/apps/app/mixradio/&#34;&gt;Nokia MixRadio+&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.mixrad.io&#34;&gt;MixRadio+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.siriusxm.ca/plans/&#34;&gt;Sirius Select+&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.xbox.com/en-CA/music/music-pass&#34;&gt;Xbox Music Pass&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.xbox.com/en-CA/Live?xr=shellnav&#34;&gt;Xbox Live Gold&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;productivity:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Productivity:&lt;/h4&gt;
+&lt;h4 id=&#34;productivity:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Productivity&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://office.microsoft.com/en-ca/home-premium/&#34;&gt;Office 365 Home Premium&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;https://products.office.com/en-ca/office-365-home/&#34;&gt;Office 365 Home&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.rbcinsurance.com/homeinsurance/tenant-insurance.html&#34;&gt;RBC Tenant Insurance&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.rbcinsurance.com/car-insurance/index.html&#34;&gt;RBC Car Insurance&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;other:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Other:&lt;/h4&gt;
+&lt;h4 id=&#34;other:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Other&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://calgary.worldhealth.ca/&#34;&gt;World Health Gym Membership&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://calgary.worldhealth.ca/&#34;&gt;World Health Gym Membership&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;telecom:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Telecom&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.shaw.ca/store/internet/internetPackageDetails.jsp?prodId=prod470004&#34;&gt;Shaw Broadband 50&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.koodomobile.com/&#34;&gt;Koodo Mobile&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -119,19 +131,20 @@ Chef&amp;rsquo;s Knife: &lt;a href=&#34;http://www.macknife.com/kitchen/products
       <guid>http://www.elimarshal.com/computers/</guid>
       <description>
 
-&lt;h4 id=&#34;desktop:39c1f979ab14418859c8b73586956bc9&#34;&gt;Desktop:&lt;/h4&gt;
+&lt;h4 id=&#34;desktop:39c1f979ab14418859c8b73586956bc9&#34;&gt;Desktop&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://support.apple.com/kb/SP659&#34;&gt;Apple Mac mini (Late 2012)&lt;/a&gt; (Geekbench: &lt;sup&gt;3261&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12712&lt;/sub&gt;)&lt;br /&gt;
 Processor: &lt;a href=&#34;http://ark.intel.com/products/64891/Intel-Core-i7-3720QM-Processor-6M-Cache-up-to-3_60-GHz&#34;&gt;Intel Core i7-3720QM&lt;/a&gt;&lt;br /&gt;
 Memory: &lt;a href=&#34;http://www.gskill.com/en/product/f3-1600c9d-16grsl&#34;&gt;16 GiB G.SKILL Ripjaws DDR3 1600 MHz&lt;/a&gt;&lt;br /&gt;
 Storage: &lt;a href=&#34;http://www.crucial.com/usa/en/ssd/ct512mx100ssd1&#34;&gt;Crucial MX100 512 GB&lt;/a&gt;&lt;br /&gt;
+Stand: &lt;a href=&#34;http://www.newertech.com/products/nustandalloymacmini.php&#34;&gt;NewerTech NuStand Alloy&lt;/a&gt;&lt;br /&gt;
 Backup Storage: &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/techdocs/79BA810F702AD64E88257977006375D8/$file/TS5K1000_ds.pdf&#34;&gt;Hitachi Travelstar 5K1000 1 TB (HTS541010A9E662)&lt;/a&gt;&lt;br /&gt;
 Backup Enclosure: &lt;a href=&#34;http://www.vantecusa.com/en/product/view_detail/583&#34;&gt;Vantec NexStar 6G&lt;/a&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;accessories:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories:&lt;/h5&gt;
+&lt;h5 id=&#34;accessories:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories&lt;/h5&gt;
 
-&lt;p&gt;Monitors: &lt;a href=&#34;http://accessories.ap.dell.com/sna/productdetail.aspx?c=au&amp;amp;amp;cs=audhs1&amp;amp;amp;sku=210-40773&#34;&gt;Dell U2713HM&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.dell.com/support/home/us/en/19/product-support/product/dell-2407WFP-HC/manuals&#34;&gt;Dell 2407WFP-HC&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;Monitors: &lt;a href=&#34;http://www.dell.com/support/home/us/en/19/product-support/product/dell-U2713HM/&#34;&gt;Dell U2713HM&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.dell.com/support/home/us/en/19/product-support/product/dell-2407WFP-HC/&#34;&gt;Dell 2407WFP-HC&lt;/a&gt;&lt;br /&gt;
 Backlighting: &lt;a href=&#34;http://www.antec.com/soundscience/products_Bias-Lighting.php&#34;&gt;halo 6 LED bias lighting kit&lt;/a&gt;&lt;br /&gt;
 Keyboard: &lt;a href=&#34;http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/&#34;&gt;Kinesis Advantage&lt;/a&gt;&lt;br /&gt;
 Mouse: &lt;a href=&#34;http://gaming.logitech.com/en-ca/product/g700s-rechargable-wireless-gaming-mouse&#34;&gt;Logitech G700s&lt;/a&gt;&lt;br /&gt;
@@ -143,10 +156,10 @@ Speakers: &lt;a href=&#34;http://www.klipsch.com/promedia-ultra-5-1-computer-spe
 Scanner: &lt;a href=&#34;http://www.usa.canon.com/cusa/support/consumer/scanners/document_scanners/imageformula_p_215_scan_tini_personal_document_scanner&#34;&gt;Canon imageFORMULA P-215 Scan-tini Personal Document Scanner&lt;/a&gt;&lt;br /&gt;
 Storage: &lt;a href=&#34;http://www.sandisk.com/products/usb/drives/extreme/&#34;&gt;SanDisk Extreme USB 3.0 Flash Drive 64 GB&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.corsair.com/en-ca/flash-voyager-gt-usb-3-0-32gb-flash-drive&#34;&gt;Corsair Flash Voyager GT USB 3.0 32 GB CMFVYGT3B-32GB&lt;/a&gt;&lt;br /&gt;
-Verbatim 256 MB
+Verbatim 256 MB&lt;br /&gt;
 &lt;a href=&#34;http://www.newegg.ca/Product/Product.aspx?Item=N82E16820155408CVF&#34;&gt;Sandisk Cruzer Micro 128 MB&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;laptop:39c1f979ab14418859c8b73586956bc9&#34;&gt;Laptop:&lt;/h4&gt;
+&lt;h4 id=&#34;laptop:39c1f979ab14418859c8b73586956bc9&#34;&gt;Laptop&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://support.hp.com/ca-en/product/HP-ENVY-TouchSmart-Ultrabook-4-1100/5296032/model/5316890&#34;&gt;HP ENVY TouchSmart Ultrabook 4-1195ca&lt;/a&gt; (BIOS F.25)&lt;br /&gt;
 Processor: &lt;a href=&#34;http://ark.intel.com/products/65707/Intel-Core-i5-3317U-Processor-3M-Cache-up-to-2_60-GHz&#34;&gt;Intel Core i5-3317U&lt;/a&gt; (Geekbench: &lt;sup&gt;2165&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4391&lt;/sub&gt;)&lt;br /&gt;
@@ -163,30 +176,30 @@ Graphics: 5.9&lt;br /&gt;
 Gaming Graphics: 5.1&lt;br /&gt;
 Primary Hard Disk: 8.15&lt;/p&gt;
 
-&lt;h4 id=&#34;tablet:39c1f979ab14418859c8b73586956bc9&#34;&gt;Tablet:&lt;/h4&gt;
+&lt;h4 id=&#34;tablet:39c1f979ab14418859c8b73586956bc9&#34;&gt;Tablet&lt;/h4&gt;
 
-&lt;p&gt;Microsoft Surface: &lt;a href=&#34;http://www.microsoft.com/surface/en-ca/products/surface&#34;&gt;Microsoft Surface, 64 GB&lt;/a&gt; (Geekbench: &lt;sup&gt;337&lt;/sup&gt;&amp;frasl;&lt;sub&gt;1083&lt;/sub&gt;)&lt;/p&gt;
+&lt;p&gt;Microsoft Surface: &lt;a href=&#34;http://www.microsoft.com/surface/en-ca/products/surface&#34;&gt;Microsoft Surface RT, 64 GB&lt;/a&gt; (Geekbench: &lt;sup&gt;337&lt;/sup&gt;&amp;frasl;&lt;sub&gt;1083&lt;/sub&gt;)&lt;/p&gt;
 
-&lt;h5 id=&#34;accessories-1:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories:&lt;/h5&gt;
+&lt;h5 id=&#34;accessories-1:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories&lt;/h5&gt;
 
 &lt;p&gt;Cover: &lt;a href=&#34;http://www.microsoft.com/surface/en-us/support/hardware-and-drivers/touch-cover-the-touch-keyboard&#34;&gt;Microsoft Touch Cover&lt;/a&gt;&lt;br /&gt;
 Storage: &lt;a href=&#34;http://www.sandisk.com/products/memory-cards/microsd/ultra-class10-for-android/?capacity=64GB&#34;&gt;SanDisk Ultra microSDXC UHS-1 64 GB&lt;/a&gt;&lt;br /&gt;
 Sleeve: &lt;a href=&#34;http://www.incipio.com/bags/microsoft-surface-sleeves/microsoft-surface-padded-nylon-sleeve.html&#34;&gt;Incipio Padded Nylon Sleeve&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;ereader:39c1f979ab14418859c8b73586956bc9&#34;&gt;Ereader:&lt;/h4&gt;
+&lt;h4 id=&#34;ereader:39c1f979ab14418859c8b73586956bc9&#34;&gt;Ereader&lt;/h4&gt;
 
 &lt;p&gt;Kobo: &lt;a href=&#34;http://www.kobo.com/koboaurahd&#34;&gt;Kobo Aura HD&lt;/a&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;accessories-2:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories:&lt;/h5&gt;
+&lt;h5 id=&#34;accessories-2:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories&lt;/h5&gt;
 
 &lt;p&gt;Cover: &lt;a href=&#34;http://www.kobo.com/accessories/kobo-aurahd-sleepcover-onyx.html&#34;&gt;SleepCover&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;mobile-and-gaming-accessories:39c1f979ab14418859c8b73586956bc9&#34;&gt;Mobile and Gaming Accessories&lt;/h4&gt;
 
-&lt;p&gt;Keyboard: &lt;a href=&#34;http://www.microsoft.com/hardware/en-us/d/bluetooth-mobile-keyboard-6000&#34;&gt;Microsoft Bluetooth Mobile Keyboard 6000&lt;/a&gt;&lt;br /&gt;
-Speaker: &lt;a href=&#34;http://www.ultimateears.com/en-ca/boom&#34;&gt;Logitech UE Boom&lt;/a&gt; with &lt;a href=&#34;http://www.ultimateears.com/en-ca/update&#34;&gt;1.4.51 Firmware&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;Speaker: &lt;a href=&#34;http://www.ultimateears.com/en-ca/boom&#34;&gt;Logitech UE Boom&lt;/a&gt; with &lt;a href=&#34;http://www.ultimateears.com/en-ca/update&#34;&gt;1.4.51 Firmware&lt;/a&gt;&lt;br /&gt;
 Optical Drive: &lt;a href=&#34;http://www.asus.com/Optical_Drives/SBC06D2XU/&#34;&gt;Asus SBC-06D2X-U&lt;/a&gt;&lt;br /&gt;
 Ethernet Adapter: &lt;a href=&#34;http://www.startech.com/Networking-IO/Adapter-Cards/USB-3-to-Gigabit-Ethernet-NIC-Network-Adapter~USB31000S&#34;&gt;StarTech USB 3.0 to Gigabit Ethernet&lt;/a&gt;&lt;br /&gt;
+USB Sound Card: &lt;a href=&#34;http://www.asus.com/Sound_Cards/Xonar_U3/&#34;&gt;Asus Xonar U3&lt;/a&gt;&lt;br /&gt;
 Headphones:&lt;br /&gt;
 &lt;a href=&#34;http://en-us.sennheiser.com/digital-headphones-wireless-home-audio-rs-180&#34;&gt;Sennheiser RS 180&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://gradolabs.com/headphones/prestige-series/item/2-sr60e&#34;&gt;Grado SR60&lt;/a&gt;&lt;br /&gt;
@@ -202,14 +215,15 @@ Headset: &lt;a href=&#34;https://support.xbox.com/en-US/xbox-360/accessories/set
 &lt;a href=&#34;http://www.microsoft.com/en-ca/mobile/accessory/dt-900/&#34;&gt;Nokia Wireless Charging Plate&lt;/a&gt;&lt;br /&gt;
 Case: &lt;a href=&#34;http://www.incipio.com/cases/smartphone-cases/nokia-lumia-smartphone-cases/nokia-lumia-920-cases/nokia-lumia-920-feather-case.html&#34;&gt;Incipio Feather&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;htpc:39c1f979ab14418859c8b73586956bc9&#34;&gt;HTPC:&lt;/h4&gt;
+&lt;h4 id=&#34;htpc:39c1f979ab14418859c8b73586956bc9&#34;&gt;HTPC&lt;/h4&gt;
 
 &lt;p&gt;Case: &lt;a href=&#34;http://www.lian-li.com/en/dt_portfolio/pc-v354/&#34;&gt;Lian-Li PC-V354B&lt;/a&gt;&lt;br /&gt;
 Motherboard: &lt;a href=&#34;http://www.gigabyte.com/products/product-page.aspx?pid=4451&#34;&gt;Gigabyte GA-F2A85XM-D3H (rev. 1.1)&lt;/a&gt;&lt;br /&gt;
 Power supply: &lt;a href=&#34;http://www.kingwin.com/ap-550/&#34;&gt;Kingwin AP-550&lt;/a&gt;&lt;br /&gt;
 Processor: &lt;a href=&#34;http://products.amd.com/en-gb/DesktopAPUDetail.aspx?id=79&#34;&gt;AMD A10-6800K APU with Radeon HD 8760D&lt;/a&gt; (Geekbench: &lt;sup&gt;2500&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7166&lt;/sub&gt;)&lt;br /&gt;
-Processor Cooling: &lt;a href=&#34;http://www.noctua.at/main.php?show=productview&amp;amp;amp;products_id=35&amp;amp;amp;lng=en&#34;&gt;Noctua NH-C12P SE14&lt;/a&gt;&lt;br /&gt;
-Memory: &lt;a href=&#34;http://www.gskill.com/en/product/f3-2133c11d-16gzl&#34;&gt;16 GiB G.SKILL Ripjawsz DDR3 2133 MHz&lt;/a&gt;&lt;/p&gt;
+Processor Cooling: &lt;a href=&#34;http://www.noctua.at/main.php?show=productview&amp;amp;products_id=35&#34;&gt;Noctua NH-C12P SE14&lt;/a&gt;&lt;br /&gt;
+Memory: &lt;a href=&#34;http://www.gskill.com/en/product/f3-2133c11d-16gzl&#34;&gt;16 GiB G.SKILL Ripjawsz DDR3 2133 MHz&lt;/a&gt;&lt;br /&gt;
+Storage: &lt;a href=&#34;https://www.samsung.com/us/support/owners/product/MZ-75E500B/AM&#34;&gt;Samsung 850 Evo 500 GB&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&#34;windows-experience-index-1:39c1f979ab14418859c8b73586956bc9&#34;&gt;Windows Experience Index&lt;/h5&gt;
 
@@ -219,29 +233,28 @@ Graphics: 6.3&lt;br /&gt;
 Gaming Graphics: 6.3&lt;br /&gt;
 Primary Hard Disk: 8.15&lt;/p&gt;
 
-&lt;h5 id=&#34;accesories:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accesories:&lt;/h5&gt;
+&lt;h5 id=&#34;accesories:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accesories&lt;/h5&gt;
 
 &lt;p&gt;Keyboard: &lt;a href=&#34;https://www.microsoft.com/hardware/en-us/p/all-in-one-media-keyboard&#34;&gt;Microsoft All-In-One Media Keyboard&lt;/a&gt;&lt;br /&gt;
 Storage:&lt;br /&gt;
-&lt;a href=&#34;http://www.crucial.com/usa/en/ssd/ct512mx100ssd1&#34;&gt;Crucial MX100 512 GB&lt;/a&gt;&lt;br /&gt;
 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;. &lt;a href=&#34;http://www.seagate.com/www-content/product-content/desktop-hdd-fam/en-us/docs/desktop-hdd-ds1770-5-1409us.pdf&#34;&gt;2x Seagate 7200.15 4 TB (ST4000DM000)&lt;/a&gt;&lt;br /&gt;
 &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;. &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/products/Deskstar_7K3000&#34;&gt;2x Hitachi Deskstar 7K3000 2 TB (HDS723020BLA642)&lt;/a&gt;&lt;br /&gt;
 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;. &lt;a href=&#34;http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-701229.pdf&#34;&gt;2x Western Digital Caviar Green 2 TB (WD20EARS)&lt;/a&gt;&lt;br /&gt;
 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;. &lt;a href=&#34;http://www.seagate.com/www-content/product-content/desktop-hdd-fam/en-us/docs/desktop-hdd-ds1770-5-1409us.pdf&#34;&gt;2x Seagate 7200.14 3 TB (ST3000DM001)&lt;/a&gt;&lt;br /&gt;
 9. &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/products/Deskstar_E7K1000&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDE721010SLA330)&lt;/a&gt;&lt;br /&gt;
 10. &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/products/Deskstar_7K1000.C&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDS721010CLA332)&lt;/a&gt;&lt;br /&gt;
-11. &lt;a href=&#34;https://www.seagate.com/files/docs/pdf/en-GB/datasheet/disc/barracuda-green-ds1720.3-1105gb.pdf&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDS721010CLA332)&lt;/a&gt;
+11. &lt;a href=&#34;https://www.seagate.com/files/docs/pdf/en-GB/datasheet/disc/barracuda-green-ds1720.3-1105gb.pdf&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDS721010CLA332)&lt;/a&gt;&lt;br /&gt;
 12. &lt;a href=&#34;http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-701229.pdf&#34;&gt;Western Digital Caviar Green 1 TB (WD20EARX)&lt;/a&gt;&lt;br /&gt;
 13. &lt;a href=&#34;http://www.seagate.com/docs/pdf/en-GB/datasheet/disc/barracuda-7200-12-ds1668-6-1101gb.pdf&#34;&gt;Seagate Barracuda 7200.12 1TB (ST31000524AS)&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.vantecusa.com/en/product/view_detail/488&#34;&gt;2x Vantec NexStar HX4&lt;/a&gt;&lt;br /&gt;
-L. &lt;a href=&#34;From bottom&#34;&gt;11, 5, 10&lt;/a&gt;&lt;br /&gt;
-R. &lt;a href=&#34;From bottom&#34;&gt;12, 9, 13&lt;/a&gt;&lt;br /&gt;
-Case: &lt;a href=&#34;From bottom&#34;&gt;7, 8, 1, 2, 6, 3, 4&lt;/a&gt;&lt;/p&gt;
+L. [11, 5, 10] (From bottom)&lt;br /&gt;
+R. [12, 9, 13] (From bottom)&lt;br /&gt;
+Case: [7, 8, 1, 2, 6, 3, 4] (From bottom)&lt;/p&gt;
 
 &lt;h4 id=&#34;networking:39c1f979ab14418859c8b73586956bc9&#34;&gt;Networking&lt;/h4&gt;
 
 &lt;p&gt;Router: &lt;a href=&#34;http://www.asus.com/Networking/RTN56U/&#34;&gt;Asus RT-N56U&lt;/a&gt; with &lt;a href=&#34;http://code.google.com/p/rt-n56u/&#34;&gt;Custom Firmware&lt;/a&gt;&lt;br /&gt;
-Switch: &lt;a href=&#34;http://www.tplink.ca/en/products/details/?categoryid=2878&amp;amp;amp;model=TL-SG105E&#34;&gt;TP-LINK 5-Port Gigabit&lt;/a&gt;&lt;/p&gt;
+Switch: &lt;a href=&#34;http://www.tplink.ca/en/products/details/?categoryid=2878&amp;amp;model=TL-SG105E&#34;&gt;TP-LINK 5-Port Gigabit&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;pmp:39c1f979ab14418859c8b73586956bc9&#34;&gt;PMP&lt;/h4&gt;
 
@@ -261,7 +274,7 @@ Headphones: &lt;a href=&#34;http://www.jaybirdsport.com/bluebuds-x-bluetooth-hea
       <guid>http://www.elimarshal.com/drivers/</guid>
       <description>
 
-&lt;h4 id=&#34;laptop:c1012a9f470e0bbd78e1aa52db2c8112&#34;&gt;Laptop:&lt;/h4&gt;
+&lt;h4 id=&#34;laptop:c1012a9f470e0bbd78e1aa52db2c8112&#34;&gt;Laptop&lt;/h4&gt;
 
 &lt;p&gt;Audio: IDT HD Audio CODEC 6.10.6433.0&lt;br /&gt;
 Chipset: &lt;a href=&#34;http://www.intel.com/support/detect.htm&#34;&gt;Intel&lt;/a&gt;&lt;br /&gt;
@@ -283,7 +296,7 @@ HP Quick Launch Software 3.00&lt;br /&gt;
 HP Support Assistant 7.4.45.4&lt;br /&gt;
 ENERGY STAR Qualified Power Plan 1.0.9&lt;/p&gt;
 
-&lt;h4 id=&#34;server:c1012a9f470e0bbd78e1aa52db2c8112&#34;&gt;Server&lt;/h4&gt;
+&lt;h4 id=&#34;htpc:c1012a9f470e0bbd78e1aa52db2c8112&#34;&gt;HTPC&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=14&amp;amp;PFid=24&amp;amp;Level=4&amp;amp;Conn=3&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek HD Audio Driver R2.75&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=13&amp;amp;PFid=5&amp;amp;Level=5&amp;amp;Conn=4&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek PCIE 8.038&lt;/a&gt;&lt;br /&gt;
@@ -293,7 +306,7 @@ ENERGY STAR Qualified Power Plan 1.0.9&lt;/p&gt;
     </item>
     
     <item>
-      <title>two years with the surface rt</title>
+      <title>Two Years with the Surface RT</title>
       <link>http://www.elimarshal.com/post/two-years-with-the-surface-rt/</link>
       <pubDate>Mon, 15 Dec 2014 19:11:58 -0600</pubDate>
       
@@ -323,7 +336,7 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
     </item>
     
     <item>
-      <title>goals vs dreams</title>
+      <title>Goals vs Dreams</title>
       <link>http://www.elimarshal.com/post/goals-vs-dreams/</link>
       <pubDate>Tue, 14 Aug 2012 19:03:10 -0600</pubDate>
       
@@ -334,9 +347,9 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
 
 &lt;p&gt;Secondly, I&amp;rsquo;ve recently read Taleb&amp;rsquo;s &lt;em&gt;The Black Swan&lt;/em&gt;, in which he makes several points about human errors in intuition and reasoning, which can be applied to how people think about goals:&lt;/p&gt;
 
-&lt;p&gt;Narrative fallacy (wiki on &lt;a href=&#34;http://en.wikipedia.org/wiki/Illusory_correlation&#34;&gt;Illusory correlation&lt;/a&gt;): People like applying narratives to events (it makes events easier to remember, and lets people think they understand events which they don&amp;rsquo;t actually understand). You&amp;rsquo;ll accomplish something, and back-fit a narrative to explain the accomplishment (&amp;ldquo;I always wanted to do X, and doing A, B and C helped me achieve X&amp;rdquo;) when in fact, you arrived at X via a series of random fortunate events.&lt;/p&gt;
+&lt;p&gt;Narrative fallacy (wiki on &lt;a href=&#34;https://en.wikipedia.org/wiki/Illusory_correlation&#34;&gt;Illusory correlation&lt;/a&gt;): People like applying narratives to events (it makes events easier to remember, and lets people think they understand events which they don&amp;rsquo;t actually understand). You&amp;rsquo;ll accomplish something, and back-fit a narrative to explain the accomplishment (&amp;ldquo;I always wanted to do X, and doing A, B and C helped me achieve X&amp;rdquo;) when in fact, you arrived at X via a series of random fortunate events.&lt;/p&gt;
 
-&lt;p&gt;Survivorship bias (wiki on &lt;a href=&#34;http://en.wikipedia.org/wiki/Survivorship_bias&#34;&gt;Survivorship bias&lt;/a&gt;): You&amp;rsquo;ll look at a set of people who accomplished something, and assume that since a large proportion of them had that accomplishment as a goal, that is was a reasonable goal. This overlooks the set of people with the same goal who failed to achieve it. Going back to lottery example, looking at lottery winners overlooks the overwhelming majority of people who thought they had &amp;ldquo;win the lottery&amp;rdquo; as a goal (and actually just had &amp;ldquo;buy lottery tickets&amp;rdquo; as a goal). Furthermore, a lottery is one of the easiest places to avoid survivorship bias; in the real world, you don&amp;rsquo;t know how many people are playing the game and how many losers there are.&lt;/p&gt;
+&lt;p&gt;Survivorship bias (wiki on &lt;a href=&#34;https://en.wikipedia.org/wiki/Survivorship_bias&#34;&gt;Survivorship bias&lt;/a&gt;): You&amp;rsquo;ll look at a set of people who accomplished something, and assume that since a large proportion of them had that accomplishment as a goal, that is was a reasonable goal. This overlooks the set of people with the same goal who failed to achieve it. Going back to lottery example, looking at lottery winners overlooks the overwhelming majority of people who thought they had &amp;ldquo;win the lottery&amp;rdquo; as a goal (and actually just had &amp;ldquo;buy lottery tickets&amp;rdquo; as a goal). Furthermore, a lottery is one of the easiest places to avoid survivorship bias; in the real world, you don&amp;rsquo;t know how many people are playing the game and how many losers there are.&lt;/p&gt;
 
 &lt;p&gt;These tie into my original semantic point of goals vs. dreams, and fool people into thinking they&amp;rsquo;re making goals when in fact they simply have dreams, as only a small fraction of similarly qualified people with the same dream will ever accomplish it, due to random chance.&lt;/p&gt;
 
@@ -357,7 +370,7 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
     </item>
     
     <item>
-      <title>ikea standing desk</title>
+      <title>IKEA standing desk</title>
       <link>http://www.elimarshal.com/post/ikea-standing-desk/</link>
       <pubDate>Thu, 09 Feb 2012 18:53:38 -0600</pubDate>
       
@@ -371,10 +384,10 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
 &lt;ul&gt;
 &lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/S69885229/&#34;&gt;Galant Desk 160 cm x 80 cm with frame&lt;/a&gt; (I wanted a larger desk than the one in the IKEA Hackers post)&lt;/li&gt;
 &lt;li&gt;1 x Galant Table Top 160 cm x 80 cm (no frame, just the table top from above)&lt;/li&gt;
-&lt;li&gt;4 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/00105554/&#34;&gt;Galant A-Leg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;4 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/40057457/&#34;&gt;Galant A-Leg&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;5 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10168720/&#34;&gt;Ekby Töre brackets&lt;/a&gt; (I used an extra bracket in the middle of the desk in the back, because of the extra size and weight)&lt;/li&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/70146495/&#34;&gt;Galant Drawer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/50086690/&#34;&gt;Summera Pull-out Keyboard Shelf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1 x Galant Drawer&lt;/li&gt;
+&lt;li&gt;1 x Summera Pull-out Keyboard Shelf&lt;/li&gt;
 &lt;li&gt;5 x &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&amp;rdquo; Flathead Wood Screws
 This worked quite well for some time, until I upgraded my keyboard to the Kinesis Advantage. For optimal use of this keyboard, I had to lower the height of the desk, which necessitated the creation of a monitor stand to raise the height of my monitor. Again, I used &lt;a href=&#34;http://www.ikeahackers.net/2012/01/12-monitor-stand.html&#34;&gt;IKEA Hackers: $12 Monitor Stand&lt;/a&gt; as  a basis for my build.&lt;/li&gt;
 &lt;/ul&gt;
@@ -382,7 +395,7 @@ This worked quite well for some time, until I upgraded my keyboard to the Kinesi
 &lt;p&gt;Materials:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/00054564/&#34;&gt;4-pack of Ikea Capita Legs - 6&amp;rdquo;&lt;/a&gt; (I use these at the minimum height)&lt;/li&gt;
+&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10267895/&#34;&gt;4-pack of Ikea Capita Legs - 6&amp;rdquo;&lt;/a&gt; (I use these at the minimum height)&lt;/li&gt;
 &lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/20094347/&#34;&gt;Ekby Järpen 119 cm x 28 cm Shelf&lt;/a&gt; (Again, bigger than the original post)
 I&amp;rsquo;ve been using the above setup for half a year now, with few complaints. Because of the size, it&amp;rsquo;s a bit difficult to clean of dust, if I moved it to the center of a room rather than a corner, this should get easier. Otherwise, as a standing desk, I&amp;rsquo;m loving it, I can&amp;rsquo;t see myself moving back to a seated desk.&lt;/li&gt;
 &lt;/ul&gt;
