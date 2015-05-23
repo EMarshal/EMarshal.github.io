@@ -7,8 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Mon, 15 Dec 2014 19:11:58 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2015 07:05:22 -0600</lastBuildDate>
     <atom:link href="http://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Apple Watch Review</title>
+      <link>http://www.elimarshal.com/post/apple-watch-review/</link>
+      <pubDate>Sat, 23 May 2015 07:05:22 -0600</pubDate>
+      
+      <guid>http://www.elimarshal.com/post/apple-watch-review/</guid>
+      <description>&lt;p&gt;Summary: It only works with iPhones, so it&amp;rsquo;s useless to me.&lt;/p&gt;
+
+&lt;p&gt;Note that it doesn&amp;rsquo;t only work with iOS devices, it&amp;rsquo;s specifically limited to the &lt;em&gt;iPhone&lt;/em&gt;, compatibility is articifically limited from both iPads and iPods.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a table showing the only relevant hardware advantages (other than lack of cellular connectivity) an Apple Watch compatible iPhone 5 has over a 5th generation iPod Touch:&lt;/p&gt;
+
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;iPhone 5&lt;/td&gt;
+        &lt;td&gt;iPod Touch (5th generation)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;SOC&lt;/td&gt;
+        &lt;td&gt;Apple A6&lt;/td&gt;
+        &lt;td&gt;Apple A5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Memory&lt;/td&gt;
+        &lt;td&gt;1 GB&lt;/td&gt;
+        &lt;td&gt;512 MB&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt; 
+
+&lt;p&gt;I guess maybe the Apple Watch requires a paired device with at least an A6 processor or 1 GB of memory? But no, the latest (among several) revisions of either the iPad Air or iPad Mini both meet those requirements, the &lt;em&gt;only&lt;/em&gt; things they lack compared to an iPhone are cellular connectivity and portability.&lt;/p&gt;
+
+&lt;p&gt;Cellular connectivity and portability essentially affect the same usage metric - how likely you are at any given time to have a data connection. (Because of lack of cellular connectivity, or because you didn&amp;rsquo;t bring your iPad because it&amp;rsquo;s too large, respectively.) However, presence of data connectivity is a purely quantitative measure, an iPod user in an area with wifi coverage will trivially have better data connectivity than an iPhone user in an area with neither wifi nor cellular coverage.&lt;/p&gt;
+
+&lt;p&gt;Pretty clear case of Apple using artificial software limitations to place business needs (selling more iPhones) ahead of user needs (non-Iphone iPod/iPad users using Apple Watch.)&lt;/p&gt;
+
+&lt;p&gt;I only mentioned cellular data rather than voice/sms ability, because the situation seems especially ironic when discussing those - due to iMessage and FaceTime over either wifi or cellular data, voice/sms is nearly irrelevant to an iOS user unless he or she needs voice/sms for communication with non-iOS users&amp;hellip; who are exactly the users who aren&amp;rsquo;t being catered to with Apple Watch.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Two Years with the Surface RT</title>
