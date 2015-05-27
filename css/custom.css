@@ -11,17 +11,16 @@ html {
 
 body {
     background-color: rgb(249,249,249);
-    color: #484848;
 }
 
 .nav-menu {
     /*box-shadow: 0 1px 1px rgba(0,0,0, 0.10);*/
     border-bottom: 1px solid #e3e3e3;
+    white-space: normal;
 }
 
 .header {
     text-align: left;
-    color: #484848;
     margin-bottom: .5em;
 }
 
@@ -35,13 +34,11 @@ body {
 
         .header ul li a {
             font-weight: bold;
-            color: #484848;
             font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
     .header .site-title {
         font-weight: bold;
-        color: #484848;
         font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
@@ -133,7 +130,6 @@ body {
 
 .post {
     font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-    color: #484848;
     letter-spacing: normal;
     padding-left: .5em;
 }
