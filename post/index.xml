@@ -22,7 +22,7 @@
 
 &lt;p&gt;Here&amp;rsquo;s a table showing the only relevant hardware advantages (other than lack of cellular connectivity) an Apple Watch compatible iPhone 5 has over a 5th generation iPod Touch:&lt;/p&gt;
 
-&lt;table&gt;
+&lt;table class=&#34;pure-table pure-table-horizontal&#34;&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;/td&gt;
         &lt;td&gt;iPhone 5&lt;/td&gt;
@@ -38,7 +38,7 @@
         &lt;td&gt;1 GB&lt;/td&gt;
         &lt;td&gt;512 MB&lt;/td&gt;
     &lt;/tr&gt;
-&lt;/table&gt; 
+&lt;/table&gt;
 
 &lt;p&gt;I guess maybe the Apple Watch requires a paired device with at least an A6 processor or 1 GB of memory? But no, the latest (among several) revisions of either the iPad Air or iPad Mini both meet those requirements, the &lt;em&gt;only&lt;/em&gt; things they lack compared to an iPhone are cellular connectivity and portability.&lt;/p&gt;
 
