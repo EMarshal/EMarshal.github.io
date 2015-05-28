@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Sat, 23 May 2015 07:05:22 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2015 07:34:27 -0600</lastBuildDate>
     <atom:link href="http://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mobile Ad Blocking</title>
+      <link>http://www.elimarshal.com/post/mobile-ad-blocking/</link>
+      <pubDate>Mon, 25 May 2015 07:34:27 -0600</pubDate>
+      
+      <guid>http://www.elimarshal.com/post/mobile-ad-blocking/</guid>
+      <description>
+
+&lt;p&gt;This isn&amp;rsquo;t meant to be a comprehensive guide, but rather a summary of the best available options. (They&amp;rsquo;re not great, but indications are that they&amp;rsquo;ll be improving in the near future.)&lt;/p&gt;
+
+&lt;h3 id=&#34;device-independent:693d2e725279292283d517fb787721f6&#34;&gt;Device Independent&lt;/h3&gt;
+
+&lt;p&gt;Use a &lt;a href=&#34;http://winhelp2002.mvps.org/hosts.htm&#34;&gt;hosts file&lt;/a&gt; on your linux-based router of choice to block ads across your home network.&lt;/p&gt;
+
+&lt;h3 id=&#34;android:693d2e725279292283d517fb787721f6&#34;&gt;Android&lt;/h3&gt;
+
+&lt;p&gt;Use the &lt;a href=&#34;https://adblockplus.org/blog/adblock-browser-is-here&#34;&gt;Adblock Browser for Android&lt;/a&gt; from ABP. If your device is rooted, use a hosts file.&lt;/p&gt;
+
+&lt;h3 id=&#34;ios:693d2e725279292283d517fb787721f6&#34;&gt;iOS&lt;/h3&gt;
+
+&lt;p&gt;Current options are all poor due to various problems includin only working on Wi-Fi, needing low-quality custom browsers, requiring jailbreak or fiddling with DNS or VPN settings. Wait for ABP to release an iOS solution.&lt;/p&gt;
+
+&lt;h3 id=&#34;windows-phone:693d2e725279292283d517fb787721f6&#34;&gt;Windows Phone&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;re hooped. See device independent ad blocking. Hopefully with Windows 10 and Microsoft Edge, extension support for the browser will come to mobile and &lt;a href=&#34;https://www.ublock.org/&#34;&gt;uBlock&lt;/a&gt; can be ported over.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Apple Watch Review</title>
