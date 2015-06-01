@@ -7,8 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Mon, 25 May 2015 07:34:27 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2015 12:36:01 -0600</lastBuildDate>
     <atom:link href="http://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HD Favicons</title>
+      <link>http://www.elimarshal.com/post/hd-favicons/</link>
+      <pubDate>Mon, 01 Jun 2015 12:36:01 -0600</pubDate>
+      
+      <guid>http://www.elimarshal.com/post/hd-favicons/</guid>
+      <description>
+
+&lt;p&gt;Decided to add favicons and touch icons to the site. I&amp;rsquo;ve got no design skills, so used &lt;a href=&#34;https://jdenticon.com/&#34;&gt;Jdenticon&lt;/a&gt; to generate icons based on my name.  &lt;a href=&#34;https://realfavicongenerator.net/&#34;&gt;RealFaviconGenerator&lt;/a&gt; will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their &lt;a href=&#34;https://realfavicongenerator.net/faq&#34;&gt;FAQ&lt;/a&gt; to piece together the requirements for that.&lt;/p&gt;
+
+&lt;p&gt;I used Jdenticon to generated large (3200x3200) icon. Then using &lt;a href=&#34;http://www.gimp.org/&#34;&gt;GIMP&lt;/a&gt;, I autocropped edges and scaled to required various sizes as detailed below, each from fullsize and exported as PNG or ICO. PNGs were then compressed with &lt;a href=&#34;https://imageoptim.com/&#34;&gt;ImageOptim&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;images:38512d0adf93f667f0000126e663e0de&#34;&gt;Images&lt;/h4&gt;
+
+&lt;p&gt;iOS: &lt;a href=&#34;../../apple-touch-icon-180x180.png&#34;&gt;180x180&lt;/a&gt;&lt;br /&gt;
+Browsers: &lt;a href=&#34;../../favicon-32x32.png&#34;&gt;32x32&lt;/a&gt;&lt;br /&gt;
+favicon.ico: &lt;a href=&#34;../../favicon.ico&#34;&gt;32x32&lt;/a&gt;&lt;br /&gt;
+Android: &lt;a href=&#34;../../android-chrome-192x192.png&#34;&gt;192x192&lt;/a&gt;&lt;br /&gt;
+Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 128x128 canvas&lt;/a&gt;, &lt;a href=&#34;../../mstile-150x150.png&#34;&gt;127x127 icon with 270x270 canvas&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;code:38512d0adf93f667f0000126e663e0de&#34;&gt;Code&lt;/h4&gt;
+
+&lt;h6 id=&#34;html:38512d0adf93f667f0000126e663e0de&#34;&gt;HTML&lt;/h6&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;apple-touch-icon&amp;quot; sizes=&amp;quot;180x180&amp;quot; href=&amp;quot;/apple-touch-icon-180x180.png&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;icon&amp;quot; type=&amp;quot;image/png&amp;quot; href=&amp;quot;/favicon-32x32.png&amp;quot; sizes=&amp;quot;32x32&amp;quot;&amp;gt;
+&amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;/manifest.json&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;manifest-json-for-android:38512d0adf93f667f0000126e663e0de&#34;&gt;manifest.json (for Android)&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+    &amp;quot;name&amp;quot;: &amp;quot;elimarshal.com&amp;quot;,
+    &amp;quot;icons&amp;quot;: [
+        {
+            &amp;quot;src&amp;quot;: &amp;quot;\/android-chrome-192x192.png&amp;quot;,
+            &amp;quot;sizes&amp;quot;: &amp;quot;192x192&amp;quot;,
+            &amp;quot;type&amp;quot;: &amp;quot;image\/png&amp;quot;,
+            &amp;quot;density&amp;quot;: &amp;quot;4.0&amp;quot;
+        }
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;browserconfig-xml-for-ie:38512d0adf93f667f0000126e663e0de&#34;&gt;browserconfig.xml (for IE)&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-xml&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
+&amp;lt;browserconfig&amp;gt;
+  &amp;lt;msapplication&amp;gt;
+    &amp;lt;tile&amp;gt;
+      &amp;lt;square70x70logo src=&amp;quot;/mstile-70x70.png&amp;quot;/&amp;gt;
+      &amp;lt;square150x150logo src=&amp;quot;/mstile-150x150.png&amp;quot;/&amp;gt;
+      &amp;lt;TileColor&amp;gt;#603CBA&amp;lt;/TileColor&amp;gt;
+    &amp;lt;/tile&amp;gt;
+  &amp;lt;/msapplication&amp;gt;
+&amp;lt;/browserconfig&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Mobile Ad Blocking</title>

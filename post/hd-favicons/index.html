@@ -4,8 +4,8 @@
 
     
     <meta charset="utf-8">
-    <title>Posts</title>
-    <meta name="description" content="Posts">
+    <title>HD Favicons</title>
+    <meta name="description" content="HD Favicons">
     <meta name="author" content="Éli Marshal">
 
     
@@ -61,149 +61,80 @@
 </div>
 
 
-
 <div class="pure-g">
     <div class="pure-u-1-24 pure-u-md-5-24"></div>
     <div class="pure-u-11-12 pure-u-md-5-8">
-        <p class="posts-name">Posts:</p>
+        <div class="post">
 
-        <ul class="posts">
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/hd-favicons/">HD Favicons</a>
-
+            <div class="post-title">
                 <p class="footnote">
-                    submitted <time datetime="2015-06-01T12:36:01-06:00" class="post-list timeago">2015-06-01T12:36:01-06:00</time>
-
+                    <time class="">2015-06-01</time>
+                    
+                    
                     
 
                     
 
                     
-
-                    
-
                 </p>
-            </li>
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/mobile-ad-blocking/">Mobile Ad Blocking</a>
+                <h1>HD Favicons</h1>
+            </div>
 
-                <p class="footnote">
-                    submitted <time datetime="2015-05-25T07:34:27-06:00" class="post-list timeago">2015-05-25T07:34:27-06:00</time>
+            <div class="post-content">
+                
 
-                    
+<p>Decided to add favicons and touch icons to the site. I&rsquo;ve got no design skills, so used <a href="https://jdenticon.com/">Jdenticon</a> to generate icons based on my name.  <a href="https://realfavicongenerator.net/">RealFaviconGenerator</a> will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their <a href="https://realfavicongenerator.net/faq">FAQ</a> to piece together the requirements for that.</p>
 
-                    
+<p>I used Jdenticon to generated large (3200x3200) icon. Then using <a href="http://www.gimp.org/">GIMP</a>, I autocropped edges and scaled to required various sizes as detailed below, each from fullsize and exported as PNG or ICO. PNGs were then compressed with <a href="https://imageoptim.com/">ImageOptim</a>.</p>
 
-                    
+<h4 id="images:38512d0adf93f667f0000126e663e0de">Images</h4>
 
-                    
+<p>iOS: <a href="../../apple-touch-icon-180x180.png">180x180</a><br />
+Browsers: <a href="../../favicon-32x32.png">32x32</a><br />
+favicon.ico: <a href="../../favicon.ico">32x32</a><br />
+Android: <a href="../../android-chrome-192x192.png">192x192</a><br />
+Windows Tiles: <a href="../../mstile-70x70.png">95x95 icon with 128x128 canvas</a>, <a href="../../mstile-150x150.png">127x127 icon with 270x270 canvas</a></p>
 
-                </p>
-            </li>
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/apple-watch-review/">Apple Watch Review</a>
+<h4 id="code:38512d0adf93f667f0000126e663e0de">Code</h4>
 
-                <p class="footnote">
-                    submitted <time datetime="2015-05-23T07:05:22-06:00" class="post-list timeago">2015-05-23T07:05:22-06:00</time>
+<h6 id="html:38512d0adf93f667f0000126e663e0de">HTML</h6>
 
-                    
+<pre><code class="language-html">&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;/apple-touch-icon-180x180.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/favicon-32x32.png&quot; sizes=&quot;32x32&quot;&gt;
+&lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
+</code></pre>
 
-                    
+<h5 id="manifest-json-for-android:38512d0adf93f667f0000126e663e0de">manifest.json (for Android)</h5>
 
-                    
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;elimarshal.com&quot;,
+    &quot;icons&quot;: [
+        {
+            &quot;src&quot;: &quot;\/android-chrome-192x192.png&quot;,
+            &quot;sizes&quot;: &quot;192x192&quot;,
+            &quot;type&quot;: &quot;image\/png&quot;,
+            &quot;density&quot;: &quot;4.0&quot;
+        }
+    ]
+}
+</code></pre>
 
-                    
+<h5 id="browserconfig-xml-for-ie:38512d0adf93f667f0000126e663e0de">browserconfig.xml (for IE)</h5>
 
-                </p>
-            </li>
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/two-years-with-the-surface-rt/">Two Years with the Surface RT</a>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;browserconfig&gt;
+  &lt;msapplication&gt;
+    &lt;tile&gt;
+      &lt;square70x70logo src=&quot;/mstile-70x70.png&quot;/&gt;
+      &lt;square150x150logo src=&quot;/mstile-150x150.png&quot;/&gt;
+      &lt;TileColor&gt;#603CBA&lt;/TileColor&gt;
+    &lt;/tile&gt;
+  &lt;/msapplication&gt;
+&lt;/browserconfig&gt;
+</code></pre>
 
-                <p class="footnote">
-                    submitted <time datetime="2014-12-15T19:11:58-06:00" class="post-list timeago">2014-12-15T19:11:58-06:00</time>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                </p>
-            </li>
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/google-ties-map-features/">Google Ties Map Features</a>
-
-                <p class="footnote">
-                    submitted <time datetime="2014-10-03T16:12:33-06:00" class="post-list timeago">2014-10-03T16:12:33-06:00</time>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                </p>
-            </li>
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/goals-vs-dreams/">Goals vs Dreams</a>
-
-                <p class="footnote">
-                    submitted <time datetime="2012-08-14T19:03:10-06:00" class="post-list timeago">2012-08-14T19:03:10-06:00</time>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                </p>
-            </li>
-            
-            
-            
-            <li>
-                <a href="http://www.elimarshal.com/post/ikea-standing-desk/">IKEA standing desk</a>
-
-                <p class="footnote">
-                    submitted <time datetime="2012-02-09T18:53:38-06:00" class="post-list timeago">2012-02-09T18:53:38-06:00</time>
-
-                    
-
-                    
-
-                    
-
-                    
-
-                </p>
-            </li>
-            
-            
-        </ul>
+            </div>
+        </div>
     </div>
     <div class="pure-u-1-24 pure-u-md-1-6"></div>
 </div>
