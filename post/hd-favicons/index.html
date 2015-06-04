@@ -14,11 +14,7 @@
     
     <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/pure-min.css&amp;pure/0.6.0/grids-responsive-min.css">
     <link rel="stylesheet" href="http://www.elimarshal.com/css/custom.css">
-
-    
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
-    
+    <link rel="stylesheet" href="http://www.elimarshal.com/css/monokai.css">
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -87,39 +83,42 @@ Windows Tiles: <a href="../../mstile-70x70.png">95x95 icon with 128x128 canvas</
 
 <h6 id="html:38512d0adf93f667f0000126e663e0de">HTML</h6>
 
-<pre><code class="language-html">&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;/apple-touch-icon-180x180.png&quot;&gt;
-&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;/favicon-32x32.png&quot; sizes=&quot;32x32&quot;&gt;
-&lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
-</code></pre>
+<p><div class="highlight"><pre><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;apple-touch-icon&quot;</span> <span class="na">sizes=</span><span class="s">&quot;180x180&quot;</span> <span class="na">href=</span><span class="s">&quot;/apple-touch-icon-180x180.png&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;icon&quot;</span> <span class="na">type=</span><span class="s">&quot;image/png&quot;</span> <span class="na">href=</span><span class="s">&quot;/favicon-32x32.png&quot;</span> <span class="na">sizes=</span><span class="s">&quot;32x32&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;manifest&quot;</span> <span class="na">href=</span><span class="s">&quot;/manifest.json&quot;</span><span class="nt">&gt;</span>
+</pre></div>
+</p>
 
 <h5 id="manifest-json-for-android:38512d0adf93f667f0000126e663e0de">manifest.json (for Android)</h5>
 
-<pre><code class="language-json">{
-    &quot;name&quot;: &quot;elimarshal.com&quot;,
-    &quot;icons&quot;: [
-        {
-            &quot;src&quot;: &quot;\/android-chrome-192x192.png&quot;,
-            &quot;sizes&quot;: &quot;192x192&quot;,
-            &quot;type&quot;: &quot;image\/png&quot;,
-            &quot;density&quot;: &quot;4.0&quot;
-        }
-    ]
-}
-</code></pre>
+<p><div class="highlight"><pre><span class="p">{</span>
+    <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;elimarshal.com&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;icons&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="nt">&quot;src&quot;</span><span class="p">:</span> <span class="s2">&quot;\/android-chrome-192x192.png&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;sizes&quot;</span><span class="p">:</span> <span class="s2">&quot;192x192&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;image\/png&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;density&quot;</span><span class="p">:</span> <span class="s2">&quot;4.0&quot;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</p>
 
 <h5 id="browserconfig-xml-for-ie:38512d0adf93f667f0000126e663e0de">browserconfig.xml (for IE)</h5>
 
-<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;browserconfig&gt;
-  &lt;msapplication&gt;
-    &lt;tile&gt;
-      &lt;square70x70logo src=&quot;/mstile-70x70.png&quot;/&gt;
-      &lt;square150x150logo src=&quot;/mstile-150x150.png&quot;/&gt;
-      &lt;TileColor&gt;#603CBA&lt;/TileColor&gt;
-    &lt;/tile&gt;
-  &lt;/msapplication&gt;
-&lt;/browserconfig&gt;
-</code></pre>
+<p><div class="highlight"><pre><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="nt">&lt;browserconfig&gt;</span>
+  <span class="nt">&lt;msapplication&gt;</span>
+    <span class="nt">&lt;tile&gt;</span>
+      <span class="nt">&lt;square70x70logo</span> <span class="na">src=</span><span class="s">&quot;/mstile-70x70.png&quot;</span><span class="nt">/&gt;</span>
+      <span class="nt">&lt;square150x150logo</span> <span class="na">src=</span><span class="s">&quot;/mstile-150x150.png&quot;</span><span class="nt">/&gt;</span>
+      <span class="nt">&lt;TileColor&gt;</span>#603CBA<span class="nt">&lt;/TileColor&gt;</span>
+    <span class="nt">&lt;/tile&gt;</span>
+  <span class="nt">&lt;/msapplication&gt;</span>
+<span class="nt">&lt;/browserconfig&gt;</span>
+</pre></div>
+</p>
 
             </div>
         </div>
@@ -154,9 +153,6 @@ Windows Tiles: <a href="../../mstile-70x70.png">95x95 icon with 128x128 canvas</
     </div>
     <div class="pure-u-1-24 pure-u-md-1-6"></div>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
 

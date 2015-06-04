@@ -34,39 +34,42 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
 
 &lt;h6 id=&#34;html:38512d0adf93f667f0000126e663e0de&#34;&gt;HTML&lt;/h6&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;apple-touch-icon&amp;quot; sizes=&amp;quot;180x180&amp;quot; href=&amp;quot;/apple-touch-icon-180x180.png&amp;quot;&amp;gt;
-&amp;lt;link rel=&amp;quot;icon&amp;quot; type=&amp;quot;image/png&amp;quot; href=&amp;quot;/favicon-32x32.png&amp;quot; sizes=&amp;quot;32x32&amp;quot;&amp;gt;
-&amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;/manifest.json&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;apple-touch-icon&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;sizes=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;180x180&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/apple-touch-icon-180x180.png&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;icon&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;image/png&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/favicon-32x32.png&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;sizes=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;32x32&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;manifest&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/manifest.json&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;h5 id=&#34;manifest-json-for-android:38512d0adf93f667f0000126e663e0de&#34;&gt;manifest.json (for Android)&lt;/h5&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
-    &amp;quot;name&amp;quot;: &amp;quot;elimarshal.com&amp;quot;,
-    &amp;quot;icons&amp;quot;: [
-        {
-            &amp;quot;src&amp;quot;: &amp;quot;\/android-chrome-192x192.png&amp;quot;,
-            &amp;quot;sizes&amp;quot;: &amp;quot;192x192&amp;quot;,
-            &amp;quot;type&amp;quot;: &amp;quot;image\/png&amp;quot;,
-            &amp;quot;density&amp;quot;: &amp;quot;4.0&amp;quot;
-        }
-    ]
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;elimarshal.com&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;quot;icons&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;nt&#34;&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;\/android-chrome-192x192.png&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;nt&#34;&gt;&amp;quot;sizes&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;192x192&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;nt&#34;&gt;&amp;quot;type&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;image\/png&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;nt&#34;&gt;&amp;quot;density&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;4.0&amp;quot;&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;h5 id=&#34;browserconfig-xml-for-ie:38512d0adf93f667f0000126e663e0de&#34;&gt;browserconfig.xml (for IE)&lt;/h5&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-xml&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;
-&amp;lt;browserconfig&amp;gt;
-  &amp;lt;msapplication&amp;gt;
-    &amp;lt;tile&amp;gt;
-      &amp;lt;square70x70logo src=&amp;quot;/mstile-70x70.png&amp;quot;/&amp;gt;
-      &amp;lt;square150x150logo src=&amp;quot;/mstile-150x150.png&amp;quot;/&amp;gt;
-      &amp;lt;TileColor&amp;gt;#603CBA&amp;lt;/TileColor&amp;gt;
-    &amp;lt;/tile&amp;gt;
-  &amp;lt;/msapplication&amp;gt;
-&amp;lt;/browserconfig&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;browserconfig&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;msapplication&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;tile&amp;gt;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;&amp;lt;square70x70logo&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/mstile-70x70.png&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;&amp;lt;square150x150logo&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/mstile-150x150.png&amp;quot;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span class=&#34;nt&#34;&gt;&amp;lt;TileColor&amp;gt;&lt;/span&gt;#603CBA&lt;span class=&#34;nt&#34;&gt;&amp;lt;/TileColor&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;/tile&amp;gt;&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/msapplication&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/browserconfig&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -144,7 +147,7 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
       <pubDate>Thu, 14 May 2015 19:14:24 -0600</pubDate>
       
       <guid>http://www.elimarshal.com/about/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/EMarshal/EMarshal.github.io&#34;&gt;This blog&lt;/a&gt; is generated using &lt;a href=&#34;http://www.gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and a variation of the &lt;a href=&#34;https://github.com/EMarshal/nofancy&#34;&gt;nofancy&lt;/a&gt; theme and hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;, using &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt; for domain and DNS hosting. Nofancy is powered by recent versions of &lt;a href=&#34;http://purecss.io/&#34;&gt;Pure&lt;/a&gt; and &lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;, should be valid &lt;a href=&#34;https://html5.validator.nu/?doc=http%3A%2F%2Fwww.elimarshal.com%2F&#34;&gt;HTML5&lt;/a&gt; and &lt;a href=&#34;http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.elimarshal.com%2F&#34;&gt;CSS3&lt;/a&gt; (other than some bits from Pure) and should display correctly in any modern browser.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/EMarshal/EMarshal.github.io&#34;&gt;This blog&lt;/a&gt; is generated using &lt;a href=&#34;http://www.gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and a variation of the &lt;a href=&#34;https://github.com/EMarshal/nofancy&#34;&gt;nofancy&lt;/a&gt; theme and hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;, using &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt; for domain and DNS hosting. Nofancy is powered by recent versions of &lt;a href=&#34;http://purecss.io/&#34;&gt;Pure&lt;/a&gt; and &lt;a href=&#34;http://pygments.org/&#34;&gt;Pygments&lt;/a&gt;, should be valid &lt;a href=&#34;https://html5.validator.nu/?doc=http%3A%2F%2Fwww.elimarshal.com%2F&#34;&gt;HTML5&lt;/a&gt; and &lt;a href=&#34;http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.elimarshal.com%2F&#34;&gt;CSS3&lt;/a&gt; (other than some bits from Pure) and should display correctly in any modern browser.&lt;/p&gt;
 
 &lt;p&gt;I live in &lt;a href=&#34;https://en.wikipedia.org/wiki/Calgary&#34;&gt;Calgary&lt;/a&gt;. It&amp;rsquo;s a nice place.&lt;/p&gt;
 
