@@ -179,15 +179,15 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
       <guid>http://www.elimarshal.com/post/Google-ties-map-features/</guid>
       <description>&lt;p&gt;Google Maps used to have a nice feature where, when logged in to your Google account, you could add named destinations. Once they were saved, you could type the destination like &amp;ldquo;work&amp;rdquo; when looking for directions, and the address would populate automatically, like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../img/OldDestinations.png&#34; alt=&#34;Old Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/OldDestinations.png&#34; alt=&#34;Old Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This was lovely, but some time ago (mid-2013) Google disabled this feature unless you enable Web History to store all of your searches (among other things):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../img/WebHistoryPermissions.png&#34; alt=&#34;Web History Permissions&#34; width=&#34;663&#34; height=&#34;243&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/WebHistoryPermissions.png&#34; alt=&#34;Web History Permissions&#34; width=&#34;663&#34; height=&#34;243&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if you don&amp;rsquo;t enable web history you get a significantly less useful destinations view; even if you&amp;rsquo;ve manually saved and added destination addresses, they don&amp;rsquo;t autopopulate:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../img/NewDestinations.png&#34; alt=&#34;New Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/NewDestinations.png&#34; alt=&#34;New Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a case of &lt;a href=&#34;https://en.wikipedia.org/wiki/Tying_%28commerce%29&#34;&gt;tying&lt;/a&gt;. Unfortunately, since this change was implemented, I don&amp;rsquo;t think I&amp;rsquo;ve seen it mentioned in a single location.&lt;/p&gt;
 </description>
