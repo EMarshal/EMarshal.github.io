@@ -18,7 +18,9 @@
       <guid>https://www.elimarshal.com/colophon/</guid>
       <description>&lt;p&gt;Hosting: &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Domain/DNS Hosting: &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Domain Hosting: &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DNS/CDN: &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Static Site Generator: &lt;a href=&#34;http://www.gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;
 
