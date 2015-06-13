@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on elimarshal.com</title>
-    <link>http://www.elimarshal.com/post/</link>
+    <link>https://www.elimarshal.com/post/</link>
     <description>Recent content in Posts on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
     <lastBuildDate>Mon, 01 Jun 2015 12:36:01 -0600</lastBuildDate>
-    <atom:link href="http://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>HD favicons</title>
-      <link>http://www.elimarshal.com/post/HD-favicons/</link>
+      <link>https://www.elimarshal.com/post/HD-favicons/</link>
       <pubDate>Mon, 01 Jun 2015 12:36:01 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/HD-favicons/</guid>
+      <guid>https://www.elimarshal.com/post/HD-favicons/</guid>
       <description>
 
 &lt;p&gt;Decided to add favicons and touch icons to the site. I&amp;rsquo;ve got no design skills, so used &lt;a href=&#34;https://jdenticon.com/&#34;&gt;Jdenticon&lt;/a&gt; to generate icons based on my name.  &lt;a href=&#34;https://realfavicongenerator.net/&#34;&gt;RealFaviconGenerator&lt;/a&gt; will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their &lt;a href=&#34;https://realfavicongenerator.net/faq&#34;&gt;FAQ&lt;/a&gt; to piece together the requirements for that.&lt;/p&gt;
@@ -75,10 +75,10 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
     
     <item>
       <title>mobile ad blocking</title>
-      <link>http://www.elimarshal.com/post/mobile-ad-blocking/</link>
+      <link>https://www.elimarshal.com/post/mobile-ad-blocking/</link>
       <pubDate>Mon, 25 May 2015 07:34:27 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/mobile-ad-blocking/</guid>
+      <guid>https://www.elimarshal.com/post/mobile-ad-blocking/</guid>
       <description>
 
 &lt;p&gt;This isn&amp;rsquo;t meant to be a comprehensive guide, but rather a summary of the best available options. (They&amp;rsquo;re not great, but indications are that they&amp;rsquo;ll be improving in the near future.)&lt;/p&gt;
@@ -103,10 +103,10 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
     
     <item>
       <title>Apple Watch review</title>
-      <link>http://www.elimarshal.com/post/Apple-Watch-review/</link>
+      <link>https://www.elimarshal.com/post/Apple-Watch-review/</link>
       <pubDate>Sat, 23 May 2015 07:05:22 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/Apple-Watch-review/</guid>
+      <guid>https://www.elimarshal.com/post/Apple-Watch-review/</guid>
       <description>&lt;p&gt;Summary: It only works with iPhones, so it&amp;rsquo;s useless to me.&lt;/p&gt;
 
 &lt;p&gt;Note that it doesn&amp;rsquo;t only work with iOS devices, it&amp;rsquo;s specifically limited to the &lt;em&gt;iPhone&lt;/em&gt;, compatibility is articifically limited from both iPads and iPods.&lt;/p&gt;
@@ -143,10 +143,10 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
     
     <item>
       <title>two years with the Surface RT</title>
-      <link>http://www.elimarshal.com/post/two-years-with-the-Surface-RT/</link>
+      <link>https://www.elimarshal.com/post/two-years-with-the-Surface-RT/</link>
       <pubDate>Mon, 15 Dec 2014 19:11:58 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/two-years-with-the-Surface-RT/</guid>
+      <guid>https://www.elimarshal.com/post/two-years-with-the-Surface-RT/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve now owned the original 64 GB Surface RT for just over two years. In that time I&amp;rsquo;ve probably averaged 20 minutes or so of use per day, including days with no usage, and days with 8+ hours of usage.&lt;/p&gt;
 
 &lt;p&gt;My general observations on the device, not intended to be a full review so long after release:&lt;/p&gt;
@@ -173,10 +173,10 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
     
     <item>
       <title>Google ties map features</title>
-      <link>http://www.elimarshal.com/post/Google-ties-map-features/</link>
+      <link>https://www.elimarshal.com/post/Google-ties-map-features/</link>
       <pubDate>Fri, 03 Oct 2014 16:12:33 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/Google-ties-map-features/</guid>
+      <guid>https://www.elimarshal.com/post/Google-ties-map-features/</guid>
       <description>&lt;p&gt;Google Maps used to have a nice feature where, when logged in to your Google account, you could add named destinations. Once they were saved, you could type the destination like &amp;ldquo;work&amp;rdquo; when looking for directions, and the address would populate automatically, like so:&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/OldDestinations.png&#34; alt=&#34;Old Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
@@ -195,10 +195,10 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
     
     <item>
       <title>goals vs dreams</title>
-      <link>http://www.elimarshal.com/post/goals-vs-dreams/</link>
+      <link>https://www.elimarshal.com/post/goals-vs-dreams/</link>
       <pubDate>Tue, 14 Aug 2012 19:03:10 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/goals-vs-dreams/</guid>
+      <guid>https://www.elimarshal.com/post/goals-vs-dreams/</guid>
       <description>&lt;p&gt;I recently made a relatively flippant comment to a friend (&amp;ldquo;I don&amp;rsquo;t set goals, I just excel at everything.&amp;rdquo;) and felt the need to elaborate.&lt;/p&gt;
 
 &lt;p&gt;There are two main points of contention in how I view goals. The first is purely a semantic issue; I view goals as a &lt;strong&gt;clearly achievable, likely set of circumstances achievable by following a certain set of actions&lt;/strong&gt;. Buying two lottery tickets every week is a goal. &lt;em&gt;Winning&lt;/em&gt; the lottery is a dream, not a goal.&lt;/p&gt;
@@ -229,10 +229,10 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
     
     <item>
       <title>IKEA standing desk</title>
-      <link>http://www.elimarshal.com/post/IKEA-standing-desk/</link>
+      <link>https://www.elimarshal.com/post/IKEA-standing-desk/</link>
       <pubDate>Thu, 09 Feb 2012 18:53:38 -0600</pubDate>
       
-      <guid>http://www.elimarshal.com/post/IKEA-standing-desk/</guid>
+      <guid>https://www.elimarshal.com/post/IKEA-standing-desk/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d been bouncing around the idea of a standing desk for health/comfort reasons for quite some time, but having a quality desk and chair already, I wasn&amp;rsquo;t particularly motivated to do anything about it. Finally after moving to a location with an IKEA for the first time in my life, I hit up Google for ways to build a standing desk setup without any power tools.&lt;/p&gt;
 
 &lt;p&gt;Eventually I settled on using the &lt;a href=&#34;http://www.ikeahackers.net/2011/02/gallant-standing-desk.html&#34;&gt;IKEA Hackers: Galant Standing Desk&lt;/a&gt; post as a basis for my desk.&lt;/p&gt;
