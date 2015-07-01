@@ -7,8 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Sat, 06 Jun 2015 11:54:08 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2015 13:04:20 -0600</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>decrapifying Acrobat Reader DC</title>
+      <link>https://www.elimarshal.com/post/decrapifying-Acrobat-Reader-DC/</link>
+      <pubDate>Wed, 01 Jul 2015 13:04:20 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/decrapifying-Acrobat-Reader-DC/</guid>
+      <description>
+
+&lt;p&gt;In an ideal world I&amp;rsquo;d simply eschew Adobe products and use &lt;a href=&#34;https://wiki.gnome.org/Apps/Evince&#34;&gt;Evince&lt;/a&gt; and/or &lt;a href=&#34;https://mozilla.github.io/pdf.js/&#34;&gt;PDF.js&lt;/a&gt; for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows developement projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:&lt;/p&gt;
+
+&lt;h5 id=&#34;download:aed31d4fdfe56ddbc94c77fadd67b06c&#34;&gt;Download:&lt;/h5&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/devnet-docs/acrobatetk/tools/Wizard/index.html&#34;&gt;Adobe Customization Wizard DC Windows (both tracks)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotes/index.html&#34;&gt;Acrobat Reader DC Continuous Track&lt;/a&gt; (Get the file for your language to save some space/time.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&#34;setup:aed31d4fdfe56ddbc94c77fadd67b06c&#34;&gt;Setup:&lt;/h5&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install the Adobe Customization Wizard.&lt;/li&gt;
+&lt;li&gt;Run the wizard and select the Acrobat Reader DC msi file.&lt;/li&gt;
+&lt;li&gt;Select the options you wish: (Also observe Adobe&amp;rsquo;s attention to HiDPI detail in the screenshots.)
+&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard1.png&#34; alt=&#34;Personalization Options&#34; width=&#34;684&#34; height=&#34;889.5&#34; /&gt;&lt;br /&gt;
+&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard2.png&#34; alt=&#34;Installation Options&#34; width=&#34;684&#34; height=&#34;889.5&#34; /&gt;&lt;br /&gt;
+&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard3.png&#34; alt=&#34;Online Services and Features&#34; width=&#34;684&#34; height=&#34;889.5&#34; /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)&lt;/li&gt;
+&lt;li&gt;At the command line run &amp;lsquo;msiexec /i ADOBEINSTALLER.msi TRANSFORMS=&amp;ldquo;ADOBETRANSFORM.mst&amp;rdquo;&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;Open services.msc to disable the &amp;ldquo;Adobe Acrobat Update Service&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Open the task schedular to disable &amp;ldquo;Adobe Acrobat Update Task&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Open Acrobat Reader DC, open Preferences, General pane, under &amp;ldquo;Messages from Adobe&amp;rdquo; deselect &amp;ldquo;Show me messages when I launch Adobe Acrobat Reader DC&amp;rdquo; and select &amp;ldquo;Don&amp;rsquo;t show messages while viewing a document&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Uninstall Acrobat Customization Wizard DC.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>colophon</title>

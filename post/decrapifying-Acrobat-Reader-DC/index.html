@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>decrapifying Acrobat Reader DC</title>
+    <meta name="description" content="decrapifying Acrobat Reader DC">
+    <meta name="author" content="Éli Marshal">
+    <meta name="generator" content="Hugo 0.14" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://www.elimarshal.com/css/custom.css">
+    <link rel="stylesheet" href="https://www.elimarshal.com/css/monokai.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="manifest" href="/manifest.json">
+    
+    
+</head>
+<body>
+
+<div class="header pure-g">
+    <div class="pure-u-1-24 pure-u-md-5-24"></div>
+    <div class="pure-u-11-12 pure-u-md-5-8">
+        <div class="mobile pure-menu pure-menu-horizontal nav-menu">
+            <a href="/" class="site-title pure-menu-heading" id="toggle-home">elimarshal.com</a>
+            <input type="checkbox" id="toggle" checked hidden>
+            <label for="toggle" class="menu-btn" id="show-btn">&#9776;</label>
+            <label for="toggle" class="menu-btn" id="hide-btn">X</label>
+            <label for="toggle" class="menu-btn" id="hide-btn-fullpage">X</label>
+            <ul class="pure-menu-list" id="toggle-content">
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.elimarshal.com/about" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-1-24 pure-u-md-5-24"></div>
+    <div class="pure-u-11-12 pure-u-md-5-8">
+        <div class="post">
+            <div class="post-title">
+                <p class="footnote">
+                    
+                    <time class="">2015-07-01</time>
+                    
+                    
+                    
+                    
+                    
+                    
+                </p>
+                <h1>decrapifying Acrobat Reader DC</h1>
+            </div>
+            <div class="post-content">
+                
+
+<p>In an ideal world I&rsquo;d simply eschew Adobe products and use <a href="https://wiki.gnome.org/Apps/Evince">Evince</a> and/or <a href="https://mozilla.github.io/pdf.js/">PDF.js</a> for my PDF requirements. Unfortunately I require Adobe&rsquo;s COM Interop for some Windows developement projects I&rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:</p>
+
+<h5 id="download:aed31d4fdfe56ddbc94c77fadd67b06c">Download:</h5>
+
+<ol>
+<li><a href="https://www.adobe.com/devnet-docs/acrobatetk/tools/Wizard/index.html">Adobe Customization Wizard DC Windows (both tracks)</a><br /></li>
+<li><a href="https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotes/index.html">Acrobat Reader DC Continuous Track</a> (Get the file for your language to save some space/time.)</li>
+</ol>
+
+<h5 id="setup:aed31d4fdfe56ddbc94c77fadd67b06c">Setup:</h5>
+
+<ol>
+<li>Install the Adobe Customization Wizard.</li>
+<li>Run the wizard and select the Acrobat Reader DC msi file.</li>
+<li>Select the options you wish: (Also observe Adobe&rsquo;s attention to HiDPI detail in the screenshots.)
+<img class="pure-img" src="../../img/AdobeWizard1.png" alt="Personalization Options" width="684" height="889.5" /><br />
+<img class="pure-img" src="../../img/AdobeWizard2.png" alt="Installation Options" width="684" height="889.5" /><br />
+<img class="pure-img" src="../../img/AdobeWizard3.png" alt="Online Services and Features" width="684" height="889.5" /><br /></li>
+<li>Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)</li>
+<li>At the command line run &lsquo;msiexec /i ADOBEINSTALLER.msi TRANSFORMS=&ldquo;ADOBETRANSFORM.mst&rdquo;&rsquo;.</li>
+<li>Open services.msc to disable the &ldquo;Adobe Acrobat Update Service&rdquo;.</li>
+<li>Open the task schedular to disable &ldquo;Adobe Acrobat Update Task&rdquo;.</li>
+<li>Open Acrobat Reader DC, open Preferences, General pane, under &ldquo;Messages from Adobe&rdquo; deselect &ldquo;Show me messages when I launch Adobe Acrobat Reader DC&rdquo; and select &ldquo;Don&rsquo;t show messages while viewing a document&rdquo;.</li>
+<li>Uninstall Acrobat Customization Wizard DC.</li>
+</ol>
+
+            </div>
+        </div>
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+<div class="footer pure-g">
+    <div class="pure-u-1-24 pure-u-md-5-24"></div>
+    <div class="pure-u-11-12 pure-u-md-5-8">
+        <div class="pure-menu pure-menu-horizontal footer-content">
+            <ul>
+                <li class="pure-menu-heading" id="foot-name">Éli Marshal:</li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://github.com/EMarshal" target="_blank" class="pure-menu-link social github">GitHub</a>
+                </li>
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.elimarshal.com/index.xml" type="application/rss+xml" target="_blank" class="pure-menu-link social feed">Feed</a>
+                </li>
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+    <div class="pure-u-1-24 pure-u-md-1-6"></div>
+</div>
+</body>
+</html>
+
