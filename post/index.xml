@@ -33,9 +33,9 @@
 &lt;li&gt;Install the Adobe Customization Wizard.&lt;/li&gt;
 &lt;li&gt;Run the wizard and select the Acrobat Reader DC msi file.&lt;/li&gt;
 &lt;li&gt;Select the options you wish: (Also observe Adobe&amp;rsquo;s attention to HiDPI detail in the screenshots.)
-&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard1.png&#34; alt=&#34;Personalization Options&#34; width=&#34;684&#34; height=&#34;889.5&#34; /&gt;&lt;br /&gt;
-&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard2.png&#34; alt=&#34;Installation Options&#34; width=&#34;684&#34; height=&#34;889.5&#34; /&gt;&lt;br /&gt;
-&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard3.png&#34; alt=&#34;Online Services and Features&#34; width=&#34;684&#34; height=&#34;889.5&#34; /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard1.png&#34; alt=&#34;Personalization Options&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;br /&gt;
+&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard2.png&#34; alt=&#34;Installation Options&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;br /&gt;
+&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard3.png&#34; alt=&#34;Online Services and Features&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)&lt;/li&gt;
 &lt;li&gt;At the command line run &amp;lsquo;msiexec /i ADOBEINSTALLER.msi TRANSFORMS=&amp;ldquo;ADOBETRANSFORM.mst&amp;rdquo;&amp;rsquo;.&lt;/li&gt;
 &lt;li&gt;Open services.msc to disable the &amp;ldquo;Adobe Acrobat Update Service&amp;rdquo;.&lt;/li&gt;
