@@ -79,12 +79,14 @@
 <ol>
 <li>Install the Adobe Customization Wizard.</li>
 <li>Run the wizard and select the Acrobat Reader DC msi file.</li>
-<li>Select the options you wish: (Also observe Adobe&rsquo;s attention to HiDPI detail in the screenshots.)
-<img class="pure-img" src="../../img/AdobeWizard1.png" alt="Personalization Options" width="886" height="684" /><br />
-<img class="pure-img" src="../../img/AdobeWizard2.png" alt="Installation Options" width="886" height="684" /><br />
-<img class="pure-img" src="../../img/AdobeWizard3.png" alt="Online Services and Features" width="886" height="684" /><br /></li>
+<li>Observe Adobe&rsquo;s attention to HiDPI detail in the screenshots below and select the options you wish:
+<a href="../../img/AdobeWizard1.png"><img class="pure-img" src="../../img/AdobeWizard1.png" alt="Personalization Options" width="886" height="684" /></a><br />
+<a href="../../img/AdobeWizard2.png"><img class="pure-img" src="../../img/AdobeWizard2.png" alt="Installation Options" width="886" height="684" /></a><br />
+<a href="../../img/AdobeWizard3.png"><img class="pure-img" src="../../img/AdobeWizard3.png" alt="Online Services and Features" width="886" height="684" /></a><br /></li>
 <li>Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)</li>
-<li>At the command line run &lsquo;msiexec /i ADOBEINSTALLER.msi TRANSFORMS=&ldquo;ADOBETRANSFORM.mst&rdquo;&rsquo;.</li>
+<li>At the command line run: <div class="highlight"><pre><span class="n">msiexec</span> <span class="p">/</span><span class="n">i</span> <span class="n">ADOBEINSTALLER</span><span class="p">.</span><span class="n">msi</span> <span class="n">TRANSFORMS</span><span class="p">=</span><span class="s2">&quot;ADOBETRANSFORM.mst&quot;</span>
+</pre></div>
+</li>
 <li>Open services.msc to disable the &ldquo;Adobe Acrobat Update Service&rdquo;.</li>
 <li>Open the task schedular to disable &ldquo;Adobe Acrobat Update Task&rdquo;.</li>
 <li>Open Acrobat Reader DC, open Preferences, General pane, under &ldquo;Messages from Adobe&rdquo; deselect &ldquo;Show me messages when I launch Adobe Acrobat Reader DC&rdquo; and select &ldquo;Don&rsquo;t show messages while viewing a document&rdquo;.</li>

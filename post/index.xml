@@ -32,12 +32,14 @@
 &lt;ol&gt;
 &lt;li&gt;Install the Adobe Customization Wizard.&lt;/li&gt;
 &lt;li&gt;Run the wizard and select the Acrobat Reader DC msi file.&lt;/li&gt;
-&lt;li&gt;Select the options you wish: (Also observe Adobe&amp;rsquo;s attention to HiDPI detail in the screenshots.)
-&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard1.png&#34; alt=&#34;Personalization Options&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;br /&gt;
-&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard2.png&#34; alt=&#34;Installation Options&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;br /&gt;
-&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard3.png&#34; alt=&#34;Online Services and Features&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Observe Adobe&amp;rsquo;s attention to HiDPI detail in the screenshots below and select the options you wish:
+&lt;a href=&#34;../../img/AdobeWizard1.png&#34;&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard1.png&#34; alt=&#34;Personalization Options&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;../../img/AdobeWizard2.png&#34;&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard2.png&#34; alt=&#34;Installation Options&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;../../img/AdobeWizard3.png&#34;&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/AdobeWizard3.png&#34; alt=&#34;Online Services and Features&#34; width=&#34;886&#34; height=&#34;684&#34; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)&lt;/li&gt;
-&lt;li&gt;At the command line run &amp;lsquo;msiexec /i ADOBEINSTALLER.msi TRANSFORMS=&amp;ldquo;ADOBETRANSFORM.mst&amp;rdquo;&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;At the command line run: &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;n&#34;&gt;msiexec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ADOBEINSTALLER&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;msi&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;TRANSFORMS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;quot;ADOBETRANSFORM.mst&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
 &lt;li&gt;Open services.msc to disable the &amp;ldquo;Adobe Acrobat Update Service&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Open the task schedular to disable &amp;ldquo;Adobe Acrobat Update Task&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Open Acrobat Reader DC, open Preferences, General pane, under &amp;ldquo;Messages from Adobe&amp;rdquo; deselect &amp;ldquo;Show me messages when I launch Adobe Acrobat Reader DC&amp;rdquo; and select &amp;ldquo;Don&amp;rsquo;t show messages while viewing a document&amp;rdquo;.&lt;/li&gt;
@@ -215,15 +217,15 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
       <guid>https://www.elimarshal.com/post/Google-ties-map-features/</guid>
       <description>&lt;p&gt;Google Maps used to have a nice feature where, when logged in to your Google account, you could add named destinations. Once they were saved, you could type the destination like &amp;ldquo;work&amp;rdquo; when looking for directions, and the address would populate automatically, like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/OldDestinations.png&#34; alt=&#34;Old Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../img/OldDestinations.png&#34;&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/OldDestinations.png&#34; alt=&#34;Old Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This was lovely, but some time ago (mid-2013) Google disabled this feature unless you enable Web History to store all of your searches (among other things):&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/WebHistoryPermissions.png&#34; alt=&#34;Web History Permissions&#34; width=&#34;663&#34; height=&#34;243&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../img/WebHistoryPermissions.png&#34;&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/WebHistoryPermissions.png&#34; alt=&#34;Web History Permissions&#34; width=&#34;663&#34; height=&#34;243&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if you don&amp;rsquo;t enable web history you get a significantly less useful destinations view; even if you&amp;rsquo;ve manually saved and added destination addresses, they don&amp;rsquo;t autopopulate:&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/NewDestinations.png&#34; alt=&#34;New Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../img/NewDestinations.png&#34;&gt;&lt;img class=&#34;pure-img&#34; src=&#34;../../img/NewDestinations.png&#34; alt=&#34;New Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a case of &lt;a href=&#34;https://en.wikipedia.org/wiki/Tying_%28commerce%29&#34;&gt;tying&lt;/a&gt;. Unfortunately, since this change was implemented, I don&amp;rsquo;t think I&amp;rsquo;ve seen it mentioned in a single location.&lt;/p&gt;
 </description>
