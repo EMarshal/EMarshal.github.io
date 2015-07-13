@@ -49,6 +49,20 @@
     </item>
     
     <item>
+      <title>Alberta Health - third party software</title>
+      <link>https://www.elimarshal.com/Alberta-Health-third-party-software/</link>
+      <pubDate>Sat, 06 Jun 2015 20:28:38 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/Alberta-Health-third-party-software/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://fakeiteasy.github.io/&#34;&gt;FakeItEasy&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.newtonsoft.com/json&#34;&gt;Json.NET&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/MvvmCross/MvvmCross&#34;&gt;MvvmCross&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://simpleinjector.org/&#34;&gt;Simple Injector&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://xunit.github.io/&#34;&gt;xUnit.net&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>colophon</title>
       <link>https://www.elimarshal.com/colophon/</link>
       <pubDate>Sat, 06 Jun 2015 11:54:08 -0600</pubDate>
@@ -220,6 +234,8 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
 &lt;p&gt;I own some &lt;a href=&#34;../goods/&#34;&gt;goods&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I type using the &lt;a href=&#34;https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard&#34;&gt;Dvorak&lt;/a&gt; keyboard layout.&lt;/p&gt;
+
+&lt;p&gt;I publish the Windows Phone app &lt;a href=&#34;https://www.windowsphone.com/en-ca/store/app/alberta-health/5709b114-865f-43e2-a4b2-96a013699b6f&#34;&gt;Alberta Health&lt;/a&gt; (with the help of &lt;a href=&#34;../Alberta-Health-third-party-software/&#34;&gt;third-party software&lt;/a&gt;) which provides hospital wait times and broadly equivalent functionality to the &lt;a href=&#34;http://www.albertahealthservices.ca/mobile.asp&#34;&gt;AHS mobile apps&lt;/a&gt;. Backend service hosted on &lt;a href=&#34;https://azure.microsoft.com/en-us/&#34;&gt;Microsoft Azure&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
