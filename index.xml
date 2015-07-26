@@ -68,7 +68,9 @@
       <pubDate>Sat, 06 Jun 2015 11:54:08 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/colophon/</guid>
-      <description>&lt;p&gt;Hosting: &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;This blog is built in &lt;a href=&#34;https://en.wikipedia.org/wiki/HTML5&#34;&gt;HTML5&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Cascading_Style_Sheets&#34;&gt;CSS&lt;/a&gt;. No &lt;a href=&#34;https://en.wikipedia.org/wiki/JavaScript&#34;&gt;JavaScript&lt;/a&gt; is used, and the only cookie used is the &lt;a href=&#34;https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-&#34;&gt;CloudFlare cfduid cookie&lt;/a&gt;, which you can block without issue the vast majority of the time. (Essentially as long as CloudFlare doesn&amp;rsquo;t flag you for additional security checks.)&lt;/p&gt;
+
+&lt;p&gt;Hosting: &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Domain Hosting: &lt;a href=&#34;https://www.hover.com/&#34;&gt;Hover&lt;/a&gt;&lt;/p&gt;
 
