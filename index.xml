@@ -7,8 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Wed, 01 Jul 2015 13:04:20 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2015 19:36:53 -0600</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SQL limited range attribute</title>
+      <link>https://www.elimarshal.com/post/SQL-limited-range-attribute/</link>
+      <pubDate>Mon, 14 Sep 2015 19:36:53 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/SQL-limited-range-attribute/</guid>
+      <description>&lt;p&gt;If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with &lt;code&gt;[SQLLimitedRangeAttribute](p, s)&lt;/code&gt;, where p and s are the precision and scale for the data type.&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;EliMarshal.ClassLibrary&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;System.ComponentModel.DataAnnotations&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+
+    &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;summary&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;/// Validates to match SQL Server decimal data with given precision and scale&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;/summary&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;sealed&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;SQLLimitedRangeAttribute&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ValidationAttribute&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// Equal to the scale for the SQL data type.&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;/summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// Initializes a new instance of the &amp;lt;see cref=&amp;quot;SQLLimitedRangeAttribute&amp;quot; /&amp;gt; class.&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;/summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;param name=&amp;quot;precision&amp;quot;&amp;gt;The SQL precision to limit to.&amp;lt;/param&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;param name=&amp;quot;scale&amp;quot;&amp;gt;The SQL scale to limit to.&amp;lt;/param&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;SQLLimitedRangeAttribute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;precision&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;n&#34;&gt;Precision&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;precision&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+            &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// Gets the precision for the SQL data type.&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;/summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Precision&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;set&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// Determines whether the specified value of the object is valid.&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;/summary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;param name=&amp;quot;value&amp;quot;&amp;gt;The value of the object to validate.&amp;lt;/param&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;param name=&amp;quot;validationContext&amp;quot;&amp;gt;The validation context.&amp;lt;/param&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;/// &amp;lt;returns&amp;gt;true if the specified value is valid; otherwise, false.&amp;lt;/returns&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;k&#34;&gt;protected&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;override&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ValidationResult&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;IsValid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ValidationContext&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;validationContext&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nines&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sc&#34;&gt;&amp;#39;9&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Precision&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+            &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;decimalNines&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nines&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Precision&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;scale&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;quot;.&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+            &lt;span class=&#34;kt&#34;&gt;double&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minMaxValue&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;double&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Parse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;decimalNines&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+            
+            &lt;span class=&#34;n&#34;&gt;RangeAttribute&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;range&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;RangeAttribute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;minMaxValue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;minMaxValue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
+            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;IsValid&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ValidationResult&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Success&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+            &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;ValidationResult&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ErrorMessage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>decrapifying Acrobat Reader DC</title>
@@ -305,6 +373,7 @@ Sunglasses: &lt;a href=&#34;http://www.mec.ca/product/5028-058/mec-ace-polarized
 &lt;a href=&#34;http://www.amazon.com/Vivobarefoot-Mens-Evo-Running-Shoe/dp/B005NMZ3TI&#34;&gt;VIVOBAREFOOT Evo&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.amazon.com/Vivobarefoot-Mens-Neo-Running-Shoe/dp/B0078J1064&#34;&gt;VIVOBAREFOOT Neo&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.keenfootwear.com/en-ca/product/shoes/men/gypsum-mid&#34;&gt;Keen Gypsum Mid&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.keenfootwear.com/en-ca/product/shoes/men/the-59&#34;&gt;Keen The 59&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.amazon.com/Teva-Raith-Storm-Waterproof-Hiking/dp/B004KNWNZ8&#34;&gt;Teva Raith Storm&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.chacos.com/CA/en-CA/Product.mvc.aspx/25517M/0/Mens/Z1-Vibram-Unaweep&#34;&gt;Chaco Z1 Vibram Unaweep&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.adidas.ca/en/mens-mundial-team/019228_600.html&#34;&gt;Adidas Mundial Team&lt;/a&gt;&lt;br /&gt;
@@ -322,6 +391,7 @@ Sleeping Bag: &lt;a href=&#34;http://www.mec.ca/product/5025-626/mec-aquila-slee
 &lt;a href=&#34;http://shopping.canoe.ca/shop/product--productId_29673663.html&#34;&gt;MEC Equatorial +15C/+22C&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.azzimov.com/en/product-18886434-mec-viator-down-quilt&#34;&gt;MEC Viator Down Quilt&lt;/a&gt;&lt;br /&gt;
 Sleeping Bag Liner: &lt;a href=&#34;http://www.mec.ca/product/5025-843/mec-silk-sleeping-bag-liner-mummy/&#34;&gt;MEC Silk Mummy&lt;/a&gt;&lt;br /&gt;
+Tent: &lt;a href=&#34;https://www.tarptent.com/double-rainbow.html&#34;&gt;Tarptent Double Rainbow&lt;/a&gt;&lt;br /&gt;
 Trekking Poles: &lt;a href=&#34;http://blackdiamondequipment.com/en/trekking-poles/alpine-carbon-cork-trekking-pole-BD1121410000ALL1.html&#34;&gt;Black Diamond Alpine Carbon Cork&lt;/a&gt;&lt;br /&gt;
 Sleeping Pad: &lt;a href=&#34;http://www.cascadedesigns.com/therm-a-rest/mattresses/fast-and-light/prolite/product&#34;&gt;Therm-a-Rest ProLite&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://blackdiamondequipment.com/en/trekking-poles/trekking-pole-tip-protector-BD1120690000ALL1.html&#34;&gt;Black Diamond Trekking Pole Tip Protector&lt;/a&gt;&lt;/p&gt;
@@ -646,50 +716,6 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
 &lt;p&gt;In general, you ought to attempt to maximize your knowledge, which includes realizing how much knowledge you&amp;rsquo;re currently missing, and how much knowledge is unobtainable (and realizing that there is some knowledge which you&amp;rsquo;re missing and cannot obtain that cannot be quantified - specifically because you don&amp;rsquo;t have that knowledge), while recognizing and attempting to avoid cognitive biases.&lt;/p&gt;
 
 &lt;p&gt;And I don&amp;rsquo;t excel at everything; I&amp;rsquo;m just good at learning quickly, and avoiding or quitting activities which are predisposed towards long-term sub-par performance on my part. (Though I reserve the right to measure performance subjectively - I&amp;rsquo;m objectively bad at swimming, but as I&amp;rsquo;m only concerned with the exercise benefits, I still see swimming as a worthwhile endeavor.)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IKEA standing desk</title>
-      <link>https://www.elimarshal.com/post/IKEA-standing-desk/</link>
-      <pubDate>Thu, 09 Feb 2012 18:53:38 -0600</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/IKEA-standing-desk/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;d been bouncing around the idea of a standing desk for health/comfort reasons for quite some time, but having a quality desk and chair already, I wasn&amp;rsquo;t particularly motivated to do anything about it. Finally after moving to a location with an IKEA for the first time in my life, I hit up Google for ways to build a standing desk setup without any power tools.&lt;/p&gt;
-
-&lt;p&gt;Eventually I settled on using the &lt;a href=&#34;http://www.ikeahackers.net/2011/02/gallant-standing-desk.html&#34;&gt;IKEA Hackers: Galant Standing Desk&lt;/a&gt; post as a basis for my desk.&lt;/p&gt;
-
-&lt;p&gt;Materials:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/S69885229/&#34;&gt;Galant Desk 160 cm x 80 cm with frame&lt;/a&gt; (I wanted a larger desk than the one in the IKEA Hackers post)&lt;/li&gt;
-&lt;li&gt;1 x Galant Table Top 160 cm x 80 cm (no frame, just the table top from above)&lt;/li&gt;
-&lt;li&gt;4 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/40057457/&#34;&gt;Galant A-Leg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;5 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10168720/&#34;&gt;Ekby Töre brackets&lt;/a&gt; (I used an extra bracket in the middle of the desk in the back, because of the extra size and weight)&lt;/li&gt;
-&lt;li&gt;1 x Galant Drawer&lt;/li&gt;
-&lt;li&gt;1 x Summera Pull-out Keyboard Shelf&lt;/li&gt;
-&lt;li&gt;5 x &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&amp;rdquo; Flathead Wood Screws&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This worked quite well for some time, until I upgraded my keyboard to the Kinesis Advantage. For optimal use of this keyboard, I had to lower the height of the desk, which necessitated the creation of a monitor stand to raise the height of my monitor. Again, I used &lt;a href=&#34;http://www.ikeahackers.net/2012/01/12-monitor-stand.html&#34;&gt;IKEA Hackers: $12 Monitor Stand&lt;/a&gt; as  a basis for my build.&lt;/p&gt;
-
-&lt;p&gt;Materials:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10267895/&#34;&gt;4-pack of Ikea Capita Legs - 6&amp;rdquo;&lt;/a&gt; (I use these at the minimum height)&lt;/li&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/20094347/&#34;&gt;Ekby Järpen 119 cm x 28 cm Shelf&lt;/a&gt; (Again, bigger than the original post)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been using the above setup for half a year now, with few complaints. Because of the size, it&amp;rsquo;s a bit difficult to clean of dust, if I moved it to the center of a room rather than a corner, this should get easier. Otherwise, as a standing desk, I&amp;rsquo;m loving it, I can&amp;rsquo;t see myself moving back to a seated desk.&lt;/p&gt;
-
-&lt;p&gt;Next time I move, if it&amp;rsquo;s within driving distance, this setup should be fairly easy to disassemble, otherwise I can just build a new one at my destination, assuming an IKEA is present.&lt;/p&gt;
-
-&lt;p&gt;Update:
-Added a couple pieces to help with cable management:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/30200253/&#34;&gt;Signum Cable management&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

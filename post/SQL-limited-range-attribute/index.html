@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>SQL limited range attribute</title>
+    <meta name="description" content="SQL limited range attribute">
+    <meta name="author" content="Éli Marshal">
+    <meta name="generator" content="Hugo 0.14" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/furtive/2.2.3/furtive.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/menus-min.css">
+    <link rel="stylesheet" href="https://www.elimarshal.com/css/custom.css">
+    <link rel="stylesheet" href="https://www.elimarshal.com/css/monokai.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="manifest" href="/manifest.json">
+    
+    
+</head>
+<body>
+
+<div class="header grd grd-row">
+    <div class="grd-row-col-1-6--md"></div>
+    <div class="grd-row-col-4-6--md">
+        <div class="mobile pure-menu pure-menu-horizontal nav-menu">
+            <a href="/" class="site-title pure-menu-heading" id="toggle-home">elimarshal.com</a>
+            <input type="checkbox" id="toggle" checked hidden>
+            <label for="toggle" class="menu-btn" id="show-btn">&#9776;</label>
+            <label for="toggle" class="menu-btn" id="hide-btn">X</label>
+            <label for="toggle" class="menu-btn" id="hide-btn-fullpage">X</label>
+            <ul class="pure-menu-list" id="toggle-content">
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.elimarshal.com/about" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="grd-row-col-1-6--md"></div>
+</div>
+
+<div class="grd grd-row">
+    <div class="grd-row-col-1-6--md"></div>
+    <div class="grd-row-col-4-6--md">
+        <div class="post">
+            <div class="post-title">
+                <p class="footnote">
+                    
+                    <time class="">2015-09-14</time>
+                    
+                    
+                    
+                    
+                    
+                    
+                </p>
+                <h1>SQL limited range attribute</h1>
+            </div>
+            <div class="post-content">
+                <p>If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with <code>[SQLLimitedRangeAttribute](p, s)</code>, where p and s are the precision and scale for the data type.</p>
+
+<p><div class="highlight"><pre><span class="k">namespace</span> <span class="nn">EliMarshal.ClassLibrary</span>
+<span class="p">{</span>
+    <span class="k">using</span> <span class="nn">System.ComponentModel.DataAnnotations</span><span class="p">;</span>
+
+    <span class="c1">/// &lt;summary&gt;</span>
+    <span class="c1">/// Validates to match SQL Server decimal data with given precision and scale</span>
+    <span class="c1">/// &lt;/summary&gt;</span>
+    <span class="k">public</span> <span class="k">sealed</span> <span class="k">class</span> <span class="nc">SQLLimitedRangeAttribute</span> <span class="p">:</span> <span class="n">ValidationAttribute</span>
+    <span class="p">{</span>
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Equal to the scale for the SQL data type.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="k">private</span> <span class="kt">int</span> <span class="n">scale</span><span class="p">;</span>
+        
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Initializes a new instance of the &lt;see cref=&quot;SQLLimitedRangeAttribute&quot; /&gt; class.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;precision&quot;&gt;The SQL precision to limit to.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;scale&quot;&gt;The SQL scale to limit to.&lt;/param&gt;</span>
+        <span class="k">public</span> <span class="nf">SQLLimitedRangeAttribute</span><span class="p">(</span><span class="kt">int</span> <span class="n">precision</span><span class="p">,</span> <span class="kt">int</span> <span class="n">scale</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">Precision</span> <span class="p">=</span> <span class="n">precision</span><span class="p">;</span>
+            <span class="k">this</span><span class="p">.</span><span class="n">scale</span> <span class="p">=</span> <span class="n">scale</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Gets the precision for the SQL data type.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="k">public</span> <span class="kt">int</span> <span class="n">Precision</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Determines whether the specified value of the object is valid.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;value&quot;&gt;The value of the object to validate.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;validationContext&quot;&gt;The validation context.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;returns&gt;true if the specified value is valid; otherwise, false.&lt;/returns&gt;</span>
+        <span class="k">protected</span> <span class="k">override</span> <span class="n">ValidationResult</span> <span class="nf">IsValid</span><span class="p">(</span><span class="kt">object</span> <span class="k">value</span><span class="p">,</span> <span class="n">ValidationContext</span> <span class="n">validationContext</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">string</span> <span class="n">nines</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">string</span><span class="p">(</span><span class="sc">&#39;9&#39;</span><span class="p">,</span> <span class="n">Precision</span><span class="p">);</span>
+            <span class="kt">string</span> <span class="n">decimalNines</span> <span class="p">=</span> <span class="n">nines</span><span class="p">.</span><span class="n">Insert</span><span class="p">(</span><span class="n">Precision</span> <span class="p">-</span> <span class="n">scale</span><span class="p">,</span> <span class="s">&quot;.&quot;</span><span class="p">);</span>
+            <span class="kt">double</span> <span class="n">minMaxValue</span> <span class="p">=</span> <span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">decimalNines</span><span class="p">);</span>
+            
+            <span class="n">RangeAttribute</span> <span class="n">range</span> <span class="p">=</span> <span class="k">new</span> <span class="n">RangeAttribute</span><span class="p">(-</span><span class="n">minMaxValue</span><span class="p">,</span> <span class="n">minMaxValue</span><span class="p">);</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="n">range</span><span class="p">.</span><span class="n">IsValid</span><span class="p">(</span><span class="k">value</span><span class="p">))</span>
+            <span class="p">{</span>
+                <span class="k">return</span> <span class="n">ValidationResult</span><span class="p">.</span><span class="n">Success</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+            <span class="p">{</span>
+                <span class="k">return</span> <span class="k">new</span> <span class="nf">ValidationResult</span><span class="p">(</span><span class="n">range</span><span class="p">.</span><span class="n">ErrorMessage</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="grd-row-col-1-6--md"></div>
+</div>
+<div class="footer grd grd-row">
+    <div class="grd-row-col-1-6--md"></div>
+    <div class="grd-row-col-4-6--md">
+        <div class="pure-menu pure-menu-horizontal footer-content">
+            <ul>
+                <li class="pure-menu-heading" id="foot-name">Éli Marshal:</li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://github.com/EMarshal" target="_blank" class="pure-menu-link social github">GitHub</a>
+                </li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.elimarshal.com/index.xml" type="application/rss+xml" target="_blank" class="pure-menu-link social feed">Feed</a>
+                </li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.goodreads.com/user/show/14047206-mars" target="_blank" class="pure-menu-link social goodreads">Goodreads</a>
+                </li>
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+    <div class="grd-row-col-1-6--md"></div>
+</div>
+</body>
+</html>
+
