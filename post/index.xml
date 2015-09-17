@@ -16,7 +16,7 @@
       <pubDate>Wed, 16 Sep 2015 21:57:00 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/setting-wpf-control-properties-based-on-bound-property-attributes/</guid>
-      <description>&lt;p&gt;I was recently working on an MVVM project where various validation attributes were being set on the data model, and was looking for a solution to bind Wpf editor control properties to these validation restrictions. (e.g. Setting TextBox.MaxLength based on StringLengthAttribute.)&lt;/p&gt;
+      <description>&lt;p&gt;I was recently working on an MVVM project where various validation attributes were being set on the data model, and was looking for a solution to bind WPF editor control properties to these validation restrictions. (e.g. Setting TextBox.MaxLength based on StringLengthAttribute.)&lt;/p&gt;
 
 &lt;p&gt;Combining a couple of Stack Overflow posts:&lt;/p&gt;
 
