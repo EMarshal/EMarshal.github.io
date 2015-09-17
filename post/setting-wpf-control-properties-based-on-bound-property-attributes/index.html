@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>setting wpf control properties based on bound property attributes</title>
+    <meta name="description" content="setting wpf control properties based on bound property attributes">
+    <meta name="author" content="Éli Marshal">
+    <meta name="generator" content="Hugo 0.14" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/furtive/2.2.3/furtive.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/menus-min.css">
+    <link rel="stylesheet" href="https://www.elimarshal.com/css/custom.css">
+    <link rel="stylesheet" href="https://www.elimarshal.com/css/monokai.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="manifest" href="/manifest.json">
+    
+    
+</head>
+<body>
+
+<div class="header grd grd-row">
+    <div class="grd-row-col-1-6--md"></div>
+    <div class="grd-row-col-4-6--md">
+        <div class="mobile pure-menu pure-menu-horizontal nav-menu">
+            <a href="/" class="site-title pure-menu-heading" id="toggle-home">elimarshal.com</a>
+            <input type="checkbox" id="toggle" checked hidden>
+            <label for="toggle" class="menu-btn" id="show-btn">&#9776;</label>
+            <label for="toggle" class="menu-btn" id="hide-btn">X</label>
+            <label for="toggle" class="menu-btn" id="hide-btn-fullpage">X</label>
+            <ul class="pure-menu-list" id="toggle-content">
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.elimarshal.com/about" class="pure-menu-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="grd-row-col-1-6--md"></div>
+</div>
+
+<div class="grd grd-row">
+    <div class="grd-row-col-1-6--md"></div>
+    <div class="grd-row-col-4-6--md">
+        <div class="post">
+            <div class="post-title">
+                <p class="footnote">
+                    
+                    <time class="">2015-09-16</time>
+                    
+                    
+                    
+                    
+                    
+                    
+                </p>
+                <h1>setting wpf control properties based on bound property attributes</h1>
+            </div>
+            <div class="post-content">
+                <p>I was recently working on an MVVM project where various validation attributes were being set on the data model, and was looking for a solution to bind Wpf editor control properties to these validation restrictions. (e.g. Setting TextBox.MaxLength based on StringLengthAttribute.)</p>
+
+<p>Combining a couple of Stack Overflow posts:</p>
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/1647815/how-to-add-a-blend-behavior-in-a-style-setter">How to add a Blend Behavior in a Style Setter</a></li>
+<li><a href="https://stackoverflow.com/questions/8745325/wpf-textbox-maxlength-is-there-any-way-to-bind-this-to-the-data-validation-ma">WPF TextBox MaxLength — Is there any way to bind this to the Data Validation Max Length on the bound field?</a></li>
+</ul>
+
+<p>This can be extended for arbitrary attributes and controls, but the example below deals specifically with TextBox.MaxLength and StringLengthAttribute.</p>
+
+<p>We can set the style globally in a resource dictionary:</p>
+
+<p><div class="highlight"><pre><span class="nt">&lt;Style</span> <span class="na">TargetType=</span><span class="s">&quot;TextBox&quot;</span> <span class="na">x:Key=</span><span class="s">&quot;DefaultTextBoxStyle&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;Setter</span> <span class="na">Property=</span><span class="s">&quot;helpers:AttributePropertyExtension.AttributeProperty&quot;</span> <span class="na">Value=</span><span class="s">&quot;True&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/Style&gt;</span>
+</pre></div>
+</p>
+
+<p>We then have a class to apply the behavior:</p>
+
+<p><div class="highlight"><pre><span class="k">namespace</span> <span class="nn">EliMarshal.ClassLibrary.AttributePropertyHelper</span>
+<span class="p">{</span>
+    <span class="k">using</span> <span class="nn">System.Linq</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Windows</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Windows.Controls</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Windows.Interactivity</span><span class="p">;</span>
+
+    <span class="c1">/// &lt;summary&gt;</span>
+    <span class="c1">/// Extension to set properties on WPF controls based on attributes on their binding properties</span>
+    <span class="c1">/// &lt;/summary&gt;</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">AttributePropertyExtension</span>
+    <span class="p">{</span>
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// DependencyProperty set on every control to affect</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="k">public</span> <span class="k">static</span> <span class="k">readonly</span> <span class="n">DependencyProperty</span> <span class="n">AttributeProperty</span> <span class="p">=</span> <span class="n">DependencyProperty</span><span class="p">.</span><span class="n">RegisterAttached</span><span class="p">(</span>
+             <span class="s">&quot;AttributeProperty&quot;</span><span class="p">,</span> <span class="k">typeof</span><span class="p">(</span><span class="kt">bool</span><span class="p">),</span> <span class="k">typeof</span><span class="p">(</span><span class="n">AttributePropertyExtension</span><span class="p">),</span> <span class="k">new</span> <span class="n">UIPropertyMetadata</span><span class="p">(</span><span class="k">false</span><span class="p">,</span> <span class="n">OnAttributePropertyChanged</span><span class="p">));</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Gets the AttributeProperty DependencyProperty</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;obj&quot;&gt;The framework element object.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;returns&gt;true if the specified value is valid; otherwise, false.&lt;/returns&gt;</span>
+        <span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="nf">GetAttributeProperty</span><span class="p">(</span><span class="n">FrameworkElement</span> <span class="n">obj</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">return</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span><span class="n">obj</span><span class="p">.</span><span class="n">GetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Sets the AttributeProperty DependencyProperty</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;obj&quot;&gt;The framework element object.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;value&quot;&gt;The value to set AttributeProperty to.&lt;/param&gt;</span>
+        <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">SetAttributeProperty</span><span class="p">(</span><span class="n">FrameworkElement</span> <span class="n">obj</span><span class="p">,</span> <span class="kt">bool</span> <span class="k">value</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="n">obj</span><span class="p">.</span><span class="n">SetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">,</span> <span class="k">value</span><span class="p">);</span>
+        <span class="p">}</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Assigns the AttributeProperty to the control when AttributeProperty changes.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;d&quot;&gt;The DependencyObject.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;e&quot;&gt;The DependencyPropertyChangedEventArgs.&lt;/param&gt;</span>
+        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">OnAttributePropertyChanged</span><span class="p">(</span><span class="n">DependencyObject</span> <span class="n">d</span><span class="p">,</span> <span class="n">DependencyPropertyChangedEventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">var</span> <span class="n">uie</span> <span class="p">=</span> <span class="p">(</span><span class="n">UIElement</span><span class="p">)</span><span class="n">d</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">((</span><span class="kt">bool</span><span class="p">)</span><span class="n">e</span><span class="p">.</span><span class="n">NewValue</span> <span class="p">&amp;&amp;</span> <span class="n">uie</span><span class="p">.</span><span class="n">Dispatcher</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">uie</span> <span class="k">is</span> <span class="n">TextBox</span><span class="p">)</span>
+                <span class="p">{</span>
+                    <span class="n">AssignAttributePropertyToControl</span><span class="p">&lt;</span><span class="n">Control</span><span class="p">&gt;(</span><span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">);</span>
+                <span class="p">}</span>
+
+                <span class="n">uie</span><span class="p">.</span><span class="n">SetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">,</span> <span class="k">false</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="c1">// Use this space for a different dependency property added to a different type of control in xaml</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Adds the AttributePropertyBehavior to the AttributeProperty</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;typeparam name=&quot;T&quot;&gt;The first generic type parameter.&lt;/typeparam&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;d&quot;&gt;The DependencyProperty AttributeProperty.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;e&quot;&gt;The DependencyPropertyChangedEventArgs for AttributeProperty.&lt;/param&gt;</span>
+        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">AssignAttributePropertyToControl</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="n">DependencyObject</span> <span class="n">d</span><span class="p">,</span> <span class="n">DependencyPropertyChangedEventArgs</span> <span class="n">e</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">var</span> <span class="n">behaviors</span> <span class="p">=</span> <span class="n">Interaction</span><span class="p">.</span><span class="n">GetBehaviors</span><span class="p">(</span><span class="n">d</span><span class="p">);</span>
+
+            <span class="k">if</span> <span class="p">((</span><span class="kt">bool</span><span class="p">)</span><span class="n">e</span><span class="p">.</span><span class="n">NewValue</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(!</span><span class="n">behaviors</span><span class="p">.</span><span class="n">OfType</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;().</span><span class="n">Any</span><span class="p">())</span>
+                <span class="p">{</span>
+                    <span class="n">behaviors</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span> <span class="n">AttributePropertyBehavior</span><span class="p">());</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+            <span class="p">{</span>
+                <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">item</span> <span class="k">in</span> <span class="n">behaviors</span><span class="p">.</span><span class="n">ToArray</span><span class="p">())</span>
+                <span class="p">{</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">item</span> <span class="k">is</span> <span class="n">T</span><span class="p">)</span>
+                    <span class="p">{</span>
+                        <span class="n">behaviors</span><span class="p">.</span><span class="n">Remove</span><span class="p">(</span><span class="n">item</span><span class="p">);</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// The behavior to set the attribute property on the control.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="k">private</span> <span class="k">class</span> <span class="nc">AttributePropertyBehavior</span> <span class="p">:</span> <span class="n">Behavior</span><span class="p">&lt;</span><span class="n">DependencyObject</span><span class="p">&gt;</span>
+        <span class="p">{</span>
+            <span class="c1">/// &lt;summary&gt;</span>
+            <span class="c1">/// When attached, sets the binding attribute property on the control.</span>
+            <span class="c1">/// &lt;/summary&gt;</span>
+            <span class="k">protected</span> <span class="k">override</span> <span class="k">void</span> <span class="nf">OnAttached</span><span class="p">()</span>
+            <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">is</span> <span class="n">Control</span><span class="p">)</span>
+                <span class="p">{</span>
+                    <span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">as</span> <span class="n">Control</span><span class="p">).</span><span class="n">Loaded</span> <span class="p">+=</span> <span class="p">(</span><span class="n">sender</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+                        <span class="p">=&gt;</span> <span class="n">AttributePropertySetter</span><span class="p">.</span><span class="n">SetAttributeProperty</span><span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">as</span> <span class="n">Control</span><span class="p">);</span>
+                <span class="p">}</span>
+
+                <span class="c1">// Use this space to set AttributeProperty to different types than Control, i.e. FrameworkContentElement</span>
+                <span class="k">base</span><span class="p">.</span><span class="n">OnAttached</span><span class="p">();</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</p>
+
+<p>And finally a class to set the property on the control:</p>
+
+<p><div class="highlight"><pre><span class="k">namespace</span> <span class="nn">EliMarshal.ClassLibrary.AttributePropertyHelper</span>
+<span class="p">{</span>
+    <span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.ComponentModel.DataAnnotations</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Linq</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Reflection</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Windows.Controls</span><span class="p">;</span>
+    <span class="k">using</span> <span class="nn">System.Windows.Data</span><span class="p">;</span>
+
+    <span class="c1">/// &lt;summary&gt;</span>
+    <span class="c1">/// Sets the binding attribute property value on the editor control.</span>
+    <span class="c1">/// &lt;/summary&gt;</span>
+    <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">AttributePropertySetter</span>
+    <span class="p">{</span>
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Sets the binding attribute property value on the editor control.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;editor&quot;&gt;The editor control.&lt;/param&gt;</span>
+        <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">SetAttributeProperty</span><span class="p">(</span><span class="n">Control</span> <span class="n">editor</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="kt">object</span> <span class="n">context</span> <span class="p">=</span> <span class="n">editor</span><span class="p">.</span><span class="n">DataContext</span><span class="p">;</span>
+            <span class="n">BindingExpression</span> <span class="n">binding</span> <span class="p">=</span> <span class="n">GetBindingExpression</span><span class="p">(</span><span class="n">editor</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">context</span> <span class="p">==</span> <span class="k">null</span> <span class="p">||</span> <span class="n">binding</span> <span class="p">==</span> <span class="k">null</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="k">return</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="k">if</span> <span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSourcePropertyName</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSource</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="n">PropertyInfo</span> <span class="n">prop</span> <span class="p">=</span> <span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSource</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSourcePropertyName</span><span class="p">);</span>
+                <span class="n">AssignAttributePropertyFromProperty</span><span class="p">(</span><span class="n">editor</span><span class="p">,</span> <span class="n">prop</span><span class="p">);</span>
+                <span class="k">return</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="c1">// Can&#39;t effectively test this as is, as .GetProperty() can&#39;t be intercepted by FakeItEasy</span>
+            <span class="n">PropertyInfo</span> <span class="n">itemProp</span> <span class="p">=</span> <span class="n">context</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="s">&quot;Item&quot;</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">itemProp</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">itemProp</span><span class="p">.</span><span class="n">GetSetMethod</span><span class="p">()</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="kt">var</span> <span class="n">item</span> <span class="p">=</span> <span class="n">itemProp</span><span class="p">.</span><span class="n">GetValue</span><span class="p">(</span><span class="n">context</span><span class="p">);</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">item</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+                <span class="p">{</span>
+                    <span class="n">PropertyInfo</span> <span class="n">prop</span> <span class="p">=</span> <span class="n">item</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">ParentBinding</span><span class="p">.</span><span class="n">Path</span><span class="p">.</span><span class="n">Path</span><span class="p">);</span>
+                    <span class="n">AssignAttributePropertyFromProperty</span><span class="p">&lt;</span><span class="n">Control</span><span class="p">&gt;(</span><span class="n">editor</span><span class="p">,</span> <span class="n">prop</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="c1">// Use this space for alternate SetAttributeProperty methods with different paramaters, i.e. FrameworkContentElement rather than Control</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Gets the binding expression for the editor.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;editor&quot;&gt;The editor control.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;returns&gt;BindingExpression for the TextProperty if the editor is a TextBox, ArgumentException otherwise.&lt;/returns&gt;</span>
+        <span class="k">private</span> <span class="k">static</span> <span class="n">BindingExpression</span> <span class="nf">GetBindingExpression</span><span class="p">(</span><span class="n">Control</span> <span class="n">editor</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">editor</span> <span class="k">is</span> <span class="n">TextBox</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="k">return</span> <span class="n">editor</span><span class="p">.</span><span class="n">GetBindingExpression</span><span class="p">(</span><span class="n">TextBox</span><span class="p">.</span><span class="n">TextProperty</span><span class="p">);</span>
+            <span class="p">}</span>
+            <span class="k">else</span>
+            <span class="p">{</span>
+                <span class="k">throw</span> <span class="k">new</span> <span class="nf">ArgumentException</span><span class="p">(</span><span class="s">&quot;Not a valid control type.&quot;</span><span class="p">);</span>
+            <span class="p">}</span>
+
+            <span class="c1">// Use the above flow to get binding expressions for editors and properties other than TextBox.TextProperty</span>
+        <span class="p">}</span>
+
+        <span class="c1">/// &lt;summary&gt;</span>
+        <span class="c1">/// Sets the property on the editor based on the binding property attribute.</span>
+        <span class="c1">/// &lt;/summary&gt;</span>
+        <span class="c1">/// &lt;typeparam name=&quot;T&quot;&gt;The first generic type parameter.&lt;/typeparam&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;editor&quot;&gt;The editor control.&lt;/param&gt;</span>
+        <span class="c1">/// &lt;param name=&quot;prop&quot;&gt;The bound property.&lt;/param&gt;</span>
+        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">AssignAttributePropertyFromProperty</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="n">T</span> <span class="n">editor</span><span class="p">,</span> <span class="n">PropertyInfo</span> <span class="n">prop</span><span class="p">)</span>
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">prop</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="kt">var</span> <span class="n">stringLengthAtt</span> <span class="p">=</span> <span class="n">Attribute</span><span class="p">.</span><span class="n">GetCustomAttributes</span><span class="p">(</span><span class="n">prop</span><span class="p">,</span> <span class="k">typeof</span><span class="p">(</span><span class="n">StringLengthAttribute</span><span class="p">),</span> <span class="k">true</span><span class="p">).</span><span class="n">FirstOrDefault</span><span class="p">()</span> <span class="k">as</span> <span class="n">StringLengthAttribute</span><span class="p">;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">stringLengthAtt</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+                <span class="p">{</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">editor</span> <span class="k">is</span> <span class="n">TextBox</span><span class="p">)</span>
+                    <span class="p">{</span>
+                        <span class="p">(</span><span class="n">editor</span> <span class="k">as</span> <span class="n">TextBox</span><span class="p">).</span><span class="n">MaxLength</span> <span class="p">=</span> <span class="n">stringLengthAtt</span><span class="p">.</span><span class="n">MaximumLength</span><span class="p">;</span>
+                    <span class="p">}</span>
+
+                    <span class="c1">// Use this space set property to different editor types and/or properties other than TextBox.MaxLength</span>
+                <span class="p">}</span>
+
+                <span class="c1">// Use this space to get different custom attributes other than StringLengthAttribute</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="grd-row-col-1-6--md"></div>
+</div>
+<div class="footer grd grd-row">
+    <div class="grd-row-col-1-6--md"></div>
+    <div class="grd-row-col-4-6--md">
+        <div class="pure-menu pure-menu-horizontal footer-content">
+            <ul>
+                <li class="pure-menu-heading" id="foot-name">Éli Marshal:</li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://github.com/EMarshal" target="_blank" class="pure-menu-link social github">GitHub</a>
+                </li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.elimarshal.com/index.xml" type="application/rss+xml" target="_blank" class="pure-menu-link social feed">Feed</a>
+                </li>
+                
+                
+                <li class="pure-menu-item">
+                    <a href="https://www.goodreads.com/user/show/14047206-mars" target="_blank" class="pure-menu-link social goodreads">Goodreads</a>
+                </li>
+                
+                
+                
+                
+            </ul>
+        </div>
+    </div>
+    <div class="grd-row-col-1-6--md"></div>
+</div>
+</body>
+</html>
+
