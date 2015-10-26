@@ -18,7 +18,7 @@
       <guid>https://www.elimarshal.com/post/Geekbench-per-dollar/</guid>
       <description>
 
-&lt;p&gt;A comparison of the Geekbench performance of mobile devices compared to their cost. Have tried to normalize price by preferentially choosing 32GB, then 64GB, then 16GB models, depending on availability. I&amp;rsquo;ve only included devices that are readily available unlocked, without carrier control over software updates. The Moto X Play (Snapdragon 615) and Galaxy S6 (Exynos 7420) included as exceptions based on their interesting SoCs.&lt;/p&gt;
+&lt;p&gt;A comparison of the Geekbench performance of mobile devices compared to their cost. Have tried to normalize price by preferentially choosing 32GB, then 64GB, then 16GB models, depending on availability. I&amp;rsquo;ve only included devices that are readily available unlocked, without carrier control over software updates. The Moto X Play (Snapdragon 615) and Galaxy S6 (Exynos 7420) included as exceptions based on their interesting SoCs. Windows phones excluded as Geekbench isn&amp;rsquo;t available.&lt;/p&gt;
 
 &lt;p&gt;Phones:
 &lt;table class=&#34;pure-table pure-table-horizontal&#34;&gt;
