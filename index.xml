@@ -7,8 +7,206 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Wed, 16 Sep 2015 21:57:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2015 21:55:11 -0600</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Geekbench per dollar</title>
+      <link>https://www.elimarshal.com/post/Geekbench-per-dollar/</link>
+      <pubDate>Sun, 25 Oct 2015 21:55:11 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/Geekbench-per-dollar/</guid>
+      <description>
+
+&lt;p&gt;A comparison of the Geekbench performance of mobile devices compared to their cost. Have tried to normalize price by preferentially choosing 32GB, then 64GB, then 16GB models, depending on availability. I&amp;rsquo;ve only included devices that are readily available unlocked, without carrier control over software updates. The Moto X Play (Snapdragon 615) and Galaxy S6 (Exynos 7420) included as exceptions based on their interesting SoCs.&lt;/p&gt;
+
+&lt;p&gt;Phones:
+&lt;table class=&#34;pure-table pure-table-horizontal&#34;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Model&lt;/th&gt;
+            &lt;th&gt;Price&lt;/th&gt;
+            &lt;th&gt;Geekbench Single Core&lt;/th&gt;
+            &lt;th&gt;Geekbench Multi-Core&lt;/th&gt;
+            &lt;th&gt;Single Core / $&lt;/th&gt;
+            &lt;th&gt;Multi-Core / $&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPhone 6s (64GB) [Apple A9]&lt;/td&gt;
+            &lt;td&gt;$749&lt;/td&gt;
+            &lt;td&gt;2537&lt;/td&gt;
+            &lt;td&gt;4410&lt;/td&gt;
+            &lt;td&gt;3.4&lt;/td&gt;
+            &lt;td&gt;5.9&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPhone 6 (64GB) [Apple A8]&lt;/td&gt;
+            &lt;td&gt;$649&lt;/td&gt;
+            &lt;td&gt;1633&lt;/td&gt;
+            &lt;td&gt;2910&lt;/td&gt;
+            &lt;td&gt;2.5&lt;/td&gt;
+            &lt;td&gt;4.5&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPhone 5s (32GB) [Apple A7]&lt;/td&gt;
+            &lt;td&gt;$449&lt;/td&gt;
+            &lt;td&gt;1406&lt;/td&gt;
+            &lt;td&gt;2537&lt;/td&gt;
+            &lt;td&gt;3.1&lt;/td&gt;
+            &lt;td&gt;5.7&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Nexus 5X (32GB) [Snapdragon 808]&lt;/td&gt;
+            &lt;td&gt;$429&lt;/td&gt;
+            &lt;td&gt;1220&lt;/td&gt;
+            &lt;td&gt;3493&lt;/td&gt;
+            &lt;td&gt;2.8&lt;/td&gt;
+            &lt;td&gt;8.1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Nexus 6P (32GB) [Snapdragon 810]&lt;/td&gt;
+            &lt;td&gt;$499&lt;/td&gt;
+            &lt;td&gt;1347&lt;/td&gt;
+            &lt;td&gt;4576&lt;/td&gt;
+            &lt;td&gt;2.7&lt;/td&gt;
+            &lt;td&gt;9.2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Moto X Pure Edition (2015, 32GB) [Snapdragon 808]&lt;/td&gt;
+            &lt;td&gt;$450&lt;/td&gt;
+            &lt;td&gt;1244&lt;/td&gt;
+            &lt;td&gt;3536&lt;/td&gt;
+            &lt;td&gt;2.8&lt;/td&gt;
+            &lt;td&gt;7.9&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Moto X (2nd Gen, 32GB) [Snapdragon 801]&lt;/td&gt;
+            &lt;td&gt;$350&lt;/td&gt;
+            &lt;td&gt;954&lt;/td&gt;
+            &lt;td&gt;2933&lt;/td&gt;
+            &lt;td&gt;2.7&lt;/td&gt;
+            &lt;td&gt;8.4&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Moto X Play (16GB) [Snapdragon 615]&lt;/td&gt;
+            &lt;td&gt;$311&lt;/td&gt;
+            &lt;td&gt;639&lt;/td&gt;
+            &lt;td&gt;2369&lt;/td&gt;
+            &lt;td&gt;2.1&lt;/td&gt;
+            &lt;td&gt;7.6&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Moto G (2015, 16GB) [Snapdragon 410]&lt;/td&gt;
+            &lt;td&gt;$220&lt;/td&gt;
+            &lt;td&gt;528&lt;/td&gt;
+            &lt;td&gt;1601&lt;/td&gt;
+            &lt;td&gt;2.4&lt;/td&gt;
+            &lt;td&gt;7.3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Galaxy S6 (32GB) [Exynos 7420]&lt;/td&gt;
+            &lt;td&gt;$585&lt;/td&gt;
+            &lt;td&gt;1507&lt;/td&gt;
+            &lt;td&gt;5368&lt;/td&gt;
+            &lt;td&gt;2.6&lt;/td&gt;
+            &lt;td&gt;9.2&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;p&gt;PMP/Tablets:
+&lt;table class=&#34;pure-table pure-table-horizontal&#34;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Model&lt;/th&gt;
+            &lt;th&gt;Price&lt;/th&gt;
+            &lt;th&gt;Geekbench Single Core&lt;/th&gt;
+            &lt;th&gt;Geekbench Multi-Core&lt;/th&gt;
+            &lt;th&gt;Single Core / $&lt;/th&gt;
+            &lt;th&gt;Multi-Core / $&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPod Touch (6th-Gen 32GB) [Apple A8]&lt;/td&gt;
+            &lt;td&gt;$249&lt;/td&gt;
+            &lt;td&gt;1383&lt;/td&gt;
+            &lt;td&gt;2445&lt;/td&gt;
+            &lt;td&gt;5.6&lt;/td&gt;
+            &lt;td&gt;9.8&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPad Air 2 (64GB) [Apple A8X]&lt;/td&gt;
+            &lt;td&gt;$599&lt;/td&gt;
+            &lt;td&gt;1831&lt;/td&gt;
+            &lt;td&gt;4542&lt;/td&gt;
+            &lt;td&gt;3.1&lt;/td&gt;
+            &lt;td&gt;7.6&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPad Air (32GB) [Apple A7]&lt;/td&gt;
+            &lt;td&gt;$449&lt;/td&gt;
+            &lt;td&gt;1479&lt;/td&gt;
+            &lt;td&gt;2683&lt;/td&gt;
+            &lt;td&gt;3.3&lt;/td&gt;
+            &lt;td&gt;6.0&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPad mini 4 (32GB) [Apple A8]&lt;/td&gt;
+            &lt;td&gt;$499&lt;/td&gt;
+            &lt;td&gt;1716&lt;/td&gt;
+            &lt;td&gt;3121&lt;/td&gt;
+            &lt;td&gt;3.4&lt;/td&gt;
+            &lt;td&gt;6.3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;iPad mini 2 (32GB) [Apple A7]&lt;/td&gt;
+            &lt;td&gt;$319&lt;/td&gt;
+            &lt;td&gt;1367&lt;/td&gt;
+            &lt;td&gt;2443&lt;/td&gt;
+            &lt;td&gt;4.3&lt;/td&gt;
+            &lt;td&gt;7.7&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Nexus 9 (32GB) [Tegra K1 Denver]&lt;/td&gt;
+            &lt;td&gt;$479&lt;/td&gt;
+            &lt;td&gt;2013&lt;/td&gt;
+            &lt;td&gt;3500&lt;/td&gt;
+            &lt;td&gt;4.2&lt;/td&gt;
+            &lt;td&gt;7.3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Surface 3 (64GB) [Atom x7-Z8700]&lt;/td&gt;
+            &lt;td&gt;$499&lt;/td&gt;
+            &lt;td&gt;1024&lt;/td&gt;
+            &lt;td&gt;3445&lt;/td&gt;
+            &lt;td&gt;2.1&lt;/td&gt;
+            &lt;td&gt;6.9&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;sources:2fb6cd4cfe18f4944374e1d63822c0aa&#34;&gt;Sources&lt;/h5&gt;
+
+&lt;h6 id=&#34;pricing:2fb6cd4cfe18f4944374e1d63822c0aa&#34;&gt;Pricing:&lt;/h6&gt;
+
+&lt;p&gt;Apple: &lt;a href=&#34;https://www.apple.com/&#34;&gt;Apple Store&lt;/a&gt;&lt;br /&gt;
+Google: &lt;a href=&#34;https://store.google.com/&#34;&gt;Google Store&lt;/a&gt;&lt;br /&gt;
+Microsoft: &lt;a href=&#34;http://www.microsoftstore.com/store/msusa/en_US/home&#34;&gt;Microsoft Store&lt;/a&gt;&lt;br /&gt;
+Motorala: &lt;a href=&#34;https://www.motorola.com/us/motomaker&#34;&gt;Moto Maker&lt;/a&gt; (Except for Moto X Play - Pricing from Koodo Mobile, converted to USD)&lt;br /&gt;
+Samsung: &lt;a href=&#34;https://www.att.com/&#34;&gt;AT&amp;amp;T&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&#34;geekbench-scores:2fb6cd4cfe18f4944374e1d63822c0aa&#34;&gt;Geekbench Scores:&lt;/h6&gt;
+
+&lt;p&gt;Apple: &lt;a href=&#34;http://arstechnica.com/apple/2015/09/a-3d-touch-above-the-iphone-6s-and-6s-plus-reviewed/4/#h2&#34;&gt;Ars Technica iPhone 6s Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/apple/2015/09/ipad-mini-4-review-a-lighter-faster-tablet-with-a-better-screen/&#34;&gt;iPad mini 4 Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/apple/2015/07/great-gadget-small-audience-the-sixth-generation-ipod-touch-reviewed/&#34;&gt;iPod 6th-Gen Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/apple/2013/11/review-apples-ipad-air-is-a-big-tablet-without-all-the-baggage/2/&#34;&gt;iPad Air Review&lt;/a&gt;&lt;br /&gt;
+Motorola: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/09/review-its-big-but-at-400-the-moto-x-pure-edition-is-a-safe-bet/&#34;&gt;Ars Technica Moto X Pure Review&lt;/a&gt; (Except for Moto X Play, scores from &lt;a href=&#34;http://browser.primatelabs.com/android-benchmarks&#34;&gt;Geekbench Browser&lt;/a&gt; for the Snapdragon 615)&lt;br /&gt;
+Google: &lt;a href=&#34;http://arstechnica.com/gadgets/2014/11/nexus-9-review-a-premium-tablet-with-a-not-so-premium-feel/&#34;&gt;Ars Technica Nexus 9 Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/gadgets/2015/10/nexus-5x-and-nexus-6p-review-the-true-flagships-of-the-android-ecosystem/&#34;&gt;Nexus 5X and 6P Review&lt;/a&gt;&lt;br /&gt;
+Microsoft: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/04/surface-3-review-smaller-slower-cheaper-better/2/&#34;&gt;Ars Technica Surface 3 Review&lt;/a&gt;&lt;br /&gt;
+Samsung: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/04/samsung-galaxy-s6-review-its-whats-on-the-outside-that-counts/3/&#34;&gt;Ars Technica Galaxy S6 Review&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>setting wpf control properties based on bound property attributes</title>
@@ -682,7 +880,7 @@ Snowboards: &lt;a href=&#34;http://www.rei.com/product/740547/burton-triumph-sno
 
 &lt;p&gt;&lt;a href=&#34;http://windows.microsoft.com/en-us/outlook/ad-free-outlook&#34;&gt;Ad-free Outlook.com&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://feedly.com/i/pro/landing-pro&#34;&gt;feedly Pro&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://products.office.com/en-us/business/office-365-business-essentials&#34;&gt;Office 365 Business Essentials&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://products.office.com/en-ca/business/office-365-business-essentials&#34;&gt;Office 365 Business Essentials&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://products.office.com/en-ca/office-365-home/&#34;&gt;Office 365 Home&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;other:bfc9941b6b6fd7b4ef09dd0ccd08af0c&#34;&gt;Other&lt;/h4&gt;
@@ -902,28 +1100,6 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
 &lt;p&gt;All in all, I&amp;rsquo;m decently happy with the device. I was hoping to purchase a Nexus 9 with better performance and a 4:3 screen to replace the Surface for everything but video that I use it for, but with its iPad-like price and reported build-quality issues, I&amp;rsquo;m holding off. I plan on keeping the Surface indefinitely for video, there&amp;rsquo;s really nothing better except the Surface 2, which gets full 1080p instead of 768p, but otherwise performs similarly for videos.&lt;/p&gt;
 
 &lt;p&gt;Update: Sold the Surface RT a few months ago. Currently don&amp;rsquo;t have a tablet. iPads are too expensive, Android devices have crippled updates except for overpriced marginal-build-quality Nexus 9, or the recalled Shield Tablet.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Google ties map features</title>
-      <link>https://www.elimarshal.com/post/Google-ties-map-features/</link>
-      <pubDate>Fri, 03 Oct 2014 16:12:33 -0600</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/Google-ties-map-features/</guid>
-      <description>&lt;p&gt;Google Maps used to have a nice feature where, when logged in to your Google account, you could add named destinations. Once they were saved, you could type the destination like &amp;ldquo;work&amp;rdquo; when looking for directions, and the address would populate automatically, like so:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../../img/OldDestinations.png&#34;&gt;&lt;img src=&#34;../../img/OldDestinations.png&#34; alt=&#34;Old Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This was lovely, but some time ago (mid-2013) Google disabled this feature unless you enable Web History to store all of your searches (among other things):&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../../img/WebHistoryPermissions.png&#34;&gt;&lt;img src=&#34;../../img/WebHistoryPermissions.png&#34; alt=&#34;Web History Permissions&#34; width=&#34;663&#34; height=&#34;243&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, if you don&amp;rsquo;t enable web history you get a significantly less useful destinations view; even if you&amp;rsquo;ve manually saved and added destination addresses, they don&amp;rsquo;t autopopulate:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../../img/NewDestinations.png&#34;&gt;&lt;img src=&#34;../../img/NewDestinations.png&#34; alt=&#34;New Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a case of &lt;a href=&#34;https://en.wikipedia.org/wiki/Tying_%28commerce%29&#34;&gt;tying&lt;/a&gt;. Unfortunately, since this change was implemented, I don&amp;rsquo;t think I&amp;rsquo;ve seen it mentioned in a single location.&lt;/p&gt;
 </description>
     </item>
     
