@@ -1072,7 +1072,7 @@ Chipset: &lt;a href=&#34;http://www.intel.com/support/detect.htm&#34;&gt;Intel&l
 Intel Rapid Start 3.0.0.1053&lt;br /&gt;
 Synaptics TouchPad Driver 16.5.3.3&lt;br /&gt;
 HP Wireless Button Driver 1.1.2.1&lt;br /&gt;
-&lt;a href=&#34;http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&amp;amp;PNid=13&amp;amp;PFid=5&amp;amp;Level=5&amp;amp;Conn=4&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek PCIe GBE Family Controller 10.003&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.realtek.com.tw/downloads/downloadsView.aspx?Langid=1&amp;amp;PNid=13&amp;amp;PFid=5&amp;amp;Level=5&amp;amp;Conn=4&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek PCIe GBE Family Controller 10.006&lt;/a&gt;&lt;br /&gt;
 Intel Wireless Display Software 4.2.24.0&lt;br /&gt;
 Intel® PROSet/Wireless Software for Windows 8.1 18.21.0&lt;br /&gt;
 Intel® PROSet/Wireless Bluetooth Software for Windows 10 (JP) 18.1.1525.1445&lt;br /&gt;
@@ -1090,9 +1090,8 @@ ENERGY STAR Qualified Power Plan 1.0.9&lt;/p&gt;
 &lt;h4 id=&#34;htpc:c1012a9f470e0bbd78e1aa52db2c8112&#34;&gt;HTPC&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=14&amp;amp;PFid=24&amp;amp;Level=4&amp;amp;Conn=3&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek HD Audio Driver R2.79&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=13&amp;amp;PFid=5&amp;amp;Level=5&amp;amp;Conn=4&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek PCIE 10.003&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://support.amd.com/en-us/download/desktop?os=Windows+10+-+64#amd-catalyst-packages&#34;&gt;AMD Catalyst 15.7.1&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://support.amd.com/en-us/download/chipset?os=Windows+10+-+64&#34;&gt;AMD Chipset 15.7.1&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=13&amp;amp;PFid=5&amp;amp;Level=5&amp;amp;Conn=4&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek PCIE 10.006&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://support.amd.com/en-us/download/desktop?os=Windows+10+-+64&#34;&gt;AMD Radeon Software Crimson Edition&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
