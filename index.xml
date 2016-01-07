@@ -7,8 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Sun, 25 Oct 2015 21:55:11 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2016 17:38:26 -0700</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Skylake single core frequency by TDP</title>
+      <link>https://www.elimarshal.com/post/Skylake-single-core-frequency-by-TDP/</link>
+      <pubDate>Wed, 06 Jan 2016 17:38:26 -0700</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/Skylake-single-core-frequency-by-TDP/</guid>
+      <description>&lt;p&gt;A comparison of maximum single-core turbo frequency by TDP of Intel Skylake processors.&lt;/p&gt;
+
+&lt;table class=&#34;pure-table pure-table-horizontal&#34;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Model&lt;/th&gt;
+            &lt;th&gt;TDP&lt;/th&gt;
+            &lt;th&gt;Cores&lt;/th&gt;
+            &lt;th&gt;Single Core Turbo&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6700K&lt;/td&gt;
+            &lt;td&gt;91 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;4.2 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6700&lt;/td&gt;
+            &lt;td&gt;65 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;4.0 GHz&lt;/td&gt;
+        &lt;/tr&gt;        
+        &lt;tr&gt;
+            &lt;td&gt;Pentium G4400&lt;/td&gt;
+            &lt;td&gt;54 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.3 GHz&lt;/td&gt;
+        &lt;/tr&gt;  
+        &lt;tr&gt;
+            &lt;td&gt;Core i3-6320&lt;/td&gt;
+            &lt;td&gt;51 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.9 GHz&lt;/td&gt;
+        &lt;/tr&gt;        
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6920HQ&lt;/td&gt;
+            &lt;td&gt;45 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;3.8 GHz&lt;/td&gt;
+        &lt;/tr&gt;        
+        &lt;tr&gt;
+            &lt;td&gt;Core i5-6600T&lt;/td&gt;
+            &lt;td&gt;35 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;3.5 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6567U&lt;/td&gt;
+            &lt;td&gt;28 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.6 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6822EQ&lt;/td&gt;
+            &lt;td&gt;25 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;2.8 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6650U&lt;/td&gt;
+            &lt;td&gt;15 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.4 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Pentium 4405Y&lt;/td&gt;
+            &lt;td&gt;6 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;1.5 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core m7-6Y75&lt;/td&gt;
+            &lt;td&gt;4.5 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.1 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
     <item>
       <title>Geekbench per dollar</title>
@@ -1097,39 +1186,7 @@ ENERGY STAR Qualified Power Plan 1.0.9&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=14&amp;amp;PFid=24&amp;amp;Level=4&amp;amp;Conn=3&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek HD Audio Driver R2.79&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.realtek.com.tw/DOWNLOADS/downloadsView.aspx?Langid=1&amp;amp;PNid=13&amp;amp;PFid=5&amp;amp;Level=5&amp;amp;Conn=4&amp;amp;DownTypeID=3&amp;amp;GetDown=false&#34;&gt;Realtek PCIE 10.006&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://support.amd.com/en-us/download/desktop?os=Windows+10+-+64&#34;&gt;AMD Radeon Software Crimson Edition&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>two years with the Surface RT</title>
-      <link>https://www.elimarshal.com/post/two-years-with-the-Surface-RT/</link>
-      <pubDate>Mon, 15 Dec 2014 19:11:58 -0600</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/two-years-with-the-Surface-RT/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve now owned the original 64 GB Surface RT for just over two years. In that time I&amp;rsquo;ve probably averaged 20 minutes or so of use per day, including days with no usage, and days with 8+ hours of usage.&lt;/p&gt;
-
-&lt;p&gt;My general observations on the device, not intended to be a full review so long after release:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wear&lt;/strong&gt;
-Tablet: Impeccable condition still. The kickstand loosened a couple times, which I retightened with a very small Torx screwdriver.
-Touch cover: Edges are splitting apart. Functionally still fine, I suspect it will last quite a while longer before functionality is impacted.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;
-I&amp;rsquo;m not much for apps for my tablet use cases, so I&amp;rsquo;ve got fairly minimal complaints here. MS Office is quite handy, OneNote is great, &lt;a href=&#34;http://nextmatters.com/&#34;&gt;Nextgen Reader&lt;/a&gt; is a fabulous RSS reader (my favourite on any platform) that syncs with &lt;a href=&#34;https://feedly.com/&#34;&gt;Feedly&lt;/a&gt; and covers most of my day-to-day use of the Surface. MS just added MKV support now, over two years after release, which saves the hassle of remuxing MKV files to mp4 to use in the video app.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;
-Very poor, due in large part to Tegra 3. Presumably Surface 2 would be better. Browsing is painfully slow. For months, I had a bug with the Metro version of IE that rendered it an order of magnitude slower than desktop IE (random wiki page would literally take two minutes to load), but it randomly resolved itself (possibly with an update to Windows) at some point, so now Metro and desktop IE are at least on par. PDFs are painfully slow to use, pages render like molasses, and multi-page documents struggle to render previews when semantically zoomed out to view multiple pages. At least HD video plays back fine.
-Wireless randomly fails and requires turning wireless off/on. Why on earth is this still a problem?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;
-Reading RSS: Great, with Nextgen Reader. Annoying when feeds won&amp;rsquo;t load their full text and force opening IE.
-Web browsing: Painfully slow. Touch cover not appropriate for significant text entry, would purchase type cover if I was buying today - MS has dropped the touch cover option for the SP3, so they seem to have arrived at the same conclusion.
-Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages to resolve.) 16:9 aspect ratio, kickstand, 10+ hours of battery life, microSD support - doesn&amp;rsquo;t get any better than this.&lt;/p&gt;
-
-&lt;p&gt;All in all, I&amp;rsquo;m decently happy with the device. I was hoping to purchase a Nexus 9 with better performance and a 4:3 screen to replace the Surface for everything but video that I use it for, but with its iPad-like price and reported build-quality issues, I&amp;rsquo;m holding off. I plan on keeping the Surface indefinitely for video, there&amp;rsquo;s really nothing better except the Surface 2, which gets full 1080p instead of 768p, but otherwise performs similarly for videos.&lt;/p&gt;
-
-&lt;p&gt;Update: Sold the Surface RT a few months ago. Currently don&amp;rsquo;t have a tablet. iPads are too expensive, Android devices have crippled updates except for overpriced marginal-build-quality Nexus 9, or the recalled Shield Tablet.&lt;/p&gt;
+&lt;a href=&#34;http://support.amd.com/en-us/download/desktop?os=Windows+10+-+64&#34;&gt;AMD Radeon Software Crimson Edition 15.12&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

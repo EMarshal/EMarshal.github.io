@@ -7,8 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Sun, 25 Oct 2015 21:55:11 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2016 17:38:26 -0700</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Skylake single core frequency by TDP</title>
+      <link>https://www.elimarshal.com/post/Skylake-single-core-frequency-by-TDP/</link>
+      <pubDate>Wed, 06 Jan 2016 17:38:26 -0700</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/Skylake-single-core-frequency-by-TDP/</guid>
+      <description>&lt;p&gt;A comparison of maximum single-core turbo frequency by TDP of Intel Skylake processors.&lt;/p&gt;
+
+&lt;table class=&#34;pure-table pure-table-horizontal&#34;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Model&lt;/th&gt;
+            &lt;th&gt;TDP&lt;/th&gt;
+            &lt;th&gt;Cores&lt;/th&gt;
+            &lt;th&gt;Single Core Turbo&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6700K&lt;/td&gt;
+            &lt;td&gt;91 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;4.2 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6700&lt;/td&gt;
+            &lt;td&gt;65 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;4.0 GHz&lt;/td&gt;
+        &lt;/tr&gt;        
+        &lt;tr&gt;
+            &lt;td&gt;Pentium G4400&lt;/td&gt;
+            &lt;td&gt;54 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.3 GHz&lt;/td&gt;
+        &lt;/tr&gt;  
+        &lt;tr&gt;
+            &lt;td&gt;Core i3-6320&lt;/td&gt;
+            &lt;td&gt;51 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.9 GHz&lt;/td&gt;
+        &lt;/tr&gt;        
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6920HQ&lt;/td&gt;
+            &lt;td&gt;45 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;3.8 GHz&lt;/td&gt;
+        &lt;/tr&gt;        
+        &lt;tr&gt;
+            &lt;td&gt;Core i5-6600T&lt;/td&gt;
+            &lt;td&gt;35 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;3.5 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6567U&lt;/td&gt;
+            &lt;td&gt;28 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.6 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6822EQ&lt;/td&gt;
+            &lt;td&gt;25 W&lt;/td&gt;
+            &lt;td&gt;4&lt;/td&gt;
+            &lt;td&gt;2.8 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core i7-6650U&lt;/td&gt;
+            &lt;td&gt;15 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.4 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Pentium 4405Y&lt;/td&gt;
+            &lt;td&gt;6 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;1.5 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Core m7-6Y75&lt;/td&gt;
+            &lt;td&gt;4.5 W&lt;/td&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;3.1 GHz&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
     <item>
       <title>Geekbench per dollar</title>
