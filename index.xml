@@ -1018,7 +1018,7 @@ Processor: &lt;a href=&#34;http://ark.intel.com/products/64891/Intel-Core-i7-372
 Memory: &lt;a href=&#34;http://www.gskill.com/en/product/f3-1600c9d-16grsl&#34;&gt;16 GiB G.SKILL Ripjaws DDR3 1600 MHz&lt;/a&gt;&lt;br /&gt;
 Storage: &lt;a href=&#34;http://www.crucial.com/usa/en/storage-ssd-mx100&#34;&gt;Crucial MX100 512 GB&lt;/a&gt; (&lt;a href=&#34;http://www.crucial.com/usa/en/support-ssd-firmware&#34;&gt;Firmware MU02&lt;/a&gt;)&lt;br /&gt;
 Stand: &lt;a href=&#34;http://www.newertech.com/products/nustandalloymacmini.php&#34;&gt;NewerTech NuStand Alloy&lt;/a&gt;&lt;br /&gt;
-Backup Storage: &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/techdocs/79BA810F702AD64E88257977006375D8/$file/TS5K1000_ds.pdf&#34;&gt;Hitachi Travelstar 5K1000 1 TB (HTS541010A9E662)&lt;/a&gt;&lt;br /&gt;
+Backup Storage: &lt;a href=&#34;https://www.hgst.com/products/hard-drives/travelstar-5k1000&#34;&gt;Hitachi Travelstar 5K1000 1 TB (HTS541010A9E662)&lt;/a&gt;&lt;br /&gt;
 Backup Enclosure: &lt;a href=&#34;http://www.vantecusa.com/en/product/view_detail/583&#34;&gt;Vantec NexStar 6G&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&#34;accessories:39c1f979ab14418859c8b73586956bc9&#34;&gt;Accessories&lt;/h5&gt;
@@ -1045,8 +1045,8 @@ Verbatim 256 MB&lt;br /&gt;
 Processor: &lt;a href=&#34;http://ark.intel.com/products/65707/Intel-Core-i5-3317U-Processor-3M-Cache-up-to-2_60-GHz&#34;&gt;Intel Core i5-3317U&lt;/a&gt; (Geekbench: &lt;sup&gt;2188&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4436&lt;/sub&gt;; GFXBench: Manhattan: 15.6, T-Rex: 30.9)&lt;br /&gt;
 Memory: &lt;a href=&#34;http://www.gskill.com/en/product/f3-1600c9d-16grsl&#34;&gt;16 GiB G.SKILL Ripjaws DDR3 1600 MHz&lt;/a&gt;&lt;br /&gt;
 Storage: &lt;a href=&#34;http://www.samsung.com/us/support/owners/product/MZ-7PD256BW&#34;&gt;Samsung 840 Pro 256 GB&lt;/a&gt;&lt;br /&gt;
-Backup Storage: &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/techdocs/A50EBE5C3021DB33882577FA000ACBC2/$file/TSZ5K500_ds.pdf&#34;&gt;Hitachi Travelstar Z5K500 500 GB (HTS545050A7E380)&lt;/a&gt;&lt;br /&gt;
-Backup Enclosure: &lt;a href=&#34;http://www.amazon.ca/gp/product/B00GJKL57C&#34;&gt;ORICO 2578US3&lt;/a&gt;&lt;/p&gt;
+Backup Storage: &lt;a href=&#34;https://www.hgst.com/sites/default/files/resources/TSZ5K500_ds_v4.pdf&#34;&gt;Hitachi Travelstar Z5K500 500 GB (HTS545050A7E380)&lt;/a&gt;&lt;br /&gt;
+Backup Enclosure: &lt;a href=&#34;https://patriotmemory.com/product/gauntlet-2-usb-3-0-2-5/&#34;&gt;Patriot Gauntlet 2&lt;/a&gt;&lt;/p&gt;
 
 &lt;h5 id=&#34;windows-experience-index:39c1f979ab14418859c8b73586956bc9&#34;&gt;Windows Experience Index&lt;/h5&gt;
 
@@ -1114,17 +1114,19 @@ Primary Hard Disk: 8.15&lt;/p&gt;
 &lt;p&gt;Keyboard: &lt;a href=&#34;https://www.microsoft.com/hardware/en-us/p/all-in-one-media-keyboard&#34;&gt;Microsoft All-In-One Media Keyboard&lt;/a&gt;&lt;br /&gt;
 Storage:&lt;br /&gt;
 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;. &lt;a href=&#34;http://www.seagate.com/www-content/product-content/desktop-hdd-fam/en-us/docs/desktop-hdd-ds1770-5-1409us.pdf&#34;&gt;2x Seagate 7200.15 4 TB (ST4000DM000)&lt;/a&gt;&lt;br /&gt;
-&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;. &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/products/Deskstar_7K3000&#34;&gt;2x Hitachi Deskstar 7K3000 2 TB (HDS723020BLA642)&lt;/a&gt;&lt;br /&gt;
+&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;. &lt;a href=&#34;https://www.hgst.com/sites/default/files/resources/DS7K3000_ds.pdf&#34;&gt;2x Hitachi Deskstar 7K3000 2 TB (HDS723020BLA642)&lt;/a&gt;&lt;br /&gt;
 &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;. &lt;a href=&#34;http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-701229.pdf&#34;&gt;2x Western Digital Caviar Green 2 TB (WD20EARS)&lt;/a&gt;&lt;br /&gt;
 &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;. &lt;a href=&#34;http://www.seagate.com/www-content/product-content/desktop-hdd-fam/en-us/docs/desktop-hdd-ds1770-5-1409us.pdf&#34;&gt;2x Seagate 7200.14 3 TB (ST3000DM001)&lt;/a&gt;&lt;br /&gt;
-9. &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/products/Deskstar_E7K1000&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDE721010SLA330)&lt;/a&gt;&lt;br /&gt;
-10. &lt;a href=&#34;http://www.hgst.com/tech/techlib.nsf/products/Deskstar_7K1000.C&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDS721010CLA332)&lt;/a&gt;&lt;br /&gt;
-11. &lt;a href=&#34;https://www.seagate.com/files/docs/pdf/en-GB/datasheet/disc/barracuda-green-ds1720.3-1105gb.pdf&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDS721010CLA332)&lt;/a&gt;&lt;br /&gt;
-12. &lt;a href=&#34;http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-701229.pdf&#34;&gt;Western Digital Caviar Green 1 TB (WD20EARX)&lt;/a&gt;&lt;br /&gt;
-13. &lt;a href=&#34;http://www.seagate.com/docs/pdf/en-GB/datasheet/disc/barracuda-7200-12-ds1668-6-1101gb.pdf&#34;&gt;Seagate Barracuda 7200.12 1TB (ST31000524AS)&lt;/a&gt;&lt;br /&gt;
+9. &lt;a href=&#34;http://www.seagate.com/staticfiles/support/disc/manuals/desktop/Barracuda%207200.12/100529369b.pdf&#34;&gt;Seagate Barracuda 7200.12 1 TB (ST31000528AS)&lt;/a&gt;&lt;br /&gt;
+10. &lt;a href=&#34;http://www.newegg.com/Product/Product.aspx?Item=9SIA5MR27D8874&#34;&gt;Hitachi Deskstar E7K1000 1 TB (HDE721010SLA330)&lt;/a&gt;&lt;br /&gt;
+11. &lt;a href=&#34;http://www.newegg.com/Product/Product.aspx?Item=N82E16822145304&#34;&gt;Hitachi Deskstar 7K1000.C 1 TB (HDS721010CLA332)&lt;/a&gt;&lt;br /&gt;
+12. &lt;a href=&#34;https://www.seagate.com/files/docs/pdf/en-GB/datasheet/disc/barracuda-green-ds1720.3-1105gb.pdf&#34;&gt;Seagate Barracuda Green 1 TB (ST1000DL002-9TT153)&lt;/a&gt;&lt;br /&gt;
+13. &lt;a href=&#34;http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-701229.pdf&#34;&gt;Western Digital Caviar Green 1 TB (WD20EARX)&lt;/a&gt;&lt;br /&gt;
+14. &lt;a href=&#34;http://www.seagate.com/docs/pdf/en-GB/datasheet/disc/barracuda-7200-12-ds1668-6-1101gb.pdf&#34;&gt;Seagate Barracuda 7200.12 1TB (ST31000524AS)&lt;/a&gt;&lt;br /&gt;
+15. &lt;a href=&#34;https://www.seagate.com/files/www-content/support-content/documentation/samsung/tech-specs/eco_greenf2.pdf&#34;&gt;Samsung EcoGreen F2 1 TB (HD103SI)&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.vantecusa.com/en/product/view_detail/488&#34;&gt;2x Vantec NexStar HX4&lt;/a&gt;&lt;br /&gt;
-L. [11, 5, 10] (From bottom)&lt;br /&gt;
-R. [12, 9, 13] (From bottom)&lt;br /&gt;
+L. [12, 5, 11, 9] (From bottom)&lt;br /&gt;
+R. [13, 10, 14, 15] (From bottom)&lt;br /&gt;
 Case: [7, 8, 1, 2, 6, 3, 4] (From bottom)&lt;/p&gt;
 
 &lt;h4 id=&#34;networking:39c1f979ab14418859c8b73586956bc9&#34;&gt;Networking&lt;/h4&gt;
@@ -1138,7 +1140,7 @@ Switch: &lt;a href=&#34;http://www.tplink.ca/en/products/details/cat-41_TL-SG105
 Case: &lt;a href=&#34;http://www.incipio.com/cases/ipod-cases/ipod-touch-5g-cases/frequency-flexible-textured-impact-resistant-case-ipod-touch-5g.html&#34;&gt;Incipio Frequency&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;https://support.apple.com/kb/sp656&#34;&gt;iPod nano 16 GB (7th generation)&lt;/a&gt;&lt;br /&gt;
 Case: &lt;a href=&#34;http://www.incipio.com/cases/ipod-cases/ipod-nano-7g-cases/hipster-clip-ipod-nano-7g.html&#34;&gt;Incipio Hipster Clip&lt;/a&gt;&lt;br /&gt;
-Headphones: &lt;a href=&#34;http://www.jaybirdsport.com/support/user-manuals/&#34;&gt;Jaybird Bluebuds X&lt;/a&gt;&lt;/p&gt;
+Headphones: &lt;a href=&#34;http://www.jaybirdsport.com/support/guide-archive/&#34;&gt;Jaybird Bluebuds X&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;camera:39c1f979ab14418859c8b73586956bc9&#34;&gt;Camera&lt;/h4&gt;
 
