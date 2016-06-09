@@ -7,8 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Wed, 06 Jan 2016 17:38:26 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jun 2016 21:22:12 -0600</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Nintendo 3DS XL First Impressions</title>
+      <link>https://www.elimarshal.com/post/New-Nintendo-3DS-XL-First-Impressions/</link>
+      <pubDate>Sun, 05 Jun 2016 21:22:12 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/New-Nintendo-3DS-XL-First-Impressions/</guid>
+      <description>
+
+&lt;p&gt;Having recently acquired a New Nindendo 3DS XL (what kind of name is that?) system to keep my occupied on some upcoming plane trips, I&amp;rsquo;ve got several thoughts, unbiased by any prior portable console ownership.&lt;/p&gt;
+
+&lt;h5 id=&#34;hardware&#34;&gt;Hardware&lt;/h5&gt;
+
+&lt;p&gt;Build Quality: All plastic. Certainly not premium, but solid.&lt;br /&gt;
+Charger: Non-standard Nintendo plug, system does not include AC adapter. Charger output is 4.6 V, 900 mA. Should have simply been micro-USB. Any future iteration should be USB-C.&lt;br /&gt;
+Gaping opening for cartridge looks dumb as I don&amp;rsquo;t expect to ever purchase a physical game for the system.&lt;br /&gt;
+Branding on the bottom is dumb, but largely inconspicuous, other than a white-against-black sticker for the serial number, which is glaring.&lt;br /&gt;
+Controls feel solid.&lt;br /&gt;
+No 802.11ac support, or even 5 GHz support on 802.11n is inexcusable for a device released in 2014.&lt;br /&gt;
+Camera is worthlessly poor quality, and loud software shutter sound can&amp;rsquo;t be disabled.&lt;/p&gt;
+
+&lt;h5 id=&#34;software&#34;&gt;Software&lt;/h5&gt;
+
+&lt;p&gt;System boot is &lt;em&gt;fast&lt;/em&gt;. Why can&amp;rsquo;t phones boot this quickly?&lt;br /&gt;
+Loads of cruft apps. Of the twelve stock apps on the homescreen, I can only see two of them (eShop and settings) ever being of use to me. The rest of them can&amp;rsquo;t be hidden.&lt;br /&gt;
+3D effect is pretty neat. Unsure yet if I&amp;rsquo;ll actually use it during games.&lt;br /&gt;
+Stylus works pretty well for menu navigation, suspect I won&amp;rsquo;t be interested in (m)any games that demand its use.&lt;/p&gt;
+
+&lt;h5 id=&#34;infrastructure&#34;&gt;Infrastructure&lt;/h5&gt;
+
+&lt;p&gt;Region locking is awful. Nintendo should feel bad.&lt;br /&gt;
+I hadn&amp;rsquo;t realized how behind Sony/Microsoft/Apple/Google Nintendo is with their online services. Digital game purchases are tied to the physical console rather than your Nintendo account, and require the old console in your possession to retain and transfer to any new console. Real disincentive for anyone to actually purchase eShop games.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Skylake single core frequency by TDP</title>
@@ -277,9 +311,9 @@
     &lt;/tbody&gt;
 &lt;/table&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;sources:2fb6cd4cfe18f4944374e1d63822c0aa&#34;&gt;Sources&lt;/h5&gt;
+&lt;h5 id=&#34;sources&#34;&gt;Sources&lt;/h5&gt;
 
-&lt;h6 id=&#34;pricing:2fb6cd4cfe18f4944374e1d63822c0aa&#34;&gt;Pricing:&lt;/h6&gt;
+&lt;h6 id=&#34;pricing&#34;&gt;Pricing:&lt;/h6&gt;
 
 &lt;p&gt;Apple: &lt;a href=&#34;https://www.apple.com/&#34;&gt;Apple Store&lt;/a&gt;&lt;br /&gt;
 Google: &lt;a href=&#34;https://store.google.com/&#34;&gt;Google Store&lt;/a&gt;&lt;br /&gt;
@@ -287,7 +321,7 @@ Microsoft: &lt;a href=&#34;http://www.microsoftstore.com/store/msusa/en_US/home&
 Motorala: &lt;a href=&#34;https://www.motorola.com/us/motomaker&#34;&gt;Moto Maker&lt;/a&gt; (Except for Moto X Play - Pricing from Koodo Mobile, converted to USD)&lt;br /&gt;
 Samsung: &lt;a href=&#34;https://www.att.com/&#34;&gt;AT&amp;amp;T&lt;/a&gt;&lt;/p&gt;
 
-&lt;h6 id=&#34;geekbench-scores:2fb6cd4cfe18f4944374e1d63822c0aa&#34;&gt;Geekbench Scores:&lt;/h6&gt;
+&lt;h6 id=&#34;geekbench-scores&#34;&gt;Geekbench Scores:&lt;/h6&gt;
 
 &lt;p&gt;Apple: &lt;a href=&#34;http://arstechnica.com/apple/2015/09/a-3d-touch-above-the-iphone-6s-and-6s-plus-reviewed/4/#h2&#34;&gt;Ars Technica iPhone 6s Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/apple/2015/09/ipad-mini-4-review-a-lighter-faster-tablet-with-a-better-screen/&#34;&gt;iPad mini 4 Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/apple/2015/07/great-gadget-small-audience-the-sixth-generation-ipod-touch-reviewed/&#34;&gt;iPod 6th-Gen Review&lt;/a&gt;, &lt;a href=&#34;http://arstechnica.com/apple/2013/11/review-apples-ipad-air-is-a-big-tablet-without-all-the-baggage/2/&#34;&gt;iPad Air Review&lt;/a&gt;&lt;br /&gt;
 Motorola: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/09/review-its-big-but-at-400-the-moto-x-pure-edition-is-a-safe-bet/&#34;&gt;Ars Technica Moto X Pure Review&lt;/a&gt; (Except for Moto X Play, scores from &lt;a href=&#34;http://browser.primatelabs.com/android-benchmarks&#34;&gt;Geekbench Browser&lt;/a&gt; for the Snapdragon 615)&lt;br /&gt;
@@ -324,7 +358,7 @@ Samsung: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/04/samsung-galaxy-s
 
 &lt;p&gt;We then have a class to apply the behavior:&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;EliMarshal.ClassLibrary.AttributePropertyHelper&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;EliMarshal.ClassLibrary.AttributePropertyHelper&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;System.Linq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;System.Windows&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -435,7 +469,7 @@ Samsung: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/04/samsung-galaxy-s
     &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;And finally a class to set the property on the control:&lt;/p&gt;
 
@@ -616,14 +650,14 @@ Samsung: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/04/samsung-galaxy-s
 
 &lt;p&gt;In an ideal world I&amp;rsquo;d simply eschew Adobe products and use &lt;a href=&#34;https://wiki.gnome.org/Apps/Evince&#34;&gt;Evince&lt;/a&gt; and/or &lt;a href=&#34;https://mozilla.github.io/pdf.js/&#34;&gt;PDF.js&lt;/a&gt; for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows developement projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:&lt;/p&gt;
 
-&lt;h5 id=&#34;download:aed31d4fdfe56ddbc94c77fadd67b06c&#34;&gt;Download:&lt;/h5&gt;
+&lt;h5 id=&#34;download&#34;&gt;Download:&lt;/h5&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.adobe.com/devnet-docs/acrobatetk/tools/Wizard/index.html&#34;&gt;Adobe Customization Wizard DC Windows (both tracks)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotes/index.html&#34;&gt;Acrobat Reader DC Continuous Track&lt;/a&gt; (Get the file for your language to save some space/time.)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h5 id=&#34;setup:aed31d4fdfe56ddbc94c77fadd67b06c&#34;&gt;Setup:&lt;/h5&gt;
+&lt;h5 id=&#34;setup&#34;&gt;Setup:&lt;/h5&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Install the Adobe Customization Wizard.&lt;/li&gt;
@@ -694,7 +728,7 @@ Samsung: &lt;a href=&#34;http://arstechnica.com/gadgets/2015/04/samsung-galaxy-s
 
 &lt;p&gt;I used Jdenticon to generated large (3200x3200) icon. Then using &lt;a href=&#34;http://www.gimp.org/&#34;&gt;GIMP&lt;/a&gt;, I autocropped edges and scaled to required various sizes as detailed below, each from fullsize and exported as PNG or ICO. PNGs were then compressed with &lt;a href=&#34;https://imageoptim.com/&#34;&gt;ImageOptim&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;images:dea26b9010639a94d3c988395e9001ff&#34;&gt;Images&lt;/h4&gt;
+&lt;h4 id=&#34;images&#34;&gt;Images&lt;/h4&gt;
 
 &lt;p&gt;iOS: &lt;a href=&#34;../../apple-touch-icon-180x180.png&#34;&gt;180x180&lt;/a&gt;&lt;br /&gt;
 Browsers: &lt;a href=&#34;../../favicon-32x32.png&#34;&gt;32x32&lt;/a&gt;&lt;br /&gt;
@@ -702,9 +736,9 @@ favicon.ico: &lt;a href=&#34;../../favicon.ico&#34;&gt;32x32&lt;/a&gt;&lt;br /&g
 Android: &lt;a href=&#34;../../android-chrome-192x192.png&#34;&gt;192x192&lt;/a&gt;&lt;br /&gt;
 Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 128x128 canvas&lt;/a&gt;, &lt;a href=&#34;../../mstile-150x150.png&#34;&gt;127x127 icon with 270x270 canvas&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;code:dea26b9010639a94d3c988395e9001ff&#34;&gt;Code&lt;/h4&gt;
+&lt;h4 id=&#34;code&#34;&gt;Code&lt;/h4&gt;
 
-&lt;h6 id=&#34;html:dea26b9010639a94d3c988395e9001ff&#34;&gt;HTML&lt;/h6&gt;
+&lt;h6 id=&#34;html&#34;&gt;HTML&lt;/h6&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;apple-touch-icon&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;sizes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;180x180&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/apple-touch-icon-180x180.png&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;icon&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;image/png&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;/favicon-32x32.png&amp;quot;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;sizes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;quot;32x32&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
@@ -712,9 +746,9 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h5 id=&#34;manifest-json-for-android:dea26b9010639a94d3c988395e9001ff&#34;&gt;manifest.json (for Android)&lt;/h5&gt;
+&lt;h5 id=&#34;manifest-json-for-android&#34;&gt;manifest.json (for Android)&lt;/h5&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;nt&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;elimarshal.com&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
     &lt;span class=&#34;nt&#34;&gt;&amp;quot;icons&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
         &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -726,11 +760,11 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
     &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
 
-&lt;h5 id=&#34;browserconfig-xml-for-ie:dea26b9010639a94d3c988395e9001ff&#34;&gt;browserconfig.xml (for IE)&lt;/h5&gt;
 
-&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;&lt;/span&gt;
+&lt;h5 id=&#34;browserconfig-xml-for-ie&#34;&gt;browserconfig.xml (for IE)&lt;/h5&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-8&amp;quot;?&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;&amp;lt;browserconfig&amp;gt;&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;&amp;lt;msapplication&amp;gt;&lt;/span&gt;
     &lt;span class=&#34;nt&#34;&gt;&amp;lt;tile&amp;gt;&lt;/span&gt;
@@ -741,7 +775,7 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
   &lt;span class=&#34;nt&#34;&gt;&amp;lt;/msapplication&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;&amp;lt;/browserconfig&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -757,19 +791,19 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
 
 &lt;p&gt;This isn&amp;rsquo;t meant to be a comprehensive guide, but rather a summary of the best available options.&lt;/p&gt;
 
-&lt;h3 id=&#34;device-independent:693d2e725279292283d517fb787721f6&#34;&gt;Device Independent&lt;/h3&gt;
+&lt;h3 id=&#34;device-independent&#34;&gt;Device Independent&lt;/h3&gt;
 
 &lt;p&gt;Use a &lt;a href=&#34;http://winhelp2002.mvps.org/hosts.htm&#34;&gt;hosts file&lt;/a&gt; on your linux-based router of choice to block ads across your home network.&lt;/p&gt;
 
-&lt;h3 id=&#34;android:693d2e725279292283d517fb787721f6&#34;&gt;Android&lt;/h3&gt;
+&lt;h3 id=&#34;android&#34;&gt;Android&lt;/h3&gt;
 
 &lt;p&gt;Use the &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.adblockplus.browser&amp;amp;hl=en&#34;&gt;Adblock Browser for Android&lt;/a&gt; from ABP. If your device is rooted, use a hosts file.&lt;/p&gt;
 
-&lt;h3 id=&#34;ios:693d2e725279292283d517fb787721f6&#34;&gt;iOS&lt;/h3&gt;
+&lt;h3 id=&#34;ios&#34;&gt;iOS&lt;/h3&gt;
 
 &lt;p&gt;Use the &lt;a href=&#34;https://itunes.apple.com/ca/app/adblock-browser/id1015653330&#34;&gt;Adblock Browser&lt;/a&gt; from ABP. I do not currently recommend any of the currently available content blockers for Safari, they are all closed source with a lack of attribution as to the origin of the filter list contents.&lt;/p&gt;
 
-&lt;h3 id=&#34;windows-phone:693d2e725279292283d517fb787721f6&#34;&gt;Windows Phone&lt;/h3&gt;
+&lt;h3 id=&#34;windows-phone&#34;&gt;Windows Phone&lt;/h3&gt;
 
 &lt;p&gt;You&amp;rsquo;re hooped. See device independent ad blocking. Hopefully with Windows 10 and Microsoft Edge, extension support for the browser will come to mobile and &lt;a href=&#34;https://github.com/gorhill/uBlock&#34;&gt;uBlock Origin&lt;/a&gt; can be ported over.&lt;/p&gt;
 </description>
@@ -823,29 +857,35 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
       <pubDate>Mon, 15 Dec 2014 19:11:58 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/two-years-with-the-Surface-RT/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve now owned the original 64 GB Surface RT for just over two years. In that time I&amp;rsquo;ve probably averaged 20 minutes or so of use per day, including days with no usage, and days with 8+ hours of usage.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve now owned the original 64 GB Surface RT for just over two years. In that time I&amp;rsquo;ve probably averaged 20 minutes or so of use per day, including days with no usage, and days with 8+ hours of usage.&lt;/p&gt;
 
 &lt;p&gt;My general observations on the device, not intended to be a full review so long after release:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Wear&lt;/strong&gt;
-Tablet: Impeccable condition still. The kickstand loosened a couple times, which I retightened with a very small Torx screwdriver.
+&lt;h5 id=&#34;wear&#34;&gt;Wear&lt;/h5&gt;
+
+&lt;p&gt;Tablet: Impeccable condition still. The kickstand loosened a couple times, which I retightened with a very small Torx screwdriver.&lt;br /&gt;
 Touch cover: Edges are splitting apart. Functionally still fine, I suspect it will last quite a while longer before functionality is impacted.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Apps&lt;/strong&gt;
-I&amp;rsquo;m not much for apps for my tablet use cases, so I&amp;rsquo;ve got fairly minimal complaints here. MS Office is quite handy, OneNote is great, &lt;a href=&#34;http://nextmatters.com/&#34;&gt;Nextgen Reader&lt;/a&gt; is a fabulous RSS reader (my favourite on any platform) that syncs with &lt;a href=&#34;https://feedly.com/&#34;&gt;Feedly&lt;/a&gt; and covers most of my day-to-day use of the Surface. MS just added MKV support now, over two years after release, which saves the hassle of remuxing MKV files to mp4 to use in the video app.&lt;/p&gt;
+&lt;h5 id=&#34;apps&#34;&gt;Apps&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;
-Very poor, due in large part to Tegra 3. Presumably Surface 2 would be better. Browsing is painfully slow. For months, I had a bug with the Metro version of IE that rendered it an order of magnitude slower than desktop IE (random wiki page would literally take two minutes to load), but it randomly resolved itself (possibly with an update to Windows) at some point, so now Metro and desktop IE are at least on par. PDFs are painfully slow to use, pages render like molasses, and multi-page documents struggle to render previews when semantically zoomed out to view multiple pages. At least HD video plays back fine.
+&lt;p&gt;I&amp;rsquo;m not much for apps for my tablet use cases, so I&amp;rsquo;ve got fairly minimal complaints here. MS Office is quite handy, OneNote is great, &lt;a href=&#34;http://nextmatters.com/&#34;&gt;Nextgen Reader&lt;/a&gt; is a fabulous RSS reader (my favourite on any platform) that syncs with &lt;a href=&#34;https://feedly.com/&#34;&gt;Feedly&lt;/a&gt; and covers most of my day-to-day use of the Surface. MS just added MKV support now, over two years after release, which saves the hassle of remuxing MKV files to mp4 to use in the video app.&lt;/p&gt;
+
+&lt;h5 id=&#34;performance&#34;&gt;Performance&lt;/h5&gt;
+
+&lt;p&gt;Very poor, due in large part to Tegra 3. Presumably Surface 2 would be better. Browsing is painfully slow. For months, I had a bug with the Metro version of IE that rendered it an order of magnitude slower than desktop IE (random wiki page would literally take two minutes to load), but it randomly resolved itself (possibly with an update to Windows) at some point, so now Metro and desktop IE are at least on par. PDFs are painfully slow to use, pages render like molasses, and multi-page documents struggle to render previews when semantically zoomed out to view multiple pages. At least HD video plays back fine.
 Wireless randomly fails and requires turning wireless off/on. Why on earth is this still a problem?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;
-Reading RSS: Great, with Nextgen Reader. Annoying when feeds won&amp;rsquo;t load their full text and force opening IE.
-Web browsing: Painfully slow. Touch cover not appropriate for significant text entry, would purchase type cover if I was buying today - MS has dropped the touch cover option for the SP3, so they seem to have arrived at the same conclusion.
+&lt;h5 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h5&gt;
+
+&lt;p&gt;Reading RSS: Great, with Nextgen Reader. Annoying when feeds won&amp;rsquo;t load their full text and force opening IE.&lt;br /&gt;
+Web browsing: Painfully slow. Touch cover not appropriate for significant text entry, would purchase type cover if I was buying today - MS has dropped the touch cover option for the SP3, so they seem to have arrived at the same conclusion.&lt;br /&gt;
 Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages to resolve.) 16:9 aspect ratio, kickstand, 10+ hours of battery life, microSD support - doesn&amp;rsquo;t get any better than this.&lt;/p&gt;
 
 &lt;p&gt;All in all, I&amp;rsquo;m decently happy with the device. I was hoping to purchase a Nexus 9 with better performance and a 4:3 screen to replace the Surface for everything but video that I use it for, but with its iPad-like price and reported build-quality issues, I&amp;rsquo;m holding off. I plan on keeping the Surface indefinitely for video, there&amp;rsquo;s really nothing better except the Surface 2, which gets full 1080p instead of 768p, but otherwise performs similarly for videos.&lt;/p&gt;
 
-&lt;p&gt;Update: Sold the Surface RT a few months ago. Currently don&amp;rsquo;t have a tablet. iPads are too expensive, Android devices have crippled updates except for overpriced marginal-build-quality Nexus 9, or the recalled Shield Tablet.&lt;/p&gt;
+&lt;p&gt;Update: Sold the Surface RT a few months ago. Currently don&amp;rsquo;t have a tablet. iPads are too expensive, Android devices have crippled updates except for overpriced, marginal-build-quality Nexus 9, or the recalled Shield Tablet.&lt;/p&gt;
 </description>
     </item>
     
@@ -902,50 +942,6 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
 &lt;p&gt;In general, you ought to attempt to maximize your knowledge, which includes realizing how much knowledge you&amp;rsquo;re currently missing, and how much knowledge is unobtainable (and realizing that there is some knowledge which you&amp;rsquo;re missing and cannot obtain that cannot be quantified - specifically because you don&amp;rsquo;t have that knowledge), while recognizing and attempting to avoid cognitive biases.&lt;/p&gt;
 
 &lt;p&gt;And I don&amp;rsquo;t excel at everything; I&amp;rsquo;m just good at learning quickly, and avoiding or quitting activities which are predisposed towards long-term sub-par performance on my part. (Though I reserve the right to measure performance subjectively - I&amp;rsquo;m objectively bad at swimming, but as I&amp;rsquo;m only concerned with the exercise benefits, I still see swimming as a worthwhile endeavor.)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IKEA standing desk</title>
-      <link>https://www.elimarshal.com/post/IKEA-standing-desk/</link>
-      <pubDate>Thu, 09 Feb 2012 18:53:38 -0600</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/IKEA-standing-desk/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;d been bouncing around the idea of a standing desk for health/comfort reasons for quite some time, but having a quality desk and chair already, I wasn&amp;rsquo;t particularly motivated to do anything about it. Finally after moving to a location with an IKEA for the first time in my life, I hit up Google for ways to build a standing desk setup without any power tools.&lt;/p&gt;
-
-&lt;p&gt;Eventually I settled on using the &lt;a href=&#34;http://www.ikeahackers.net/2011/02/gallant-standing-desk.html&#34;&gt;IKEA Hackers: Galant Standing Desk&lt;/a&gt; post as a basis for my desk.&lt;/p&gt;
-
-&lt;p&gt;Materials:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/S69885229/&#34;&gt;Galant Desk 160 cm x 80 cm with frame&lt;/a&gt; (I wanted a larger desk than the one in the IKEA Hackers post)&lt;/li&gt;
-&lt;li&gt;1 x Galant Table Top 160 cm x 80 cm (no frame, just the table top from above)&lt;/li&gt;
-&lt;li&gt;4 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/40057457/&#34;&gt;Galant A-Leg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;5 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10168720/&#34;&gt;Ekby Töre brackets&lt;/a&gt; (I used an extra bracket in the middle of the desk in the back, because of the extra size and weight)&lt;/li&gt;
-&lt;li&gt;1 x Galant Drawer&lt;/li&gt;
-&lt;li&gt;1 x Summera Pull-out Keyboard Shelf&lt;/li&gt;
-&lt;li&gt;5 x &lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&amp;rdquo; Flathead Wood Screws&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This worked quite well for some time, until I upgraded my keyboard to the Kinesis Advantage. For optimal use of this keyboard, I had to lower the height of the desk, which necessitated the creation of a monitor stand to raise the height of my monitor. Again, I used &lt;a href=&#34;http://www.ikeahackers.net/2012/01/12-monitor-stand.html&#34;&gt;IKEA Hackers: $12 Monitor Stand&lt;/a&gt; as  a basis for my build.&lt;/p&gt;
-
-&lt;p&gt;Materials:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/10267895/&#34;&gt;4-pack of Ikea Capita Legs - 6&amp;rdquo;&lt;/a&gt; (I use these at the minimum height)&lt;/li&gt;
-&lt;li&gt;1 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/20094347/&#34;&gt;Ekby Järpen 119 cm x 28 cm Shelf&lt;/a&gt; (Again, bigger than the original post)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been using the above setup for half a year now, with few complaints. Because of the size, it&amp;rsquo;s a bit difficult to clean of dust, if I moved it to the center of a room rather than a corner, this should get easier. Otherwise, as a standing desk, I&amp;rsquo;m loving it, I can&amp;rsquo;t see myself moving back to a seated desk.&lt;/p&gt;
-
-&lt;p&gt;Next time I move, if it&amp;rsquo;s within driving distance, this setup should be fairly easy to disassemble, otherwise I can just build a new one at my destination, assuming an IKEA is present.&lt;/p&gt;
-
-&lt;p&gt;Update:
-Added a couple pieces to help with cable management:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2 x &lt;a href=&#34;http://www.ikea.com/ca/en/catalog/products/30200253/&#34;&gt;Signum Cable management&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
