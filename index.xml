@@ -7,8 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Sun, 05 Jun 2016 21:22:12 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2016 19:15:59 -0600</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>buying a microwave in Canada</title>
+      <link>https://www.elimarshal.com/post/buying-a-microwave-in-Canada/</link>
+      <pubDate>Tue, 16 Aug 2016 19:15:59 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/buying-a-microwave-in-Canada/</guid>
+      <description>&lt;p&gt;I recently went microwave shopping, starting with The Sweethome&amp;rsquo;s &lt;a href=&#34;http://thesweethome.com/reviews/best-microwave/&#34;&gt;The Best Microwave&lt;/a&gt; guide. GE, in their wisdom, doesn&amp;rsquo;t sell &lt;em&gt;any&lt;/em&gt; of the reviewed models in Canada, making comparison shopping impossible. Not only that, but of the seven countertop microwaves GE sells in Canada, &lt;em&gt;every single one&lt;/em&gt; of them is 1.1 ft³, with no comparable models to the 1.6 and 0.7 ft³ picks from The Sweethome. These range from a 1.1 ft³ 1000 W model for $107 to an 1.1 ft³ 800 W &amp;ldquo;professional series&amp;rdquo; microwave for $328 (both in stainless steel). How do these two models compare to each other, and the other five? I have no idea, and GE doesn&amp;rsquo;t provide any helpful information. How do they stack up against the American models? Again, I have no real idea, but certainly not well considering their size, lack of power, and price. (Compared to 150 USD for the 1.6 ft³ 1150 W pick, 91 USD for the 0.7 ft³ 700 W pick.)&lt;/p&gt;
+
+&lt;p&gt;Of the only two(!) microwave brands that The Sweethome even deem worth testing, Panasonic is the alternative to GE. Thankfully, Canadian Costco carries a 1.2 ft³ 1200 W model that looks broadly comparable to what&amp;rsquo;s available in America, and at a reasonable price. Now I remember why I signed up as a Costco member in the first place - the miserable experience of trying to comparison shop specs and prices for car batteries.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>New Nintendo 3DS XL First Impressions</title>
@@ -33,7 +45,7 @@ Camera is worthlessly poor quality, and loud software shutter sound can&amp;rsqu
 &lt;h5 id=&#34;software&#34;&gt;Software&lt;/h5&gt;
 
 &lt;p&gt;System boot is &lt;em&gt;fast&lt;/em&gt;. Why can&amp;rsquo;t phones boot this quickly?&lt;br /&gt;
-Loads of cruft apps. Of the twelve stock apps on the homescreen, I can only see two of them (eShop and settings) ever being of use to me. The rest of them can&amp;rsquo;t be hidden.&lt;br /&gt;
+Loads of cruft apps. Of the twelve stock apps on the homescreen, I can only see two of them (eShop and settings) ever being of use. The rest of them can&amp;rsquo;t be hidden.&lt;br /&gt;
 3D effect is pretty neat. Unsure yet if I&amp;rsquo;ll actually use it during games.&lt;br /&gt;
 Stylus works pretty well for menu navigation, suspect I won&amp;rsquo;t be interested in (m)any games that demand its use.&lt;/p&gt;
 
@@ -787,25 +799,25 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
       <guid>https://www.elimarshal.com/post/mobile-ad-blocking/</guid>
       <description>
 
-&lt;p&gt;2015-19-19: Updated to reflect currently available ad blockers.&lt;/p&gt;
+&lt;p&gt;2016-08: Updated to reflect currently available ad blockers.&lt;/p&gt;
 
 &lt;p&gt;This isn&amp;rsquo;t meant to be a comprehensive guide, but rather a summary of the best available options.&lt;/p&gt;
 
 &lt;h3 id=&#34;device-independent&#34;&gt;Device Independent&lt;/h3&gt;
 
-&lt;p&gt;Use a &lt;a href=&#34;http://winhelp2002.mvps.org/hosts.htm&#34;&gt;hosts file&lt;/a&gt; on your linux-based router of choice to block ads across your home network.&lt;/p&gt;
+&lt;p&gt;Use a &lt;a href=&#34;http://winhelp2002.mvps.org/hosts.htm&#34;&gt;hosts file&lt;/a&gt; on your linux-based router of choice to block ads across your home network. Not really recommended anymore due to lack of control on individual devices.&lt;/p&gt;
 
 &lt;h3 id=&#34;android&#34;&gt;Android&lt;/h3&gt;
 
-&lt;p&gt;Use the &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.adblockplus.browser&amp;amp;hl=en&#34;&gt;Adblock Browser for Android&lt;/a&gt; from ABP. If your device is rooted, use a hosts file.&lt;/p&gt;
+&lt;p&gt;Use &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.mozilla.firefox&#34;&gt;Firefox&lt;/a&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;&gt;uBlock Origin&lt;/a&gt;. Nearly as good as desktop browsing, except the uBlock UI isn&amp;rsquo;t really usable on mobile, so only the default &lt;a href=&#34;https://github.com/gorhill/uBlock/wiki/Blocking-mode&#34;&gt;easy mode blocking&lt;/a&gt; is practical.&lt;/p&gt;
 
 &lt;h3 id=&#34;ios&#34;&gt;iOS&lt;/h3&gt;
 
-&lt;p&gt;Use the &lt;a href=&#34;https://itunes.apple.com/ca/app/adblock-browser/id1015653330&#34;&gt;Adblock Browser&lt;/a&gt; from ABP. I do not currently recommend any of the currently available content blockers for Safari, they are all closed source with a lack of attribution as to the origin of the filter list contents.&lt;/p&gt;
+&lt;p&gt;Use the &lt;a href=&#34;https://itunes.apple.com/ca/app/adblock-browser/id1015653330&#34;&gt;Adblock Browser&lt;/a&gt; from ABP. I do not currently recommend any of the currently available content blockers for Safari.&lt;/p&gt;
 
-&lt;h3 id=&#34;windows-phone&#34;&gt;Windows Phone&lt;/h3&gt;
+&lt;h3 id=&#34;windows-10-mobile&#34;&gt;Windows 10 Mobile&lt;/h3&gt;
 
-&lt;p&gt;You&amp;rsquo;re hooped. See device independent ad blocking. Hopefully with Windows 10 and Microsoft Edge, extension support for the browser will come to mobile and &lt;a href=&#34;https://github.com/gorhill/uBlock&#34;&gt;uBlock Origin&lt;/a&gt; can be ported over.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re hooped. Hopefully Edge Mobile adds extension support soon.&lt;/p&gt;
 </description>
     </item>
     
@@ -908,40 +920,6 @@ Mobile video watching: Fantastic. (Minus the lack of MKV support which took ages
 &lt;p&gt;&lt;a href=&#34;../../img/NewDestinations.png&#34;&gt;&lt;img src=&#34;../../img/NewDestinations.png&#34; alt=&#34;New Destinations&#34; width=&#34;620&#34; height=&#34;196&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a case of &lt;a href=&#34;https://en.wikipedia.org/wiki/Tying_%28commerce%29&#34;&gt;tying&lt;/a&gt;. Unfortunately, since this change was implemented, I don&amp;rsquo;t think I&amp;rsquo;ve seen it mentioned in a single location.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>goals vs dreams</title>
-      <link>https://www.elimarshal.com/post/goals-vs-dreams/</link>
-      <pubDate>Tue, 14 Aug 2012 19:03:10 -0600</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/goals-vs-dreams/</guid>
-      <description>&lt;p&gt;I recently made a relatively flippant comment to a friend (&amp;ldquo;I don&amp;rsquo;t set goals, I just excel at everything.&amp;rdquo;) and felt the need to elaborate.&lt;/p&gt;
-
-&lt;p&gt;There are two main points of contention in how I view goals. The first is purely a semantic issue; I view goals as a &lt;strong&gt;clearly achievable, likely set of circumstances achievable by following a certain set of actions&lt;/strong&gt;. Buying two lottery tickets every week is a goal. &lt;em&gt;Winning&lt;/em&gt; the lottery is a dream, not a goal.&lt;/p&gt;
-
-&lt;p&gt;Secondly, I&amp;rsquo;ve recently read Taleb&amp;rsquo;s &lt;em&gt;The Black Swan&lt;/em&gt;, in which he makes several points about human errors in intuition and reasoning, which can be applied to how people think about goals:&lt;/p&gt;
-
-&lt;p&gt;Narrative fallacy (wiki on &lt;a href=&#34;https://en.wikipedia.org/wiki/Illusory_correlation&#34;&gt;Illusory correlation&lt;/a&gt;): People like applying narratives to events (it makes events easier to remember, and lets people think they understand events which they don&amp;rsquo;t actually understand). You&amp;rsquo;ll accomplish something, and back-fit a narrative to explain the accomplishment (&amp;ldquo;I always wanted to do X, and doing A, B and C helped me achieve X&amp;rdquo;) when in fact, you arrived at X via a series of random fortunate events.&lt;/p&gt;
-
-&lt;p&gt;Survivorship bias (wiki on &lt;a href=&#34;https://en.wikipedia.org/wiki/Survivorship_bias&#34;&gt;Survivorship bias&lt;/a&gt;): You&amp;rsquo;ll look at a set of people who accomplished something, and assume that since a large proportion of them had that accomplishment as a goal, that is was a reasonable goal. This overlooks the set of people with the same goal who failed to achieve it. Going back to lottery example, looking at lottery winners overlooks the overwhelming majority of people who thought they had &amp;ldquo;win the lottery&amp;rdquo; as a goal (and actually just had &amp;ldquo;buy lottery tickets&amp;rdquo; as a goal). Furthermore, a lottery is one of the easiest places to avoid survivorship bias; in the real world, you don&amp;rsquo;t know how many people are playing the game and how many losers there are.&lt;/p&gt;
-
-&lt;p&gt;These tie into my original semantic point of goals vs. dreams, and fool people into thinking they&amp;rsquo;re making goals when in fact they simply have dreams, as only a small fraction of similarly qualified people with the same dream will ever accomplish it, due to random chance.&lt;/p&gt;
-
-&lt;p&gt;Some goals/dreams:&lt;/p&gt;
-
-&lt;p&gt;Bench-pressing 300 pounds is a goal. (At least for most men of average-ish stature.) It will be difficult, and will require a large time commitment for eating and lifting, but you&amp;rsquo;ll get there eventually. Bench-pressing 800 pounds is a dream, not a goal. Your genetics probably don&amp;rsquo;t allow for it, and your job probably doesn&amp;rsquo;t give you enough free time for all the eating and training you&amp;rsquo;d need to do.&lt;/p&gt;
-
-&lt;p&gt;Becoming CEO of a large corporation is not a goal. Companies fail too frequently and the selection process is too random. Of the members of the S&amp;amp;P 500 in 1957 only 74 were still on the index forty years later (see Taleb) - the majority of the missing companies having shrunk or failed (as opposed to being acquired in mergers), and start-ups have famously abysmal success rates. Clearly founding your own company for the purpose of becoming CEO (of a large corporation) is not a realistic goal. Being selected as CEO of an existing company is similarly fraught with randomness that you can&amp;rsquo;t control. The sheer number of people with qualifications matching what a selection committee is looking for makes the exercise a dream, rather than a goal. (Notwithstanding the absence of evidence suggesting that CEOs have greater than negligible impacts on their firms - or in other words, that their qualifications are at all relevant - selection committees could be looking for a completely different set of qualifications by the time you become qualified.)&lt;/p&gt;
-
-&lt;p&gt;Living to the age of X years is not a goal. There is no way to measure in advance what impact your actions (short of suicide) have on your own lifespan, and you could potentially reach X years without any overt action on your part. (To avoid trivially non-interesting goals, I&amp;rsquo;ll take my &amp;ldquo;certain set of actions&amp;rdquo; required for a goal as excluding inaction.) You can set a goal of living as long or as healthily as possible, which is likely given intense exercise, healthy nutrition, etc., but quantifying &amp;ldquo;as long as possible&amp;rdquo; for an individual is impossible to do in any useful manner. (As opposed to an aggregate - a health authority could reasonably set a goal of extending average lifespans by ten years by promoting exercise.)&lt;/p&gt;
-
-&lt;p&gt;Is there a hard-and-fast probability of success that I&amp;rsquo;d require before accepting something as a goal rather than a dream? No. I would err on the side of caution, ascribing the &amp;ldquo;dream&amp;rdquo; status to accomplishments where the probability of success is uncertain or unknown. (Which is reasonable, we&amp;rsquo;re less likely to know the probabilities of unlikely events.) Furthermore, even given my prescribed semantic framework, goals and dreams are subjective; you could in good faith set a goal of bench-pressing 2000 pounds. (You might be mistaking the value of a pound, you might have failed to do any research regarding humans strength limits, you could by simply overestimating your abilities, etc.) &lt;em&gt;I&lt;/em&gt; would know you didn&amp;rsquo;t actually have a goal, but you wouldn&amp;rsquo;t be able tell it was only a dream until you gained further knowledge about the subject.&lt;/p&gt;
-
-&lt;p&gt;In general, you ought to attempt to maximize your knowledge, which includes realizing how much knowledge you&amp;rsquo;re currently missing, and how much knowledge is unobtainable (and realizing that there is some knowledge which you&amp;rsquo;re missing and cannot obtain that cannot be quantified - specifically because you don&amp;rsquo;t have that knowledge), while recognizing and attempting to avoid cognitive biases.&lt;/p&gt;
-
-&lt;p&gt;And I don&amp;rsquo;t excel at everything; I&amp;rsquo;m just good at learning quickly, and avoiding or quitting activities which are predisposed towards long-term sub-par performance on my part. (Though I reserve the right to measure performance subjectively - I&amp;rsquo;m objectively bad at swimming, but as I&amp;rsquo;m only concerned with the exercise benefits, I still see swimming as a worthwhile endeavor.)&lt;/p&gt;
 </description>
     </item>
     

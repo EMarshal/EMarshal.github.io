@@ -7,8 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
-    <lastBuildDate>Sun, 05 Jun 2016 21:22:12 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2016 19:15:59 -0600</lastBuildDate>
     <atom:link href="https://www.elimarshal.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>buying a microwave in Canada</title>
+      <link>https://www.elimarshal.com/post/buying-a-microwave-in-Canada/</link>
+      <pubDate>Tue, 16 Aug 2016 19:15:59 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/buying-a-microwave-in-Canada/</guid>
+      <description>&lt;p&gt;I recently went microwave shopping, starting with The Sweethome&amp;rsquo;s &lt;a href=&#34;http://thesweethome.com/reviews/best-microwave/&#34;&gt;The Best Microwave&lt;/a&gt; guide. GE, in their wisdom, doesn&amp;rsquo;t sell &lt;em&gt;any&lt;/em&gt; of the reviewed models in Canada, making comparison shopping impossible. Not only that, but of the seven countertop microwaves GE sells in Canada, &lt;em&gt;every single one&lt;/em&gt; of them is 1.1 ft³, with no comparable models to the 1.6 and 0.7 ft³ picks from The Sweethome. These range from a 1.1 ft³ 1000 W model for $107 to an 1.1 ft³ 800 W &amp;ldquo;professional series&amp;rdquo; microwave for $328 (both in stainless steel). How do these two models compare to each other, and the other five? I have no idea, and GE doesn&amp;rsquo;t provide any helpful information. How do they stack up against the American models? Again, I have no real idea, but certainly not well considering their size, lack of power, and price. (Compared to 150 USD for the 1.6 ft³ 1150 W pick, 91 USD for the 0.7 ft³ 700 W pick.)&lt;/p&gt;
+
+&lt;p&gt;Of the only two(!) microwave brands that The Sweethome even deem worth testing, Panasonic is the alternative to GE. Thankfully, Canadian Costco carries a 1.2 ft³ 1200 W model that looks broadly comparable to what&amp;rsquo;s available in America, and at a reasonable price. Now I remember why I signed up as a Costco member in the first place - the miserable experience of trying to comparison shop specs and prices for car batteries.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>New Nintendo 3DS XL First Impressions</title>
@@ -33,7 +45,7 @@ Camera is worthlessly poor quality, and loud software shutter sound can&amp;rsqu
 &lt;h5 id=&#34;software&#34;&gt;Software&lt;/h5&gt;
 
 &lt;p&gt;System boot is &lt;em&gt;fast&lt;/em&gt;. Why can&amp;rsquo;t phones boot this quickly?&lt;br /&gt;
-Loads of cruft apps. Of the twelve stock apps on the homescreen, I can only see two of them (eShop and settings) ever being of use to me. The rest of them can&amp;rsquo;t be hidden.&lt;br /&gt;
+Loads of cruft apps. Of the twelve stock apps on the homescreen, I can only see two of them (eShop and settings) ever being of use. The rest of them can&amp;rsquo;t be hidden.&lt;br /&gt;
 3D effect is pretty neat. Unsure yet if I&amp;rsquo;ll actually use it during games.&lt;br /&gt;
 Stylus works pretty well for menu navigation, suspect I won&amp;rsquo;t be interested in (m)any games that demand its use.&lt;/p&gt;
 
@@ -749,25 +761,25 @@ Windows Tiles: &lt;a href=&#34;../../mstile-70x70.png&#34;&gt;95x95 icon with 12
       <guid>https://www.elimarshal.com/post/mobile-ad-blocking/</guid>
       <description>
 
-&lt;p&gt;2015-19-19: Updated to reflect currently available ad blockers.&lt;/p&gt;
+&lt;p&gt;2016-08: Updated to reflect currently available ad blockers.&lt;/p&gt;
 
 &lt;p&gt;This isn&amp;rsquo;t meant to be a comprehensive guide, but rather a summary of the best available options.&lt;/p&gt;
 
 &lt;h3 id=&#34;device-independent&#34;&gt;Device Independent&lt;/h3&gt;
 
-&lt;p&gt;Use a &lt;a href=&#34;http://winhelp2002.mvps.org/hosts.htm&#34;&gt;hosts file&lt;/a&gt; on your linux-based router of choice to block ads across your home network.&lt;/p&gt;
+&lt;p&gt;Use a &lt;a href=&#34;http://winhelp2002.mvps.org/hosts.htm&#34;&gt;hosts file&lt;/a&gt; on your linux-based router of choice to block ads across your home network. Not really recommended anymore due to lack of control on individual devices.&lt;/p&gt;
 
 &lt;h3 id=&#34;android&#34;&gt;Android&lt;/h3&gt;
 
-&lt;p&gt;Use the &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.adblockplus.browser&amp;amp;hl=en&#34;&gt;Adblock Browser for Android&lt;/a&gt; from ABP. If your device is rooted, use a hosts file.&lt;/p&gt;
+&lt;p&gt;Use &lt;a href=&#34;https://play.google.com/store/apps/details?id=org.mozilla.firefox&#34;&gt;Firefox&lt;/a&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&#34;&gt;uBlock Origin&lt;/a&gt;. Nearly as good as desktop browsing, except the uBlock UI isn&amp;rsquo;t really usable on mobile, so only the default &lt;a href=&#34;https://github.com/gorhill/uBlock/wiki/Blocking-mode&#34;&gt;easy mode blocking&lt;/a&gt; is practical.&lt;/p&gt;
 
 &lt;h3 id=&#34;ios&#34;&gt;iOS&lt;/h3&gt;
 
-&lt;p&gt;Use the &lt;a href=&#34;https://itunes.apple.com/ca/app/adblock-browser/id1015653330&#34;&gt;Adblock Browser&lt;/a&gt; from ABP. I do not currently recommend any of the currently available content blockers for Safari, they are all closed source with a lack of attribution as to the origin of the filter list contents.&lt;/p&gt;
+&lt;p&gt;Use the &lt;a href=&#34;https://itunes.apple.com/ca/app/adblock-browser/id1015653330&#34;&gt;Adblock Browser&lt;/a&gt; from ABP. I do not currently recommend any of the currently available content blockers for Safari.&lt;/p&gt;
 
-&lt;h3 id=&#34;windows-phone&#34;&gt;Windows Phone&lt;/h3&gt;
+&lt;h3 id=&#34;windows-10-mobile&#34;&gt;Windows 10 Mobile&lt;/h3&gt;
 
-&lt;p&gt;You&amp;rsquo;re hooped. See device independent ad blocking. Hopefully with Windows 10 and Microsoft Edge, extension support for the browser will come to mobile and &lt;a href=&#34;https://github.com/gorhill/uBlock&#34;&gt;uBlock Origin&lt;/a&gt; can be ported over.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re hooped. Hopefully Edge Mobile adds extension support soon.&lt;/p&gt;
 </description>
     </item>
     
