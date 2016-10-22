@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on elimarshal.com</title>
-    <link>https://www.elimarshal.com/post/</link>
-    <description>Recent content in Posts on elimarshal.com</description>
+    <title>Post-rsses on elimarshal.com</title>
+    <link>https://www.elimarshal.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Éli Marshal</copyright>
