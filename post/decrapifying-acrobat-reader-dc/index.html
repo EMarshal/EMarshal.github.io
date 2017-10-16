@@ -6,7 +6,7 @@
     <title>decrapifying Acrobat Reader DC</title>
     <meta name="description" content="decrapifying Acrobat Reader DC">
     <meta name="author" content="Éli Marshal">
-    <meta name="generator" content="Hugo 0.26" />
+    <meta name="generator" content="Hugo 0.30" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -71,9 +71,7 @@
                 <h1>decrapifying Acrobat Reader DC</h1>
             </div>
             <div class="post-content">
-                
-
-<p>In an ideal world I&rsquo;d simply eschew Adobe products and use <a href="https://wiki.gnome.org/Apps/Evince">Evince</a> and/or <a href="https://mozilla.github.io/pdf.js/">PDF.js</a> for my PDF requirements. Unfortunately I require Adobe&rsquo;s COM Interop for some Windows developement projects I&rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:</p>
+                <p>In an ideal world I&rsquo;d simply eschew Adobe products and use <a href="https://wiki.gnome.org/Apps/Evince">Evince</a> and/or <a href="https://mozilla.github.io/pdf.js/">PDF.js</a> for my PDF requirements. Unfortunately I require Adobe&rsquo;s COM Interop for some Windows developement projects I&rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:</p>
 
 <h5 id="download">Download:</h5>
 
@@ -92,15 +90,12 @@
 <a href="../../img/AdobeWizard2.png"><img src="../../img/AdobeWizard2.png" alt="Installation Options" width="886" height="684" /></a><br />
 <a href="../../img/AdobeWizard3.png"><img src="../../img/AdobeWizard3.png" alt="Online Services and Features" width="886" height="684" /></a><br /></li>
 <li>Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)</li>
-<li>At the command line run: <div class="highlight"><pre><code class="language-ps1" data-lang="ps1"><span></span><span class="n">msiexec</span> <span class="p">/</span><span class="n">i</span> <span class="n">ADOBEINSTALLER</span><span class="p">.</span><span class="n">msi</span> <span class="n">TRANSFORMS</span><span class="p">=</span><span class="s2">&quot;ADOBETRANSFORM.mst&quot;</span>
-</code></pre></div>
-</li>
+<li>At the command line run: <div class="highlight"><pre class="chroma"><code class="language-ps1" data-lang="ps1"><span class="n">msiexec</span> <span class="p">/</span><span class="n">i</span> <span class="n">ADOBEINSTALLER</span><span class="p">.</span><span class="n">msi</span> <span class="n">TRANSFORMS</span><span class="p">=</span><span class="s2">&#34;ADOBETRANSFORM.mst&#34;</span></code></pre></div></li>
 <li>Open services.msc to disable the &ldquo;Adobe Acrobat Update Service&rdquo;.</li>
 <li>Open the task schedular to disable &ldquo;Adobe Acrobat Update Task&rdquo;.</li>
 <li>Open Acrobat Reader DC, open Preferences, General pane, under &ldquo;Messages from Adobe&rdquo; deselect &ldquo;Show me messages when I launch Adobe Acrobat Reader DC&rdquo; and select &ldquo;Don&rsquo;t show messages while viewing a document&rdquo;.</li>
 <li>Uninstall Acrobat Customization Wizard DC.</li>
 </ol>
-
             </div>
         </div>
     </div>

@@ -6,10 +6,25 @@
     <description>Recent content on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Aug 2016 19:15:59 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google ranking for publishers</title>
+      <link>https://www.elimarshal.com/post/google-ends-first-click-free/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/google-ends-first-click-free/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://searchengineland.com/google-first-click-free-replaced-flexible-sampling-283667&#34;&gt;Google: First Click Free is over, being replaced by Flexible Sampling&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Publishers will not be required to provide free content to be indexed. Gingras said that Google will be crawling full articles behind the wall for indexing but that publisher decisions about how much content to sample to search users will not impact rankings in any way.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Not a user-friendly move. Unless I specifically ask for it, I have no interest in seeing paywalled results for my queries.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>buying a microwave in Canada</title>
@@ -17,7 +32,7 @@
       <pubDate>Tue, 16 Aug 2016 19:15:59 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/buying-a-microwave-in-canada/</guid>
-      <description>I recently went microwave shopping, starting with The Sweethome&amp;rsquo;s The Best Microwave guide. GE, in their wisdom, doesn&amp;rsquo;t sell any of the reviewed models in Canada, making comparison shopping impossible. Not only that, but of the seven countertop microwaves GE sells in Canada, every single one of them is 1.1 ft³, with no comparable models to the 1.6 and 0.7 ft³ picks from The Sweethome. These range from a 1.1 ft³ 1000 W model for $107 to an 1.</description>
+      <description>&lt;p&gt;I recently went microwave shopping, starting with The Sweethome&amp;rsquo;s &lt;a href=&#34;http://thesweethome.com/reviews/best-microwave/&#34;&gt;The Best Microwave&lt;/a&gt; guide. GE, in their wisdom, doesn&amp;rsquo;t sell &lt;em&gt;any&lt;/em&gt; of the reviewed models in Canada, making comparison shopping impossible.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,16 +44,6 @@
       <description>Having recently acquired a New Nindendo 3DS XL (what kind of name is that?) system to keep my occupied on some upcoming plane trips, I&amp;rsquo;ve got several thoughts, unbiased by any prior portable console ownership.
 Hardware Build Quality: All plastic. Certainly not premium, but solid.
 Charger: Non-standard Nintendo plug, system does not include AC adapter. Charger output is 4.6 V, 900 mA. Should have simply been micro-USB. Any future iteration should be USB-C.</description>
-    </item>
-    
-    <item>
-      <title>Skylake single core frequency by TDP</title>
-      <link>https://www.elimarshal.com/post/skylake-single-core-frequency-by-tdp/</link>
-      <pubDate>Wed, 06 Jan 2016 17:38:26 -0700</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/skylake-single-core-frequency-by-tdp/</guid>
-      <description>A comparison of maximum single-core turbo frequency by TDP of Intel Skylake processors.
-  Model TDP Cores Single Core Turbo     Core i7-6700K 91 W 4 4.2 GHz   Core i7-6700 65 W 4 4.0 GHz   Pentium G4400 54 W 2 3.3 GHz   Core i3-6320 51 W 2 3.9 GHz   Core i7-6920HQ 45 W 4 3.8 GHz   Core i5-6600T 35 W 4 3.</description>
     </item>
     
     <item>
@@ -67,8 +72,7 @@ Combining a couple of Stack Overflow posts:
       <pubDate>Mon, 14 Sep 2015 19:36:53 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/sql-limited-range-attribute/</guid>
-      <description>If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with [SQLLimitedRangeAttribute](p, s), where p and s are the precision and scale for the data type.
-namespace EliMarshal.ClassLibrary { using System.ComponentModel.DataAnnotations; /// &amp;lt;summary&amp;gt; /// Validates to match SQL Server decimal data with given precision and scale /// &amp;lt;/summary&amp;gt; public sealed class SQLLimitedRangeAttribute : ValidationAttribute { /// &amp;lt;summary&amp;gt; /// Equal to the scale for the SQL data type.</description>
+      <description>&lt;p&gt;If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with &lt;code&gt;[SQLLimitedRangeAttribute](p, s)&lt;/code&gt;, where p and s are the precision and scale for the data type.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -77,8 +81,7 @@ namespace EliMarshal.ClassLibrary { using System.ComponentModel.DataAnnotations;
       <pubDate>Wed, 01 Jul 2015 13:04:20 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/decrapifying-acrobat-reader-dc/</guid>
-      <description>In an ideal world I&amp;rsquo;d simply eschew Adobe products and use Evince and/or PDF.js for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows developement projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:
-Download:  Adobe Customization Wizard DC Windows (both tracks)</description>
+      <description>&lt;p&gt;In an ideal world I&amp;rsquo;d simply eschew Adobe products and use &lt;a href=&#34;https://wiki.gnome.org/Apps/Evince&#34;&gt;Evince&lt;/a&gt; and/or &lt;a href=&#34;https://mozilla.github.io/pdf.js/&#34;&gt;PDF.js&lt;/a&gt; for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows developement projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:&lt;/p&gt;</description>
     </item>
     
     <item>

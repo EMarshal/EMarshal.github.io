@@ -28,8 +28,7 @@ Combining a couple of Stack Overflow posts:
       <pubDate>Mon, 14 Sep 2015 19:36:53 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/sql-limited-range-attribute/</guid>
-      <description>If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with [SQLLimitedRangeAttribute](p, s), where p and s are the precision and scale for the data type.
-namespace EliMarshal.ClassLibrary { using System.ComponentModel.DataAnnotations; /// &amp;lt;summary&amp;gt; /// Validates to match SQL Server decimal data with given precision and scale /// &amp;lt;/summary&amp;gt; public sealed class SQLLimitedRangeAttribute : ValidationAttribute { /// &amp;lt;summary&amp;gt; /// Equal to the scale for the SQL data type.</description>
+      <description>&lt;p&gt;If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with &lt;code&gt;[SQLLimitedRangeAttribute](p, s)&lt;/code&gt;, where p and s are the precision and scale for the data type.&lt;/p&gt;</description>
     </item>
     
     <item>
