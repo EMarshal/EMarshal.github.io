@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reviews on elimarshal.com</title>
+    <link>https://www.elimarshal.com/categories/reviews/</link>
+    <description>Recent content in Reviews on elimarshal.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.elimarshal.com/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iPad (5th generation) review</title>
+      <link>https://www.elimarshal.com/post/ipad-5th-gen-review/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/ipad-5th-gen-review/</guid>
+      <description>I&amp;rsquo;ve had several Android tablets over the years, with the most recent being the Nvidia Shield Tablet, but at this point, the market has been essentially ceded, with Google no longer selling any tablets on their webstore, and a dearth of even first-party Android tablets apps. For a recent trip, I purchased a 128 GB 5th-gen LTE iPad to bring as my sole device.
+ Surprise 10W USB wall charger in the box.</description>
+    </item>
+    
+    <item>
+      <title>New Nintendo 3DS XL First Impressions</title>
+      <link>https://www.elimarshal.com/post/new-nintendo-3ds-xl-first-impressions/</link>
+      <pubDate>Sun, 05 Jun 2016 21:22:12 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/new-nintendo-3ds-xl-first-impressions/</guid>
+      <description>Having recently acquired a New Nindendo 3DS XL (what kind of name is that?) system to keep my occupied on some upcoming plane trips, I&amp;rsquo;ve got several thoughts, unbiased by any prior portable console ownership.
+Hardware Build Quality: All plastic. Certainly not premium, but solid.
+Charger: Non-standard Nintendo plug, system does not include AC adapter. Charger output is 4.6 V, 900 mA. Should have simply been micro-USB. Any future iteration should be USB-C.</description>
+    </item>
+    
+    <item>
+      <title>Apple Watch review</title>
+      <link>https://www.elimarshal.com/post/apple-watch-review/</link>
+      <pubDate>Sat, 23 May 2015 07:05:22 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/apple-watch-review/</guid>
+      <description>Summary: It only works with iPhones, so it&amp;rsquo;s useless to me.
+Note that it doesn&amp;rsquo;t only work with iOS devices, it&amp;rsquo;s specifically limited to the iPhone; compatibility is articifically limited from both iPads and iPods.
+The latest (among several) revisions of either the iPad Pro, iPad Air, iPad Mini, and iPod Touch all meet every possible requirement for the Apple Watch (as established by the minimum supported iPhone 5), the only thing they lack compared to an iPhone are cellular connectivity.</description>
+    </item>
+    
+  </channel>
+</rss>

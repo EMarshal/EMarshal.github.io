@@ -6,10 +6,20 @@
     <description>Recent content on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iPad (5th generation) review</title>
+      <link>https://www.elimarshal.com/post/ipad-5th-gen-review/</link>
+      <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/ipad-5th-gen-review/</guid>
+      <description>I&amp;rsquo;ve had several Android tablets over the years, with the most recent being the Nvidia Shield Tablet, but at this point, the market has been essentially ceded, with Google no longer selling any tablets on their webstore, and a dearth of even first-party Android tablets apps. For a recent trip, I purchased a 128 GB 5th-gen LTE iPad to bring as my sole device.
+ Surprise 10W USB wall charger in the box.</description>
+    </item>
     
     <item>
       <title>Google ranking for publishers</title>
@@ -44,15 +54,6 @@
       <description>Having recently acquired a New Nindendo 3DS XL (what kind of name is that?) system to keep my occupied on some upcoming plane trips, I&amp;rsquo;ve got several thoughts, unbiased by any prior portable console ownership.
 Hardware Build Quality: All plastic. Certainly not premium, but solid.
 Charger: Non-standard Nintendo plug, system does not include AC adapter. Charger output is 4.6 V, 900 mA. Should have simply been micro-USB. Any future iteration should be USB-C.</description>
-    </item>
-    
-    <item>
-      <title>Geekbench per dollar</title>
-      <link>https://www.elimarshal.com/post/geekbench-per-dollar/</link>
-      <pubDate>Sun, 25 Oct 2015 21:55:11 -0600</pubDate>
-      
-      <guid>https://www.elimarshal.com/post/geekbench-per-dollar/</guid>
-      <description>A comparison of the Geekbench performance of mobile devices compared to their cost. Have tried to normalize price by preferentially choosing 32GB, then 64GB, then 16GB models, depending on availability. I&amp;rsquo;ve only included devices that are readily available unlocked, without carrier control over software updates. The Moto X Play (Snapdragon 615) and Galaxy S6 (Exynos 7420) included as exceptions based on their interesting SoCs. Windows phones excluded as Geekbench isn&amp;rsquo;t available.</description>
     </item>
     
     <item>
