@@ -6,10 +6,37 @@
     <description>Recent content on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Mar 2018 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mobile carrier security</title>
+      <link>https://www.elimarshal.com/post/mobile-carrier-security/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/mobile-carrier-security/</guid>
+      <description>&lt;p&gt;March 1:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.macrumors.com/2018/03/01/att-verizon-sprint-t-mobile-authentication/&#34;&gt;AT&amp;amp;T, Sprint, T-Mobile, and Verizon Detail Plans for &amp;lsquo;Next-Generation Mobile Authentication Platform&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;AT&amp;amp;T, Verizon, Sprint, and T-Mobile announced a team-up with the mission of developing a mobile authentication solution for both businesses and consumers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;March 5:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://arstechnica.com/information-technology/2018/03/even-more-bugs-in-lte-networks-allow-eavesdropping-fake-emergency-messages/&#34;&gt;LTE security flaws could be used for spying, spreading chaos&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The security of 4G LTE networks is largely based on obscurity [&amp;hellip;]&lt;/p&gt;
+
+&lt;p&gt;In one case, the Purdue and Iowa researchers found that a carrier didn’t encrypt “control plane” messages at all, meaning an attacker could even eavesdrop on SMS messages and other sensitive data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And we&amp;rsquo;re meant to give them &lt;em&gt;more&lt;/em&gt; security-critical responsibilities?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>iPad (5th generation) review</title>
