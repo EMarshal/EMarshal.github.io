@@ -6,7 +6,7 @@
     <title>setting wpf control properties based on bound property attributes</title>
     <meta name="description" content="setting wpf control properties based on bound property attributes">
     <meta name="author" content="Éli Marshal">
-    <meta name="generator" content="Hugo 0.37.1" />
+    <meta name="generator" content="Hugo 0.41" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -113,7 +113,7 @@
         <span class="c1">/// &lt;summary&gt;
 </span><span class="c1"></span>        <span class="c1">/// DependencyProperty set on every control to affect
 </span><span class="c1"></span>        <span class="c1">/// &lt;/summary&gt;
-</span><span class="c1"></span>        <span class="k">public</span> <span class="k">static</span> <span class="k">readonly</span> <span class="n">DependencyProperty</span> <span class="n">AttributeProperty</span> <span class="p">=</span> <span class="nc">DependencyProperty</span><span class="p">.</span><span class="n">RegisterAttached</span><span class="p">(</span>
+</span><span class="c1"></span>        <span class="k">public</span> <span class="k">static</span> <span class="k">readonly</span> <span class="n">DependencyProperty</span> <span class="n">AttributeProperty</span> <span class="p">=</span> <span class="n">DependencyProperty</span><span class="p">.</span><span class="n">RegisterAttached</span><span class="p">(</span>
              <span class="s">&#34;AttributeProperty&#34;</span><span class="p">,</span> <span class="k">typeof</span><span class="p">(</span><span class="kt">bool</span><span class="p">),</span> <span class="k">typeof</span><span class="p">(</span><span class="n">AttributePropertyExtension</span><span class="p">),</span> <span class="k">new</span> <span class="n">UIPropertyMetadata</span><span class="p">(</span><span class="k">false</span><span class="p">,</span> <span class="n">OnAttributePropertyChanged</span><span class="p">));</span>
 
         <span class="c1">/// &lt;summary&gt;
@@ -123,7 +123,7 @@
 </span><span class="c1"></span>        <span class="c1">/// &lt;returns&gt;true if the specified value is valid; otherwise, false.&lt;/returns&gt;
 </span><span class="c1"></span>        <span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">GetAttributeProperty</span><span class="p">(</span><span class="n">FrameworkElement</span> <span class="n">obj</span><span class="p">)</span>
         <span class="p">{</span>
-            <span class="k">return</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span><span class="nc">obj</span><span class="p">.</span><span class="n">GetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">);</span>
+            <span class="k">return</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span><span class="n">obj</span><span class="p">.</span><span class="n">GetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">);</span>
         <span class="p">}</span>
 
         <span class="c1">/// &lt;summary&gt;
@@ -133,7 +133,7 @@
 </span><span class="c1"></span>        <span class="c1">/// &lt;param name=&#34;value&#34;&gt;The value to set AttributeProperty to.&lt;/param&gt;
 </span><span class="c1"></span>        <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="n">SetAttributeProperty</span><span class="p">(</span><span class="n">FrameworkElement</span> <span class="n">obj</span><span class="p">,</span> <span class="kt">bool</span> <span class="k">value</span><span class="p">)</span>
         <span class="p">{</span>
-            <span class="nc">obj</span><span class="p">.</span><span class="n">SetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">,</span> <span class="k">value</span><span class="p">);</span>
+            <span class="n">obj</span><span class="p">.</span><span class="n">SetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">,</span> <span class="k">value</span><span class="p">);</span>
         <span class="p">}</span>
 
         <span class="c1">/// &lt;summary&gt;
@@ -144,14 +144,14 @@
 </span><span class="c1"></span>        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">OnAttributePropertyChanged</span><span class="p">(</span><span class="n">DependencyObject</span> <span class="n">d</span><span class="p">,</span> <span class="n">DependencyPropertyChangedEventArgs</span> <span class="n">e</span><span class="p">)</span>
         <span class="p">{</span>
             <span class="kt">var</span> <span class="n">uie</span> <span class="p">=</span> <span class="p">(</span><span class="n">UIElement</span><span class="p">)</span><span class="n">d</span><span class="p">;</span>
-            <span class="k">if</span> <span class="p">((</span><span class="kt">bool</span><span class="p">)</span><span class="nc">e</span><span class="p">.</span><span class="n">NewValue</span> <span class="p">&amp;&amp;</span> <span class="nc">uie</span><span class="p">.</span><span class="n">Dispatcher</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">((</span><span class="kt">bool</span><span class="p">)</span><span class="n">e</span><span class="p">.</span><span class="n">NewValue</span> <span class="p">&amp;&amp;</span> <span class="n">uie</span><span class="p">.</span><span class="n">Dispatcher</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
             <span class="p">{</span>
                 <span class="k">if</span> <span class="p">(</span><span class="n">uie</span> <span class="k">is</span> <span class="n">TextBox</span><span class="p">)</span>
                 <span class="p">{</span>
                     <span class="n">AssignAttributePropertyToControl</span><span class="p">&lt;</span><span class="n">Control</span><span class="p">&gt;(</span><span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">);</span>
                 <span class="p">}</span>
 
-                <span class="nc">uie</span><span class="p">.</span><span class="n">SetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">,</span> <span class="k">false</span><span class="p">);</span>
+                <span class="n">uie</span><span class="p">.</span><span class="n">SetValue</span><span class="p">(</span><span class="n">AttributeProperty</span><span class="p">,</span> <span class="k">false</span><span class="p">);</span>
             <span class="p">}</span>
         <span class="p">}</span>
 
@@ -165,11 +165,11 @@
 </span><span class="c1"></span>        <span class="c1">/// &lt;param name=&#34;e&#34;&gt;The DependencyPropertyChangedEventArgs for AttributeProperty.&lt;/param&gt;
 </span><span class="c1"></span>        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">AssignAttributePropertyToControl</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="n">DependencyObject</span> <span class="n">d</span><span class="p">,</span> <span class="n">DependencyPropertyChangedEventArgs</span> <span class="n">e</span><span class="p">)</span>
         <span class="p">{</span>
-            <span class="kt">var</span> <span class="n">behaviors</span> <span class="p">=</span> <span class="nc">Interaction</span><span class="p">.</span><span class="n">GetBehaviors</span><span class="p">(</span><span class="n">d</span><span class="p">);</span>
+            <span class="kt">var</span> <span class="n">behaviors</span> <span class="p">=</span> <span class="n">Interaction</span><span class="p">.</span><span class="n">GetBehaviors</span><span class="p">(</span><span class="n">d</span><span class="p">);</span>
 
-            <span class="k">if</span> <span class="p">(!</span><span class="nc">behaviors</span><span class="p">.</span><span class="n">OfType</span><span class="p">&lt;</span><span class="n">AttributePropertyBehavior</span><span class="p">&gt;().</span><span class="n">Any</span><span class="p">())</span>
+            <span class="k">if</span> <span class="p">(!</span><span class="n">behaviors</span><span class="p">.</span><span class="n">OfType</span><span class="p">&lt;</span><span class="n">AttributePropertyBehavior</span><span class="p">&gt;().</span><span class="n">Any</span><span class="p">())</span>
             <span class="p">{</span>
-                <span class="nc">behaviors</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span> <span class="n">AttributePropertyBehavior</span><span class="p">());</span>
+                <span class="n">behaviors</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span> <span class="n">AttributePropertyBehavior</span><span class="p">());</span>
             <span class="p">}</span>
         <span class="p">}</span>
 
@@ -186,7 +186,7 @@
                 <span class="k">if</span> <span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">is</span> <span class="n">Control</span><span class="p">)</span>
                 <span class="p">{</span>
                     <span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">as</span> <span class="n">Control</span><span class="p">).</span><span class="n">Loaded</span> <span class="p">+=</span> <span class="p">(</span><span class="n">sender</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
-                        <span class="p">=&gt;</span> <span class="nc">AttributePropertySetter</span><span class="p">.</span><span class="n">SetAttributeProperty</span><span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">as</span> <span class="n">Control</span><span class="p">);</span>
+                        <span class="p">=&gt;</span> <span class="n">AttributePropertySetter</span><span class="p">.</span><span class="n">SetAttributeProperty</span><span class="p">(</span><span class="n">AssociatedObject</span> <span class="k">as</span> <span class="n">Control</span><span class="p">);</span>
                 <span class="p">}</span>
 
                 <span class="c1">// Use this space to set AttributeProperty to different types than Control, i.e. FrameworkContentElement
@@ -218,28 +218,28 @@
 </span><span class="c1"></span>        <span class="c1">/// &lt;param name=&#34;editor&#34;&gt;The editor control.&lt;/param&gt;
 </span><span class="c1"></span>        <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="n">SetAttributeProperty</span><span class="p">(</span><span class="n">Control</span> <span class="n">editor</span><span class="p">)</span>
         <span class="p">{</span>
-            <span class="kt">object</span> <span class="n">context</span> <span class="p">=</span> <span class="nc">editor</span><span class="p">.</span><span class="n">DataContext</span><span class="p">;</span>
+            <span class="kt">object</span> <span class="n">context</span> <span class="p">=</span> <span class="n">editor</span><span class="p">.</span><span class="n">DataContext</span><span class="p">;</span>
             <span class="n">BindingExpression</span> <span class="n">binding</span> <span class="p">=</span> <span class="n">GetBindingExpression</span><span class="p">(</span><span class="n">editor</span><span class="p">);</span>
             <span class="k">if</span> <span class="p">(</span><span class="n">context</span> <span class="p">==</span> <span class="k">null</span> <span class="p">||</span> <span class="n">binding</span> <span class="p">==</span> <span class="k">null</span><span class="p">)</span>
             <span class="p">{</span>
                 <span class="k">return</span><span class="p">;</span>
             <span class="p">}</span>
 
-            <span class="k">if</span> <span class="p">(</span><span class="nc">binding</span><span class="p">.</span><span class="n">ResolvedSourcePropertyName</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="nc">binding</span><span class="p">.</span><span class="n">ResolvedSource</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSourcePropertyName</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSource</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
             <span class="p">{</span>
-                <span class="n">PropertyInfo</span> <span class="n">prop</span> <span class="p">=</span> <span class="nc">binding</span><span class="p">.</span><span class="nc">ResolvedSource</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="nc">binding</span><span class="p">.</span><span class="n">ResolvedSourcePropertyName</span><span class="p">);</span>
+                <span class="n">PropertyInfo</span> <span class="n">prop</span> <span class="p">=</span> <span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSource</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">ResolvedSourcePropertyName</span><span class="p">);</span>
                 <span class="n">AssignAttributePropertyFromProperty</span><span class="p">(</span><span class="n">editor</span><span class="p">,</span> <span class="n">prop</span><span class="p">);</span>
                 <span class="k">return</span><span class="p">;</span>
             <span class="p">}</span>
 
             <span class="c1">// Can&#39;t effectively test this as is, as .GetProperty() can&#39;t be intercepted
-</span><span class="c1"></span>            <span class="n">PropertyInfo</span> <span class="n">itemProp</span> <span class="p">=</span> <span class="nc">context</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="s">&#34;Item&#34;</span><span class="p">);</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">itemProp</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="nc">itemProp</span><span class="p">.</span><span class="n">GetSetMethod</span><span class="p">()</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+</span><span class="c1"></span>            <span class="n">PropertyInfo</span> <span class="n">itemProp</span> <span class="p">=</span> <span class="n">context</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="s">&#34;Item&#34;</span><span class="p">);</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">itemProp</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">itemProp</span><span class="p">.</span><span class="n">GetSetMethod</span><span class="p">()</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
             <span class="p">{</span>
-                <span class="kt">var</span> <span class="n">item</span> <span class="p">=</span> <span class="nc">itemProp</span><span class="p">.</span><span class="n">GetValue</span><span class="p">(</span><span class="n">context</span><span class="p">);</span>
+                <span class="kt">var</span> <span class="n">item</span> <span class="p">=</span> <span class="n">itemProp</span><span class="p">.</span><span class="n">GetValue</span><span class="p">(</span><span class="n">context</span><span class="p">);</span>
                 <span class="k">if</span> <span class="p">(</span><span class="n">item</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
                 <span class="p">{</span>
-                    <span class="n">PropertyInfo</span> <span class="n">prop</span> <span class="p">=</span> <span class="nc">item</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="nc">binding</span><span class="p">.</span><span class="nc">ParentBinding</span><span class="p">.</span><span class="nc">Path</span><span class="p">.</span><span class="n">Path</span><span class="p">);</span>
+                    <span class="n">PropertyInfo</span> <span class="n">prop</span> <span class="p">=</span> <span class="n">item</span><span class="p">.</span><span class="n">GetType</span><span class="p">().</span><span class="n">GetProperty</span><span class="p">(</span><span class="n">binding</span><span class="p">.</span><span class="n">ParentBinding</span><span class="p">.</span><span class="n">Path</span><span class="p">.</span><span class="n">Path</span><span class="p">);</span>
                     <span class="n">AssignAttributePropertyFromProperty</span><span class="p">&lt;</span><span class="n">Control</span><span class="p">&gt;(</span><span class="n">editor</span><span class="p">,</span> <span class="n">prop</span><span class="p">);</span>
                 <span class="p">}</span>
             <span class="p">}</span>
@@ -256,7 +256,7 @@
         <span class="p">{</span>
             <span class="k">if</span> <span class="p">(</span><span class="n">editor</span> <span class="k">is</span> <span class="n">TextBox</span><span class="p">)</span>
             <span class="p">{</span>
-                <span class="k">return</span> <span class="nc">editor</span><span class="p">.</span><span class="n">GetBindingExpression</span><span class="p">(</span><span class="nc">TextBox</span><span class="p">.</span><span class="n">TextProperty</span><span class="p">);</span>
+                <span class="k">return</span> <span class="n">editor</span><span class="p">.</span><span class="n">GetBindingExpression</span><span class="p">(</span><span class="n">TextBox</span><span class="p">.</span><span class="n">TextProperty</span><span class="p">);</span>
             <span class="p">}</span>
             <span class="k">else</span>
             <span class="p">{</span>
@@ -276,11 +276,11 @@
         <span class="p">{</span>
             <span class="k">if</span> <span class="p">(</span><span class="n">prop</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
             <span class="p">{</span>
-                <span class="k">if</span> <span class="p">(</span><span class="nc">Attribute</span><span class="p">.</span><span class="n">GetCustomAttributes</span><span class="p">(</span><span class="n">prop</span><span class="p">,</span> <span class="k">typeof</span><span class="p">(</span><span class="n">StringLengthAttribute</span><span class="p">),</span> <span class="k">true</span><span class="p">).</span><span class="n">FirstOrDefault</span><span class="p">()</span> <span class="k">is</span> <span class="n">StringLengthAttribute</span> <span class="n">stringLengthAtt</span><span class="p">)</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">Attribute</span><span class="p">.</span><span class="n">GetCustomAttributes</span><span class="p">(</span><span class="n">prop</span><span class="p">,</span> <span class="k">typeof</span><span class="p">(</span><span class="n">StringLengthAttribute</span><span class="p">),</span> <span class="k">true</span><span class="p">).</span><span class="n">FirstOrDefault</span><span class="p">()</span> <span class="k">is</span> <span class="n">StringLengthAttribute</span> <span class="n">stringLengthAtt</span><span class="p">)</span>
                 <span class="p">{</span>
                     <span class="k">if</span> <span class="p">(</span><span class="n">editor</span> <span class="k">is</span> <span class="n">TextBox</span><span class="p">)</span>
                     <span class="p">{</span>
-                        <span class="p">(</span><span class="n">editor</span> <span class="k">as</span> <span class="n">TextBox</span><span class="p">).</span><span class="n">MaxLength</span> <span class="p">=</span> <span class="nc">stringLengthAtt</span><span class="p">.</span><span class="n">MaximumLength</span><span class="p">;</span>
+                        <span class="p">(</span><span class="n">editor</span> <span class="k">as</span> <span class="n">TextBox</span><span class="p">).</span><span class="n">MaxLength</span> <span class="p">=</span> <span class="n">stringLengthAtt</span><span class="p">.</span><span class="n">MaximumLength</span><span class="p">;</span>
                     <span class="p">}</span>
 
                     <span class="c1">// Use this space set property to different editor types and/or properties other than TextBox.MaxLength

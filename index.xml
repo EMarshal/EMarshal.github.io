@@ -6,10 +6,19 @@
     <description>Recent content on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Mar 2018 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 21 Apr 2018 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="https://www.elimarshal.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Amazon Prime Canada review</title>
+      <link>https://www.elimarshal.com/post/amazon-prime-canada-review/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://www.elimarshal.com/post/amazon-prime-canada-review/</guid>
+      <description>For years, I&amp;rsquo;d avoided Amazon Prime, on the basis that its primary benefit — free fast shipping for low dollar-value orders — wasn&amp;rsquo;t useful to me. I&amp;rsquo;m patient, and could always wait until I had a large enough order to qualify for free shipping. However, with Microsoft shuttering Groove Music Pass, I was left without a streaming music service. The various alternatives are either ad-supported (a non-starter), or in the $10/month range for a subscription.</description>
+    </item>
     
     <item>
       <title>YouTube Red frustration</title>
@@ -148,14 +157,13 @@ xUnit.net</description>
       <pubDate>Sat, 06 Jun 2015 11:54:08 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/colophon/</guid>
-      <description>This blog is built in HTML5 and CSS. No JavaScript is used, and the only cookie used is the CloudFlare cfduid cookie, which you can block without issue the vast majority of the time. (Essentially as long as CloudFlare doesn&amp;rsquo;t flag you for additional security checks.)
+      <description>This blog is built in HTML5 and CSS. No JavaScript or cookies are used.
 Hosting: GitHub Pages
-Domain Hosting: Hover
-DNS/CDN: CloudFlare
+Domain Hosting/DNS: easyDNS
 Static Site Generator: Hugo
 Theme: nofancy fork
 CSS Frameworks: Furtive, Pure (Menus)
-Syntax Highlighting: Pygments</description>
+Syntax Highlighting: Chroma</description>
     </item>
     
     <item>
