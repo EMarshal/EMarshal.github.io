@@ -135,7 +135,7 @@ Combining a couple of Stack Overflow posts:
       <pubDate>Wed, 01 Jul 2015 13:04:20 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/decrapifying-acrobat-reader-dc/</guid>
-      <description>&lt;p&gt;In an ideal world I&amp;rsquo;d simply eschew Adobe products and use &lt;a href=&#34;https://wiki.gnome.org/Apps/Evince&#34;&gt;Evince&lt;/a&gt; and/or &lt;a href=&#34;https://mozilla.github.io/pdf.js/&#34;&gt;PDF.js&lt;/a&gt; for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows developement projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:&lt;/p&gt;</description>
+      <description>&lt;p&gt;In an ideal world I&amp;rsquo;d simply eschew Adobe products and use &lt;a href=&#34;https://wiki.gnome.org/Apps/Evince&#34;&gt;Evince&lt;/a&gt; and/or &lt;a href=&#34;https://mozilla.github.io/pdf.js/&#34;&gt;PDF.js&lt;/a&gt; for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows development projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:&lt;/p&gt;</description>
     </item>
     
     <item>
