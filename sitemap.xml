@@ -3,14 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.elimarshal.com/post/sonos-streaming-services-in-canada/</loc>
+    <loc>https://www.elimarshal.com/</loc>
     <lastmod>2018-09-09T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elimarshal.com/</loc>
+    <loc>https://www.elimarshal.com/post/sonos-streaming-services-in-canada/</loc>
     <lastmod>2018-09-09T00:00:00-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -21,13 +20,11 @@
   <url>
     <loc>https://www.elimarshal.com/categories/</loc>
     <lastmod>2018-04-21T00:00:00-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.elimarshal.com/categories/reviews/</loc>
     <lastmod>2018-04-21T00:00:00-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -63,7 +60,6 @@
   <url>
     <loc>https://www.elimarshal.com/categories/code/</loc>
     <lastmod>2015-09-16T21:57:00-06:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -133,7 +129,6 @@
   
   <url>
     <loc>https://www.elimarshal.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
