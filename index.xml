@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>elimarshal.com</title>
@@ -18,7 +18,6 @@
       
       <guid>https://www.elimarshal.com/post/sonos-streaming-services-in-canada/</guid>
       <description>&lt;p&gt;2019-08: Last Updated&lt;/p&gt;
-
 &lt;p&gt;Sonos lists their streaming services available in Canada at &lt;a href=&#34;https://www.sonos.com/en-ca/streaming-music&#34;&gt;Streaming Music&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -39,12 +38,13 @@
       <guid>https://www.elimarshal.com/post/youtube-red-frustration/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bloomberg.com/news/articles/2018-03-21/youtube-to-frustrate-some-users-with-ads-so-they-pay-for-music&#34;&gt;YouTube Will ‘Frustrate’ Some Users With Ads So They Pay for Music&lt;/a&gt;&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;YouTube will increase the number of ads that some users see between music videos, part of a strategy to convince more of its billion-plus viewers to pay for a forthcoming subscription music service from the Google-owned video site.&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;“You’re not going to be happy after you are jamming ‘Stairway to Heaven’ and you get an ad right after that,” [&amp;hellip;]&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;I&amp;rsquo;m not happy when I see ads on my Android phone in the Play Store or in Google Maps. I don&amp;rsquo;t use YouTube, but I&amp;rsquo;d gladly pay for a subscription service to remove ads from the non-media (i.e. those other than YouTube or Google Play Music) services tied to my Google Account.&lt;/p&gt;</description>
     </item>
     
@@ -55,23 +55,22 @@
       
       <guid>https://www.elimarshal.com/post/mobile-carrier-security/</guid>
       <description>&lt;p&gt;March 1:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.macrumors.com/2018/03/01/att-verizon-sprint-t-mobile-authentication/&#34;&gt;AT&amp;amp;T, Sprint, T-Mobile, and Verizon Detail Plans for &amp;lsquo;Next-Generation Mobile Authentication Platform&amp;rsquo;&lt;/a&gt;&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;AT&amp;amp;T, Verizon, Sprint, and T-Mobile announced a team-up with the mission of developing a mobile authentication solution for both businesses and consumers.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;March 5:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://arstechnica.com/information-technology/2018/03/even-more-bugs-in-lte-networks-allow-eavesdropping-fake-emergency-messages/&#34;&gt;LTE security flaws could be used for spying, spreading chaos&lt;/a&gt;&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;The security of 4G LTE networks is largely based on obscurity [&amp;hellip;]&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;In one case, the Purdue and Iowa researchers found that a carrier didn’t encrypt “control plane” messages at all, meaning an attacker could even eavesdrop on SMS messages and other sensitive data.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;And we&amp;rsquo;re meant to give them &lt;em&gt;more&lt;/em&gt; security-critical responsibilities?&lt;/p&gt;</description>
     </item>
     
@@ -93,10 +92,10 @@
       <guid>https://www.elimarshal.com/post/google-ends-first-click-free/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://searchengineland.com/google-first-click-free-replaced-flexible-sampling-283667&#34;&gt;Google: First Click Free is over, being replaced by Flexible Sampling&lt;/a&gt;&lt;/p&gt;
-
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;Publishers will not be required to provide free content to be indexed. Gingras said that Google will be crawling full articles behind the wall for indexing but that publisher decisions about how much content to sample to search users will not impact rankings in any way.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Not a user-friendly move. Unless I specifically ask for it, I have no interest in seeing paywalled results for my queries.&lt;/p&gt;</description>
     </item>
     
@@ -243,7 +242,6 @@ Wear Tablet: Impeccable condition still. The kickstand loosened a couple times, 
       
       <guid>https://www.elimarshal.com/post/google-ties-map-features/</guid>
       <description>Google Maps used to have a nice feature where, when logged in to your Google account, you could add named destinations. Once they were saved, you could type the destination like &amp;ldquo;work&amp;rdquo; when looking for directions, and the address would populate automatically, like so:
-
 This was lovely, but some time ago (mid-2013) Google disabled this feature unless you enable Web History to store all of your searches (among other things):</description>
     </item>
     
@@ -253,7 +251,7 @@ This was lovely, but some time ago (mid-2013) Google disabled this feature unles
       <pubDate>Tue, 14 Aug 2012 19:03:10 -0600</pubDate>
       
       <guid>https://www.elimarshal.com/post/goals-vs-dreams/</guid>
-      <description>I recently made a relatively flippant comment to a friend (&amp;ldquo;I don&amp;rsquo;t set goals, I just excel at everything.&amp;rdquo;) and felt the need to elaborate.
+      <description>I recently made a relatively flippant comment to a friend (&amp;ldquo;I don&amp;rsquo;t set goals, I just excel at everything.&amp;quot;) and felt the need to elaborate.
 There are two main points of contention in how I view goals. The first is purely a semantic issue; I view goals as a clearly achievable, likely set of circumstances achievable by following a certain set of actions. Buying two lottery tickets every week is a goal.</description>
     </item>
     

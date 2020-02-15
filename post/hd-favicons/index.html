@@ -6,7 +6,7 @@
     <title>HD favicons</title>
     <meta name="description" content="HD favicons">
     <meta name="author" content="Éli Marshal">
-    <meta name="generator" content="Hugo 0.58.1" />
+    <meta name="generator" content="Hugo 0.64.1" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -79,30 +79,20 @@
                 <h1>HD favicons</h1>
             </div>
             <div class="post-content">
-                
-
-<p>Decided to add favicons and touch icons to the site. I&rsquo;ve got no design skills, so used <a href="https://jdenticon.com/">Jdenticon</a> to generate icons based on my name.  <a href="https://realfavicongenerator.net/">RealFaviconGenerator</a> will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their <a href="https://realfavicongenerator.net/faq">FAQ</a> to piece together the requirements for that.</p>
-
+                <p>Decided to add favicons and touch icons to the site. I&rsquo;ve got no design skills, so used <a href="https://jdenticon.com/">Jdenticon</a> to generate icons based on my name.  <a href="https://realfavicongenerator.net/">RealFaviconGenerator</a> will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their <a href="https://realfavicongenerator.net/faq">FAQ</a> to piece together the requirements for that.</p>
 <p>I used Jdenticon to generated large (3200x3200) icon. Then using <a href="http://www.gimp.org/">GIMP</a>, I autocropped edges and scaled to required various sizes as detailed below, each from fullsize and exported as PNG or ICO. PNGs were then compressed with <a href="https://imageoptim.com/">ImageOptim</a>.</p>
-
 <h4 id="images">Images</h4>
-
-<p>iOS: <a href="../../apple-touch-icon-180x180.png">180x180</a><br />
-Browsers: <a href="../../favicon-32x32.png">32x32</a><br />
-favicon.ico: <a href="../../favicon.ico">32x32</a><br />
-Android: <a href="../../android-chrome-192x192.png">192x192</a><br />
+<p>iOS: <a href="../../apple-touch-icon-180x180.png">180x180</a><br>
+Browsers: <a href="../../favicon-32x32.png">32x32</a><br>
+favicon.ico: <a href="../../favicon.ico">32x32</a><br>
+Android: <a href="../../android-chrome-192x192.png">192x192</a><br>
 Windows Tiles: <a href="../../mstile-70x70.png">95x95 icon with 128x128 canvas</a>, <a href="../../mstile-150x150.png">127x127 icon with 270x270 canvas</a></p>
-
 <h4 id="code">Code</h4>
-
 <h6 id="html">HTML</h6>
-
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;apple-touch-icon&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;180x180&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/apple-touch-icon-180x180.png&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;image/png&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/favicon-32x32.png&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;32x32&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;manifest&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/manifest.json&#34;</span><span class="p">&gt;</span></code></pre></div>
-
-<h5 id="manifest-json-for-android">manifest.json (for Android)</h5>
-
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;apple-touch-icon&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;180x180&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/apple-touch-icon-180x180.png&#34;</span><span class="p"></span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;image/png&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/favicon-32x32.png&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;32x32&#34;</span><span class="p"></span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;manifest&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/manifest.json&#34;</span><span class="p"></span><span class="p">&gt;</span></code></pre></div>
+<h5 id="manifestjson-for-android">manifest.json (for Android)</h5>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
     <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;elimarshal.com&#34;</span><span class="p">,</span>
     <span class="nt">&#34;icons&#34;</span><span class="p">:</span> <span class="p">[</span>
@@ -114,16 +104,14 @@ Windows Tiles: <a href="../../mstile-70x70.png">95x95 icon with 128x128 canvas</
         <span class="p">}</span>
     <span class="p">]</span>
 <span class="p">}</span></code></pre></div>
-
-<h5 id="browserconfig-xml-for-ie">browserconfig.xml (for IE)</h5>
-
+<h5 id="browserconfigxml-for-ie">browserconfig.xml (for IE)</h5>
 <div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
-<span class="nt">&lt;browserconfig&gt;</span>
-  <span class="nt">&lt;msapplication&gt;</span>
-    <span class="nt">&lt;tile&gt;</span>
+<span class="nt">&lt;browserconfig</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;msapplication</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tile</span><span class="nt">&gt;</span>
       <span class="nt">&lt;square70x70logo</span> <span class="na">src=</span><span class="s">&#34;/mstile-70x70.png&#34;</span><span class="nt">/&gt;</span>
       <span class="nt">&lt;square150x150logo</span> <span class="na">src=</span><span class="s">&#34;/mstile-150x150.png&#34;</span><span class="nt">/&gt;</span>
-      <span class="nt">&lt;TileColor&gt;</span>#603CBA<span class="nt">&lt;/TileColor&gt;</span>
+      <span class="nt">&lt;TileColor</span><span class="nt">&gt;</span>#603CBA<span class="nt">&lt;/TileColor&gt;</span>
     <span class="nt">&lt;/tile&gt;</span>
   <span class="nt">&lt;/msapplication&gt;</span>
 <span class="nt">&lt;/browserconfig&gt;</span></code></pre></div>
