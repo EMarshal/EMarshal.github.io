@@ -6,7 +6,7 @@
     <title>decrapifying Acrobat Reader DC - elimarshal.com</title>
     <meta name="description" content="decrapifying Acrobat Reader DC">
     <meta name="author" content="Éli Marshal">
-    <meta name="generator" content="Hugo 0.64.1" />
+    <meta name="generator" content="Hugo 0.65.3" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -90,7 +90,7 @@
 <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><br>
 <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></li>
 <li>Generate tranform (ADOBETRANSFORM.mst) file and save. (Create an empty setup.ini file if the wizard whines about it being missing.)</li>
-<li>At the command line run: <div class="highlight"><pre class="chroma"><code class="language-ps1" data-lang="ps1"><span class="n">msiexec</span> <span class="p">/</span><span class="n">i</span> <span class="n">ADOBEINSTALLER</span><span class="p">.</span><span class="n">msi</span> <span class="n">TRANSFORMS</span><span class="p">=</span><span class="s2">&#34;</span><span class="s2">ADOBETRANSFORM.mst</span><span class="s2">&#34;</span></code></pre></div></li>
+<li>At the command line run: <div class="highlight"><pre class="chroma"><code class="language-ps1" data-lang="ps1"><span class="n">msiexec</span> <span class="p">/</span><span class="n">i</span> <span class="n">ADOBEINSTALLER</span><span class="p">.</span><span class="n">msi</span> <span class="n">TRANSFORMS</span><span class="p">=</span><span class="s2">&#34;ADOBETRANSFORM.mst&#34;</span></code></pre></div></li>
 <li>Open services.msc to disable the &ldquo;Adobe Acrobat Update Service&rdquo;.</li>
 <li>Open the task schedular to disable &ldquo;Adobe Acrobat Update Task&rdquo;.</li>
 <li>Open Acrobat Reader DC, open Preferences, General pane, under &ldquo;Messages from Adobe&rdquo; deselect &ldquo;Show me messages when I launch Adobe Acrobat Reader DC&rdquo; and select &ldquo;Don&rsquo;t show messages while viewing a document&rdquo;.</li>
