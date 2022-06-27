@@ -15,7 +15,7 @@
       <guid>https://www.elimarshal.com/post/setting-wpf-control-properties-based-on-bound-property-attributes/</guid>
       <description>I was recently working on an MVVM project where various validation attributes were being set on the data model, and was looking for a solution to bind WPF editor control properties to these validation restrictions. (e.g. Setting TextBox.MaxLength based on StringLengthAttribute.)
 Combining a couple of Stack Overflow posts:
- How to add a Blend Behavior in a Style Setter WPF TextBox MaxLength — Is there any way to bind this to the Data Validation Max Length on the bound field?</description>
+How to add a Blend Behavior in a Style Setter WPF TextBox MaxLength — Is there any way to bind this to the Data Validation Max Length on the bound field?</description>
     </item>
     
     <item>
