@@ -6,7 +6,7 @@
     <title>SQL limited range attribute - elimarshal.com</title>
     <meta name="description" content="SQL limited range attribute">
     <meta name="author" content="Éli Marshal">
-    <meta name="generator" content="Hugo 0.117.0">
+    <meta name="generator" content="Hugo 0.124.1">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -87,19 +87,19 @@
 </span></span><span class="line"><span class="cl">    <span class="cs">/// &lt;summary&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="cs">/// Validates to match SQL Server decimal data with given precision and scale</span>
 </span></span><span class="line"><span class="cl">    <span class="cs">/// &lt;/summary&gt;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">sealed</span> <span class="k">class</span> <span class="nc">SQLLimitedRangeAttribute</span> <span class="p">:</span> <span class="n">ValidationAttribute</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">sealed</span> <span class="k">class</span> <span class="nc">SQLLimitedRangeAttribute</span> <span class="p">:</span> <span class="n">ValidationAttribute</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;summary&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// Equal to the scale for the SQL data type.</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;/summary&gt;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="kt">int</span> <span class="n">scale</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">private</span> <span class="kt">int</span> <span class="n">scale</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;summary&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// Initializes a new instance of the &lt;see cref=&#34;SQLLimitedRangeAttribute&#34; /&gt; class.</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;/summary&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;param name=&#34;precision&#34;&gt;The SQL precision to limit to.&lt;/param&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;param name=&#34;scale&#34;&gt;The SQL scale to limit to.&lt;/param&gt;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">public</span> <span class="n">SQLLimitedRangeAttribute</span><span class="p">(</span><span class="kt">int</span> <span class="n">precision</span><span class="p">,</span> <span class="kt">int</span> <span class="n">scale</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="n">SQLLimitedRangeAttribute</span><span class="p">(</span><span class="kt">int</span> <span class="n">precision</span><span class="p">,</span> <span class="kt">int</span> <span class="n">scale</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="n">Precision</span> <span class="p">=</span> <span class="n">precision</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">            <span class="k">this</span><span class="p">.</span><span class="n">scale</span> <span class="p">=</span> <span class="n">scale</span><span class="p">;</span>
@@ -108,7 +108,7 @@
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;summary&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// Gets the precision for the SQL data type.</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;/summary&gt;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">public</span> <span class="kt">int</span> <span class="n">Precision</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">public</span> <span class="kt">int</span> <span class="n">Precision</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="kd">private</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;summary&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// Determines whether the specified value of the object is valid.</span>
@@ -116,7 +116,7 @@
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;param name=&#34;value&#34;&gt;The value of the object to validate.&lt;/param&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;param name=&#34;validationContext&#34;&gt;The validation context.&lt;/param&gt;</span>
 </span></span><span class="line"><span class="cl">        <span class="cs">/// &lt;returns&gt;true if the specified value is valid; otherwise, false.&lt;/returns&gt;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">protected</span> <span class="k">override</span> <span class="n">ValidationResult</span> <span class="n">IsValid</span><span class="p">(</span><span class="kt">object</span> <span class="k">value</span><span class="p">,</span> <span class="n">ValidationContext</span> <span class="n">validationContext</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">protected</span> <span class="kd">override</span> <span class="n">ValidationResult</span> <span class="n">IsValid</span><span class="p">(</span><span class="kt">object</span> <span class="k">value</span><span class="p">,</span> <span class="n">ValidationContext</span> <span class="n">validationContext</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="kt">string</span> <span class="n">nines</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">string</span><span class="p">(</span><span class="sc">&#39;9&#39;</span><span class="p">,</span> <span class="n">Precision</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">            <span class="kt">string</span> <span class="n">decimalNines</span> <span class="p">=</span> <span class="n">nines</span><span class="p">.</span><span class="n">Insert</span><span class="p">(</span><span class="n">Precision</span> <span class="p">-</span> <span class="n">scale</span><span class="p">,</span> <span class="s">&#34;.&#34;</span><span class="p">);</span>

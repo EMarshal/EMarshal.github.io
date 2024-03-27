@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code on elimarshal.com</title>
+    <title>Code on elimarshal.com</title>
     <link>https://www.elimarshal.com/categories/code/</link>
-    <description>Recent content in code on elimarshal.com</description>
+    <description>Recent content in Code on elimarshal.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2015 21:57:00 -0600</lastBuildDate><atom:link href="https://www.elimarshal.com/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2015 21:57:00 -0600</lastBuildDate>
+    <atom:link href="https://www.elimarshal.com/categories/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>setting wpf control properties based on bound property attributes</title>
       <link>https://www.elimarshal.com/post/setting-wpf-control-properties-based-on-bound-property-attributes/</link>
       <pubDate>Wed, 16 Sep 2015 21:57:00 -0600</pubDate>
-      
       <guid>https://www.elimarshal.com/post/setting-wpf-control-properties-based-on-bound-property-attributes/</guid>
-      <description>I was recently working on an MVVM project where various validation attributes were being set on the data model, and was looking for a solution to bind WPF editor control properties to these validation restrictions. (e.g. Setting TextBox.MaxLength based on StringLengthAttribute.)
-Combining a couple of Stack Overflow posts:
-How to add a Blend Behavior in a Style Setter WPF TextBox MaxLength — Is there any way to bind this to the Data Validation Max Length on the bound field?</description>
+      <description>I was recently working on an MVVM project where various validation attributes were being set on the data model, and was looking for a solution to bind WPF editor control properties to these validation restrictions. (e.g. Setting TextBox.MaxLength based on StringLengthAttribute.)&#xA;Combining a couple of Stack Overflow posts:&#xA;How to add a Blend Behavior in a Style Setter WPF TextBox MaxLength — Is there any way to bind this to the Data Validation Max Length on the bound field?</description>
     </item>
-    
     <item>
       <title>SQL limited range attribute</title>
       <link>https://www.elimarshal.com/post/sql-limited-range-attribute/</link>
       <pubDate>Mon, 14 Sep 2015 19:36:53 -0600</pubDate>
-      
       <guid>https://www.elimarshal.com/post/sql-limited-range-attribute/</guid>
       <description>&lt;p&gt;If you want your .NET property validation attributes to match the exact minimum and maximum values for your SQL decimal and numeric data types, you can do so with a validation attribute that you can apply to properties with &lt;code&gt;[SQLLimitedRangeAttribute](p, s)&lt;/code&gt;, where p and s are the precision and scale for the data type.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HD favicons</title>
       <link>https://www.elimarshal.com/post/hd-favicons/</link>
       <pubDate>Mon, 01 Jun 2015 12:36:01 -0600</pubDate>
-      
       <guid>https://www.elimarshal.com/post/hd-favicons/</guid>
-      <description>Decided to add favicons and touch icons to the site. I&amp;rsquo;ve got no design skills, so used Jdenticon to generate icons based on my name. RealFaviconGenerator will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their FAQ to piece together the requirements for that.
-I used Jdenticon to generated large (3200x3200) icon. Then using GIMP, I autocropped edges and scaled to required various sizes as detailed below, each from fullsize and exported as PNG or ICO.</description>
+      <description>Decided to add favicons and touch icons to the site. I&amp;rsquo;ve got no design skills, so used Jdenticon to generate icons based on my name. RealFaviconGenerator will automatically generate favicons with comprehensive browser and OS support, but I only really care about up to date browsers and operating systems, so I used their FAQ to piece together the requirements for that.&#xA;I used Jdenticon to generated large (3200x3200) icon. Then using GIMP, I autocropped edges and scaled to required various sizes as detailed below, each from fullsize and exported as PNG or ICO.</description>
     </item>
-    
   </channel>
 </rss>
