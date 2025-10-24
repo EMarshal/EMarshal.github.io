@@ -86,13 +86,6 @@
       <description>&lt;p&gt;In an ideal world I&amp;rsquo;d simply eschew Adobe products and use &lt;a href=&#34;https://wiki.gnome.org/Apps/Evince&#34;&gt;Evince&lt;/a&gt; and/or &lt;a href=&#34;https://mozilla.github.io/pdf.js/&#34;&gt;PDF.js&lt;/a&gt; for my PDF requirements. Unfortunately I require Adobe&amp;rsquo;s COM Interop for some Windows development projects I&amp;rsquo;m involved with. Although Acrobat Reader continues its march towards bloated, big-brother adware, Adobe does provide a customization wizard for enterprise deployments that allows much of cruft to be disabled, which can be used as follows:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Alberta Health - third party software</title>
-      <link>https://www.elimarshal.com/alberta-health-third-party-software/</link>
-      <pubDate>Sat, 06 Jun 2015 20:28:38 -0600</pubDate>
-      <guid>https://www.elimarshal.com/alberta-health-third-party-software/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://fakeiteasy.github.io/&#34;&gt;FakeItEasy&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;http://www.newtonsoft.com/json&#34;&gt;Json.NET&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/MvvmCross/MvvmCross&#34;&gt;MvvmCross&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://simpleinjector.org/&#34;&gt;Simple Injector&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://xunit.github.io/&#34;&gt;xUnit.net&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>colophon</title>
       <link>https://www.elimarshal.com/colophon/</link>
       <pubDate>Sat, 06 Jun 2015 11:54:08 -0600</pubDate>
